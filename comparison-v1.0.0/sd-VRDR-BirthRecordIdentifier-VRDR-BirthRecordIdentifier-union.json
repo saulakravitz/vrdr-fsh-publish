@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3a1fc12b-6773-44ce-a822-41feb189fa7d-14",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3a1fc12b-6773-44ce-a822-41feb189fa7d-14",
+  "id" : "7ed3b026-47ff-4d45-8e2e-01c5b86878e3-14",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7ed3b026-47ff-4d45-8e2e-01c5b86878e3-14",
   "name" : "UnionVRDR_BirthRecordIdentifierAndVRDR_BirthRecordIdentifier",
   "title" : "Union of VRDR Birth Record Identifier And VRDR Birth Record Identifier",
   "status" : "active",
-  "date" : "2021-04-27T03:50:51+00:00",
+  "date" : "2021-07-26T15:50:26+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

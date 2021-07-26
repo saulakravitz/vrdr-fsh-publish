@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3a1fc12b-6773-44ce-a822-41feb189fa7d-104",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3a1fc12b-6773-44ce-a822-41feb189fa7d-104",
+  "id" : "7ed3b026-47ff-4d45-8e2e-01c5b86878e3-104",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7ed3b026-47ff-4d45-8e2e-01c5b86878e3-104",
   "name" : "UnionInjuryLocationAndInjuryLocation",
   "title" : "Union of VRDR Injury Location And VRDR Injury Location",
   "status" : "draft",
-  "date" : "2021-04-27T03:50:54+00:00",
+  "date" : "2021-07-26T15:50:27+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

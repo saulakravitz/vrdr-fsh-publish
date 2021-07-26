@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9af3e5ad-33a1-4b61-beab-dcc440f10c7b-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9af3e5ad-33a1-4b61-beab-dcc440f10c7b-3",
+  "id" : "3c10922c-5339-4e40-83f5-66bf8841b111-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3c10922c-5339-4e40-83f5-66bf8841b111-3",
   "name" : "IntersectionUSCoreDocumentReferenceProfileAndDeathCertificateReference",
   "title" : "Intersection of US Core DocumentReference Profile And VRDR Death Certificate Reference",
   "status" : "active",
-  "date" : "2021-04-27T03:50:34+00:00",
+  "date" : "2021-07-26T15:50:14+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -803,7 +803,7 @@
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -813,7 +813,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : false,
       "mapping" : [{

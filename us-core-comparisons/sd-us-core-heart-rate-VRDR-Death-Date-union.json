@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9af3e5ad-33a1-4b61-beab-dcc440f10c7b-497",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9af3e5ad-33a1-4b61-beab-dcc440f10c7b-497",
+  "id" : "3c10922c-5339-4e40-83f5-66bf8841b111-497",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3c10922c-5339-4e40-83f5-66bf8841b111-497",
   "name" : "UnionUSCoreHeartRateProfileAndVRDR_DeathDate",
   "title" : "Union of US Core Heart Rate Profile And VRDR_DeathDate",
   "status" : "active",
-  "date" : "2021-04-27T03:50:39+00:00",
+  "date" : "2021-07-26T15:50:16+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9af3e5ad-33a1-4b61-beab-dcc440f10c7b-14"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3c10922c-5339-4e40-83f5-66bf8841b111-14"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1727,7 +1727,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9af3e5ad-33a1-4b61-beab-dcc440f10c7b-14"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3c10922c-5339-4e40-83f5-66bf8841b111-14"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -1803,10 +1803,6 @@
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "VitalSignsUnits"
-        }],
         "strength" : "example",
         "description" : "Common UCUM units for recording Vital Signs.",
         "valueSet" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1"

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3a1fc12b-6773-44ce-a822-41feb189fa7d-17",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3a1fc12b-6773-44ce-a822-41feb189fa7d-17",
+  "id" : "7ed3b026-47ff-4d45-8e2e-01c5b86878e3-17",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7ed3b026-47ff-4d45-8e2e-01c5b86878e3-17",
   "name" : "UnionCauseOfDeathConditionAndCauseOfDeathCondition",
   "title" : "Union of VRDR Cause Of Death Condition And VRDR Cause Of Death Condition",
   "status" : "draft",
-  "date" : "2021-04-27T03:50:51+00:00",
+  "date" : "2021-07-26T15:50:26+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -504,7 +504,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "A category assigned to the condition.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3a1fc12b-6773-44ce-a822-41feb189fa7d-20"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7ed3b026-47ff-4d45-8e2e-01c5b86878e3-20"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -601,7 +601,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: Identification of the condition or diagnosis.; right: Valueset to describe the actual problem experienced by the patient",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3a1fc12b-6773-44ce-a822-41feb189fa7d-23"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7ed3b026-47ff-4d45-8e2e-01c5b86878e3-23"
       },
       "mapping" : [{
         "identity" : "workflow",

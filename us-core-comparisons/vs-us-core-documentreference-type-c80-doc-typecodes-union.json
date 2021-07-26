@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9af3e5ad-33a1-4b61-beab-dcc440f10c7b-5",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9af3e5ad-33a1-4b61-beab-dcc440f10c7b-5",
+  "id" : "3c10922c-5339-4e40-83f5-66bf8841b111-5",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3c10922c-5339-4e40-83f5-66bf8841b111-5",
   "name" : "UnionUSCoreDocumentReferenceTypeAndDocumentTypeValueSet",
   "title" : "Union of US Core DocumentReference Type And Document Type Value Set",
   "status" : "active",
-  "date" : "2021-04-27T03:50:34+00:00",
+  "date" : "2021-07-26T15:50:14+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -30692,7 +30692,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "64058-1",
-      "display" : "Critical Care Medicine Hospital Admission evaluation note"
+      "display" : "Critical care medicine Hospital Admission evaluation note"
     },
     {
       "system" : "http://loinc.org",
@@ -30712,7 +30712,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34862-3",
-      "display" : "General medicine Physician attending Hospital Admission evaluation note"
+      "display" : "General medicine Attending Hospital Admission evaluation note"
     },
     {
       "system" : "http://loinc.org",
@@ -30732,12 +30732,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "64060-7",
-      "display" : "Thoracic surgery Hospital Admission evaluation note"
+      "display" : "Cardiothoracic surgery Hospital Admission evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "64074-8",
-      "display" : "Thoracic surgery Medical student Hospital Admission evaluation note"
+      "display" : "Cardiothoracic surgery Medical student Hospital Admission evaluation note"
     },
     {
       "system" : "http://loinc.org",
@@ -30777,7 +30777,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "61359-6",
-      "display" : "Patient Anesthesia consent"
+      "display" : "Anesthesia consent Document"
     },
     {
       "system" : "http://loinc.org",
@@ -30792,22 +30792,22 @@
     {
       "system" : "http://loinc.org",
       "code" : "51848-0",
-      "display" : "Assessment note"
+      "display" : "Evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "68814-3",
-      "display" : "Pediatrics Assessment note"
+      "display" : "Pediatrics Evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "64064-9",
-      "display" : "Pastoral care Hospital Assessment note"
+      "display" : "Pastoral care Hospital Evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "51847-2",
-      "display" : "Assessment + Plan note"
+      "display" : "Evaluation + Plan note"
     },
     {
       "system" : "http://loinc.org",
@@ -30822,7 +30822,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "71230-7",
-      "display" : "Birth certificate Document"
+      "display" : "Birth certificate"
     },
     {
       "system" : "http://loinc.org",
@@ -30867,7 +30867,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "55110-1",
-      "display" : "Conclusions Document"
+      "display" : "Conclusions [Interpretation] Document"
     },
     {
       "system" : "http://loinc.org",
@@ -30892,7 +30892,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "59284-0",
-      "display" : "Patient Consent"
+      "display" : "Consent Document"
     },
     {
       "system" : "http://loinc.org",
@@ -30937,7 +30937,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34779-9",
-      "display" : "Hematology+Medical Oncology Consult note"
+      "display" : "Hematology+Medical oncology Consult note"
     },
     {
       "system" : "http://loinc.org",
@@ -31027,12 +31027,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "34820-1",
-      "display" : "Pharmacy Consult note"
+      "display" : "Pharmacology Consult note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34822-7",
-      "display" : "Physical medicine and rehabilitation Consult note"
+      "display" : "Physical medicine and rehab Consult note"
     },
     {
       "system" : "http://loinc.org",
@@ -31092,7 +31092,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34841-7",
-      "display" : "Social work Consult note"
+      "display" : "Social worker Consult note"
     },
     {
       "system" : "http://loinc.org",
@@ -31107,7 +31107,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34849-0",
-      "display" : "Thoracic surgery Consult note"
+      "display" : "Cardiothoracic surgery Consult note"
     },
     {
       "system" : "http://loinc.org",
@@ -31137,7 +31137,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68633-7",
-      "display" : "Allergy and immunology Hospital Consult note"
+      "display" : "Allergy and Immunology Hospital Consult note"
     },
     {
       "system" : "http://loinc.org",
@@ -31302,7 +31302,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68586-7",
-      "display" : "Pharmacy Hospital Consult note"
+      "display" : "Pharmacology Hospital Consult note"
     },
     {
       "system" : "http://loinc.org",
@@ -31342,7 +31342,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "64076-3",
-      "display" : "Thoracic surgery Medical student Hospital Consult note"
+      "display" : "Cardiothoracic surgery Medical student Hospital Consult note"
     },
     {
       "system" : "http://loinc.org",
@@ -31387,7 +31387,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34869-8",
-      "display" : "Pharmacy Counseling note"
+      "display" : "Pharmacology Counseling note"
     },
     {
       "system" : "http://loinc.org",
@@ -31402,7 +31402,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34872-2",
-      "display" : "Social work Counseling note"
+      "display" : "Social worker Counseling note"
     },
     {
       "system" : "http://loinc.org",
@@ -31457,7 +31457,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68625-3",
-      "display" : "Allergy and immunology Diagnostic study note"
+      "display" : "Allergy and Immunology Diagnostic study note"
     },
     {
       "system" : "http://loinc.org",
@@ -31592,7 +31592,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68626-1",
-      "display" : "Allergy and immunology Discharge summary"
+      "display" : "Allergy and Immunology Discharge summary"
     },
     {
       "system" : "http://loinc.org",
@@ -31797,32 +31797,32 @@
     {
       "system" : "http://loinc.org",
       "code" : "34859-9",
-      "display" : "Evaluation and management of hyperlipidemia"
+      "display" : "Evaluation and management of hyperlipidemia note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34860-7",
-      "display" : "Evaluation and management of hypertension"
+      "display" : "Evaluation and management of hypertension note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "70005-4",
-      "display" : "Evaluation and management of smoking cessation"
+      "display" : "Evaluation and management of smoking cessation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "64142-3",
-      "display" : "Hospital Evaluation and management of smoking cessation"
+      "display" : "Hospital Evaluation and management of smoking cessation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34857-3",
-      "display" : "Evaluation and management of substance abuse note"
+      "display" : "Addiction medicine Note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "72267-8",
-      "display" : "Evaluation of mental and physical incapacity certificate Document"
+      "display" : "Evaluation of mental and physical incapacity certificate"
     },
     {
       "system" : "http://loinc.org",
@@ -31852,7 +31852,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34843-3",
-      "display" : "Social work Group counseling note"
+      "display" : "Social worker Group counseling note"
     },
     {
       "system" : "http://loinc.org",
@@ -31907,12 +31907,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "68622-0",
-      "display" : "Advanced heart failure and transplant cardiology History and physical note"
+      "display" : "Heart failure+Transplant cardiology History and physical note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "68628-7",
-      "display" : "Allergy and immunology History and physical note"
+      "display" : "Allergy and Immunology History and physical note"
     },
     {
       "system" : "http://loinc.org",
@@ -32097,7 +32097,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "74264-3",
-      "display" : "HIV summary registry report Document"
+      "display" : "HIV Summary registry report"
     },
     {
       "system" : "http://loinc.org",
@@ -32107,37 +32107,37 @@
     {
       "system" : "http://loinc.org",
       "code" : "68553-7",
-      "display" : "Hematology+Medical Oncology Initial assessment note"
+      "display" : "Hematology+Medical oncology Initial evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "47044-3",
-      "display" : "Hospital Initial assessment note"
+      "display" : "Hospital Initial evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "64065-6",
-      "display" : "Case manager Hospital Initial assessment note"
+      "display" : "Case manager Hospital Initial evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "68470-4",
-      "display" : "Respiratory therapy Hospital Initial assessment note"
+      "display" : "Respiratory therapy Hospital Initial evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34119-8",
-      "display" : "Nursing facility Initial assessment note"
+      "display" : "Nursing facility Initial evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34120-6",
-      "display" : "Outpatient Initial assessment note"
+      "display" : "Outpatient Initial evaluation note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34118-0",
-      "display" : "Patient's home Initial assessment note"
+      "display" : "Patient's home Initial evaluation note"
     },
     {
       "system" : "http://loinc.org",
@@ -32147,57 +32147,57 @@
     {
       "system" : "http://loinc.org",
       "code" : "74188-4",
-      "display" : "InterRAI Acute Care (AC) Hospital Document"
+      "display" : "interRAI Acute Care (AC) Hospital Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74194-2",
-      "display" : "InterRAI Community Health Assessment (CHA) Document"
+      "display" : "interRAI Community Health Assessment (CHA) Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74191-8",
-      "display" : "InterRAI Community Health Assessment - Assisted Living Supplement (CHA-AL) Document"
+      "display" : "interRAI Community Health Assessment - Assisted Living Supplement (CHA-AL) Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74190-0",
-      "display" : "InterRAI Community Health Assessment - Deafblind Supplement (CHA-Db) Document"
+      "display" : "interRAI Community Health Assessment - Deafblind Supplement (CHA-Db) Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74193-4",
-      "display" : "InterRAI Community Health Assessment - Functional Supplement (CHA-FS) Document"
+      "display" : "interRAI Community Health Assessment - Functional Supplement (CHA-FS) Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74192-6",
-      "display" : "InterRAI Community Health Assessment - Mental Health Supplement (CHA-MH) Document"
+      "display" : "interRAI Community Health Assessment - Mental Health Supplement (CHA-MH) Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74197-5",
-      "display" : "InterRAI Contact Assessment (CA) Document"
+      "display" : "interRAI Contact Assessment (CA) Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74187-6",
-      "display" : "InterRAI Emergency Screener for Psychiatry (ESP) Document"
+      "display" : "interRAI Emergency Screener for Psychiatry (ESP) Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74196-7",
-      "display" : "InterRAI Home Care (HC) Document"
+      "display" : "interRAI Home Care (HC) Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74195-9",
-      "display" : "InterRAI Long Term Care Facility (LTCF) Document"
+      "display" : "interRAI Long Term Care Facility (LTCF) Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74189-2",
-      "display" : "InterRAI Palliative Care (PC) Document"
+      "display" : "interRAI Palliative Care (PC) Document"
     },
     {
       "system" : "http://loinc.org",
@@ -32267,12 +32267,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "68624-6",
-      "display" : "Advanced heart failure and transplant cardiology Hospital Letter"
+      "display" : "Heart failure+Transplant cardiology Hospital Letter"
     },
     {
       "system" : "http://loinc.org",
       "code" : "68634-5",
-      "display" : "Allergy and immunology Hospital Letter"
+      "display" : "Allergy and Immunology Hospital Letter"
     },
     {
       "system" : "http://loinc.org",
@@ -32292,7 +32292,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68555-2",
-      "display" : "Hematology+Medical Oncology Hospital Letter"
+      "display" : "Hematology+Medical oncology Hospital Letter"
     },
     {
       "system" : "http://loinc.org",
@@ -32432,7 +32432,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "57058-0",
-      "display" : "Maternal discharge summary note"
+      "display" : "Deprecated Maternal discharge summary note"
     },
     {
       "system" : "http://loinc.org",
@@ -32457,7 +32457,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68587-5",
-      "display" : "Pharmacy Hospital Medication management note"
+      "display" : "Pharmacology Hospital Medication management note"
     },
     {
       "system" : "http://loinc.org",
@@ -32482,7 +32482,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "74147-0",
-      "display" : "Muscular dystrophy action plan"
+      "display" : "Muscular Dystrophy action plan"
     },
     {
       "system" : "http://loinc.org",
@@ -32502,12 +32502,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "68621-2",
-      "display" : "Advanced heart failure and transplant cardiology Note"
+      "display" : "Heart failure+Transplant cardiology Note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "68629-5",
-      "display" : "Allergy and immunology Note"
+      "display" : "Allergy and Immunology Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32542,7 +32542,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34754-2",
-      "display" : "Critical Care Medicine Note"
+      "display" : "Critical care medicine Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32592,12 +32592,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "34769-0",
-      "display" : "General medicine Physician attending Note"
+      "display" : "General medicine Attending Note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34780-7",
-      "display" : "Hematology+Medical Oncology Note"
+      "display" : "Hematology+Medical oncology Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32702,7 +32702,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34906-8",
-      "display" : "Pastoral care Note"
+      "display" : "Pastoral Care Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32787,12 +32787,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "34821-9",
-      "display" : "Pharmacy Note"
+      "display" : "Pharmacology Note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34823-5",
-      "display" : "Physical medicine and rehabilitation Note"
+      "display" : "Physical medicine and rehab Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32857,7 +32857,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34773-2",
-      "display" : "Surgery Physician attending Note"
+      "display" : "Surgery Attending Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32887,7 +32887,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "64069-8",
-      "display" : "Critical care medicine Physician attending Hospital Note"
+      "display" : "Critical care medicine Attending Hospital Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32897,12 +32897,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "64077-1",
-      "display" : "Pulmonary Physician attending Hospital Note"
+      "display" : "Pulmonary Attending Hospital Note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "64073-0",
-      "display" : "Thoracic surgery Physician attending Hospital Note"
+      "display" : "Cardiothoracic surgery Attending Hospital Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32937,7 +32937,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34850-8",
-      "display" : "Thoracic surgery Outpatient Note"
+      "display" : "Cardiothoracic surgery Outpatient Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32962,7 +32962,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34844-1",
-      "display" : "Social work Telephone encounter Note"
+      "display" : "Social worker Telephone encounter Note"
     },
     {
       "system" : "http://loinc.org",
@@ -32972,12 +32972,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "74156-1",
-      "display" : "Oncology treatment plan and summary Document"
+      "display" : "Oncology Plan of care and summary note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "64300-7",
-      "display" : "Organ donation consent"
+      "display" : "Organ donation consent Document"
     },
     {
       "system" : "http://loinc.org",
@@ -33012,12 +33012,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "72170-4",
-      "display" : "Photographic image Unspecified body region Document"
+      "display" : "Photographic image"
     },
     {
       "system" : "http://loinc.org",
       "code" : "56447-6",
-      "display" : "Plan of care note"
+      "display" : "Deprecated Plan of care note"
     },
     {
       "system" : "http://loinc.org",
@@ -33087,7 +33087,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68623-8",
-      "display" : "Advanced heart failure and transplant cardiology Preoperative evaluation and management note"
+      "display" : "Heart failure+Transplant cardiology Preoperative evaluation and management note"
     },
     {
       "system" : "http://loinc.org",
@@ -33262,7 +33262,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "57832-8",
-      "display" : "Prescription for diagnostic or specialist care Document"
+      "display" : "Prescription for diagnostic or specialist care"
     },
     {
       "system" : "http://loinc.org",
@@ -33272,22 +33272,22 @@
     {
       "system" : "http://loinc.org",
       "code" : "57829-4",
-      "display" : "Prescription for medical equipment or product Document"
+      "display" : "Prescription for medical equipment or product"
     },
     {
       "system" : "http://loinc.org",
       "code" : "57833-6",
-      "display" : "Prescription for medication Document"
+      "display" : "Prescription for medication"
     },
     {
       "system" : "http://loinc.org",
       "code" : "57831-0",
-      "display" : "Prescription for rehabilitation Document"
+      "display" : "Prescription for rehabilitation"
     },
     {
       "system" : "http://loinc.org",
       "code" : "57828-6",
-      "display" : "Prescription list Document"
+      "display" : "Prescription list"
     },
     {
       "system" : "http://loinc.org",
@@ -33312,17 +33312,17 @@
     {
       "system" : "http://loinc.org",
       "code" : "64293-4",
-      "display" : "Procedure consent"
+      "display" : "Procedure consent Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "68630-3",
-      "display" : "Allergy and immunology procedure note"
+      "display" : "Allergy and Immunology procedure note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "68658-4",
-      "display" : "Clinical genetics procedure note"
+      "display" : "Clinical genetics Procedure note"
     },
     {
       "system" : "http://loinc.org",
@@ -33347,7 +33347,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68714-5",
-      "display" : "Pain medicine procedure note"
+      "display" : "Pain medicine Procedure note"
     },
     {
       "system" : "http://loinc.org",
@@ -33417,12 +33417,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "68836-6",
-      "display" : "Primary care procedure note"
+      "display" : "Primary care Procedure note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "68851-5",
-      "display" : "Transplant surgery procedure note"
+      "display" : "Transplant surgery Procedure note"
     },
     {
       "system" : "http://loinc.org",
@@ -33447,7 +33447,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68631-1",
-      "display" : "Allergy and immunology Progress note"
+      "display" : "Allergy and Immunology Progress note"
     },
     {
       "system" : "http://loinc.org",
@@ -33472,7 +33472,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68554-5",
-      "display" : "Hematology+Medical Oncology Progress note"
+      "display" : "Hematology+Medical oncology Progress note"
     },
     {
       "system" : "http://loinc.org",
@@ -33602,12 +33602,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "68484-5",
-      "display" : "Cardiology Physician attending Hospital Progress note"
+      "display" : "Cardiology Attending Hospital Progress note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "64059-9",
-      "display" : "Critical Care Medicine Hospital Progress note"
+      "display" : "Critical care medicine Hospital Progress note"
     },
     {
       "system" : "http://loinc.org",
@@ -33617,7 +33617,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68473-8",
-      "display" : "Critical care medicine Physician attending Hospital Progress note"
+      "display" : "Critical care medicine Attending Hospital Progress note"
     },
     {
       "system" : "http://loinc.org",
@@ -33627,7 +33627,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68475-3",
-      "display" : "General medicine Physician attending Hospital Progress note"
+      "display" : "General medicine Attending Hospital Progress note"
     },
     {
       "system" : "http://loinc.org",
@@ -33647,7 +33647,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68478-7",
-      "display" : "Pulmonary Physician attending Hospital Progress note"
+      "display" : "Pulmonary Attending Hospital Progress note"
     },
     {
       "system" : "http://loinc.org",
@@ -33667,22 +33667,22 @@
     {
       "system" : "http://loinc.org",
       "code" : "68480-3",
-      "display" : "Surgery Physician attending Hospital Progress note"
+      "display" : "Surgery Attending Hospital Progress note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "64061-5",
-      "display" : "Thoracic surgery Hospital Progress note"
+      "display" : "Cardiothoracic surgery Hospital Progress note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "64075-5",
-      "display" : "Thoracic surgery Medical student Hospital Progress note"
+      "display" : "Cardiothoracic surgery Medical student Hospital Progress note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "68481-1",
-      "display" : "Thoracic surgery Physician attending Hospital Progress note"
+      "display" : "Cardiothoracic surgery Attending Hospital Progress note"
     },
     {
       "system" : "http://loinc.org",
@@ -33722,7 +33722,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "34132-1",
-      "display" : "Pharmacy Outpatient Progress note"
+      "display" : "Pharmacology Outpatient Progress note"
     },
     {
       "system" : "http://loinc.org",
@@ -33737,12 +33737,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "74468-0",
-      "display" : "Questionnaire form definition section Document"
+      "display" : "Questionnaire form definition Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74465-6",
-      "display" : "Questionnaire response section Document"
+      "display" : "Questionnaire response Document"
     },
     {
       "system" : "http://loinc.org",
@@ -33772,7 +33772,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "57178-6",
-      "display" : "Critical Care Medicine Referral note"
+      "display" : "Critical care medicine Referral note"
     },
     {
       "system" : "http://loinc.org",
@@ -33797,7 +33797,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "69438-0",
-      "display" : "Referral note Forensic medicine"
+      "display" : "Forensic medicine Referral note"
     },
     {
       "system" : "http://loinc.org",
@@ -33817,7 +33817,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "57172-9",
-      "display" : "Hematology+Medical Oncology Referral note"
+      "display" : "Hematology+Medical oncology Referral note"
     },
     {
       "system" : "http://loinc.org",
@@ -33902,12 +33902,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "57152-1",
-      "display" : "Pharmacy Referral note"
+      "display" : "Pharmacology Referral note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "57153-9",
-      "display" : "Physical medicine and rehabilitation Referral note"
+      "display" : "Physical medicine and rehab Referral note"
     },
     {
       "system" : "http://loinc.org",
@@ -33962,7 +33962,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "57164-6",
-      "display" : "Social work Referral note"
+      "display" : "Social worker Referral note"
     },
     {
       "system" : "http://loinc.org",
@@ -33977,7 +33977,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "57167-9",
-      "display" : "Thoracic surgery Referral note"
+      "display" : "Cardiothoracic surgery Referral note"
     },
     {
       "system" : "http://loinc.org",
@@ -33992,7 +33992,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "64292-6",
-      "display" : "Release of information consent"
+      "display" : "Release of information consent Document"
     },
     {
       "system" : "http://loinc.org",
@@ -34032,7 +34032,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "59282-4",
-      "display" : "Stress cardiac echo study report US"
+      "display" : "Stress cardiac echo study report"
     },
     {
       "system" : "http://loinc.org",
@@ -34072,7 +34072,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "74211-4",
-      "display" : "Summary of episode note Emergency department+Hospital"
+      "display" : "Emergency department+Hospital Summary of episode note"
     },
     {
       "system" : "http://loinc.org",
@@ -34092,22 +34092,22 @@
     {
       "system" : "http://loinc.org",
       "code" : "34135-4",
-      "display" : "Cardiology Physician attending Outpatient Supervisory note"
+      "display" : "Cardiology Attending Outpatient Supervisory note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34136-2",
-      "display" : "Gastroenterology Physician attending Outpatient Supervisory note"
+      "display" : "Gastroenterology Attending Outpatient Supervisory note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34134-7",
-      "display" : "Physician attending Outpatient Supervisory note"
+      "display" : "Attending Outpatient Supervisory note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "61358-8",
-      "display" : "Patient Surgical operation consent"
+      "display" : "Surgical operation consent Document"
     },
     {
       "system" : "http://loinc.org",
@@ -34152,7 +34152,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "68632-9",
-      "display" : "Allergy and immunology Transfer summary note"
+      "display" : "Allergy and Immunology Transfer summary note"
     },
     {
       "system" : "http://loinc.org",
@@ -34297,12 +34297,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "59281-6",
-      "display" : "Transthoracic cardiac echo study report US"
+      "display" : "US Heart Transthoracic"
     },
     {
       "system" : "http://loinc.org",
       "code" : "74198-3",
-      "display" : "Trauma summary registry report Document"
+      "display" : "Trauma Summary registry report"
     },
     {
       "system" : "http://loinc.org",
@@ -34607,7 +34607,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "52027-0",
-      "display" : "Abortion consent"
+      "display" : "Abortion consent Document"
     },
     {
       "system" : "http://loinc.org",
@@ -34617,82 +34617,82 @@
     {
       "system" : "http://loinc.org",
       "code" : "30649-8",
-      "display" : "Peripheral artery Fluoroscopic angiogram Additional angioplasty W contrast IA"
+      "display" : "RFA Guidance for Additional angioplasty of Peripheral artery-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30641-5",
-      "display" : "Vein Fluoroscopic angiogram Additional angioplasty W contrast IV"
+      "display" : "RFA Guidance for Additional angioplasty of Vein-- W contrast IV"
     },
     {
       "system" : "http://loinc.org",
       "code" : "36760-7",
-      "display" : "AV shunt Fluoroscopic angiogram Angioplasty W contrast"
+      "display" : "RFA Guidance for angioplasty of AV shunt-- W contrast"
     },
     {
       "system" : "http://loinc.org",
       "code" : "36762-3",
-      "display" : "Extremity vessel Fluoroscopic angiogram Angioplasty W contrast"
+      "display" : "RFA Guidance for angioplasty of Extremity vessel-- W contrast"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69067-7",
-      "display" : "Unspecified body region Fluoroscopic angiogram Angioplasty W contrast"
+      "display" : "RFA Guidance for angioplasty of Unspecified body region-- W contrast"
     },
     {
       "system" : "http://loinc.org",
       "code" : "35881-2",
-      "display" : "Extremity artery Fluoroscopic angiogram Angioplasty W contrast IA"
+      "display" : "RFA Guidance for angioplasty of Extremity artery-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "36763-1",
-      "display" : "Femoral artery and Popliteal artery Fluoroscopic angiogram Angioplasty W contrast IA"
+      "display" : "RFA Guidance for angioplasty of Femoral artery and Popliteal artery-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30648-0",
-      "display" : "Peripheral artery Fluoroscopic angiogram Angioplasty W contrast IA"
+      "display" : "RFA Peripheral artery Views for angioplasty W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "43793-9",
-      "display" : "Tibioperoneal arteries Fluoroscopic angiogram Angioplasty W contrast IA"
+      "display" : "RFA Guidance for angioplasty of Tibioperoneal arteries-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "43794-7",
-      "display" : "Tibioperoneal arteries - bilateral Fluoroscopic angiogram Angioplasty W contrast IA"
+      "display" : "RFA Guidance for angioplasty of Tibioperoneal arteries - bilateral-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "43795-4",
-      "display" : "Tibioperoneal arteries - left Fluoroscopic angiogram Angioplasty W contrast IA"
+      "display" : "RFA Guidance for angioplasty of Tibioperoneal arteries - left-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "43792-1",
-      "display" : "Tibioperoneal arteries - right Fluoroscopic angiogram Angioplasty W contrast IA"
+      "display" : "RFA Guidance for angioplasty of Tibioperoneal arteries - right-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30836-1",
-      "display" : "Visceral artery Fluoroscopic angiogram Angioplasty W contrast IA"
+      "display" : "RFA Guidance for angioplasty of Visceral artery-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "37426-4",
-      "display" : "Lower extremity vein Fluoroscopic angiogram Angioplasty W contrast IV"
+      "display" : "RFA Guidance for angioplasty of Lower extremity vein-- W contrast IV"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30640-7",
-      "display" : "Vein Fluoroscopic angiogram Angioplasty W contrast IV"
+      "display" : "RFA Guidance for angioplasty of Vein-- W contrast IV"
     },
     {
       "system" : "http://loinc.org",
       "code" : "35882-0",
-      "display" : "Inferior vena cava Fluoroscopic angiogram Angioplasty W contrast IV"
+      "display" : "RFA Guidance for angioplasty of Inferior vena cava-- W contrast IV"
     },
     {
       "system" : "http://loinc.org",
@@ -34702,42 +34702,42 @@
     {
       "system" : "http://loinc.org",
       "code" : "36764-9",
-      "display" : "Femoral vessel and Popliteal artery Fluoroscopic angiogram Atherectomy W contrast"
+      "display" : "RFA Guidance for atherectomy of Femoral vessel and Popliteal artery-- W contrast"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69135-2",
-      "display" : "Iliac artery Fluoroscopic angiogram Atherectomy W contrast"
+      "display" : "RFA Guidance for atherectomy of Iliac artery-- W contrast"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69253-3",
-      "display" : "Renal vessels Fluoroscopic angiogram Atherectomy W contrast"
+      "display" : "RFA Guidance for atherectomy of Renal vessels-- W contrast"
     },
     {
       "system" : "http://loinc.org",
       "code" : "36765-6",
-      "display" : "Vessel Fluoroscopic angiogram Atherectomy W contrast"
+      "display" : "RFA Guidance for atherectomy of Vessel-- W contrast"
     },
     {
       "system" : "http://loinc.org",
       "code" : "35883-8",
-      "display" : "Aorta Fluoroscopic angiogram Atherectomy W contrast IA"
+      "display" : "RFA Guidance for atherectomy of Thoracic and abdominal aorta-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "36766-4",
-      "display" : "Coronary arteries Fluoroscopic angiogram Atherectomy W contrast IA"
+      "display" : "RFA Guidance for atherectomy of Coronary arteries-- W contrast IA"
     },
     {
       "system" : "http://loinc.org",
       "code" : "52065-0",
-      "display" : "Automobile liability"
+      "display" : "Automobile liability attachment"
     },
     {
       "system" : "http://loinc.org",
       "code" : "36761-5",
-      "display" : "Biliary ducts Fluoroscopy Balloon dilatation W contrast"
+      "display" : "RF Guidance for balloon dilatation of Biliary ducts-- W contrast"
     },
     {
       "system" : "http://loinc.org",
@@ -34747,22 +34747,22 @@
     {
       "system" : "http://loinc.org",
       "code" : "52041-1",
-      "display" : "Blood glucose monitors"
+      "display" : "Blood glucose monitor attachment"
     },
     {
       "system" : "http://loinc.org",
       "code" : "38268-9",
-      "display" : "Skeletal system DXA Bone density"
+      "display" : "DXA Skeletal system Views for bone density"
     },
     {
       "system" : "http://loinc.org",
       "code" : "43562-8",
-      "display" : "Skeletal system.axial Scan Bone density"
+      "display" : "NM Skeletal system.axial Views for bone density"
     },
     {
       "system" : "http://loinc.org",
       "code" : "43563-6",
-      "display" : "Skeletal system.peripheral Scan Bone density"
+      "display" : "NM Skeletal system.peripheral Views for bone density"
     },
     {
       "system" : "http://loinc.org",
@@ -34812,7 +34812,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "52042-9",
-      "display" : "Continuous positive airway pressure (CPAP)"
+      "display" : "Continuous positive airway pressure (CPAP) attachment"
     },
     {
       "system" : "http://loinc.org",
@@ -34882,7 +34882,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "47526-9",
-      "display" : "Cytology report of Unspecified specimen Cyto stain"
+      "display" : "Cytology report of Specimen Cyto stain"
     },
     {
       "system" : "http://loinc.org",
@@ -34892,7 +34892,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "53245-7",
-      "display" : "Driver license image"
+      "display" : "Driver license"
     },
     {
       "system" : "http://loinc.org",
@@ -34902,22 +34902,22 @@
     {
       "system" : "http://loinc.org",
       "code" : "52071-8",
-      "display" : "Employee assistance program"
+      "display" : "Employee assistance program attachment"
     },
     {
       "system" : "http://loinc.org",
       "code" : "67796-3",
-      "display" : "EMS patient care report - version 3.1 Document NEMSIS"
+      "display" : "EMS patient care report - version 3 Document NEMSIS"
     },
     {
       "system" : "http://loinc.org",
       "code" : "52043-7",
-      "display" : "Enteral nutrition"
+      "display" : "Enteral nutrition attachment"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30600-1",
-      "display" : "Small bowel CT Views Enteroclysis W contrast PO via duodenal intubation"
+      "display" : "CT Small bowel W positive contrast via enteroclysis tube"
     },
     {
       "system" : "http://loinc.org",
@@ -34932,12 +34932,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "52044-5",
-      "display" : "External infusion pump"
+      "display" : "External infusion pump attachment"
     },
     {
       "system" : "http://loinc.org",
       "code" : "52064-3",
-      "display" : "First report of injury"
+      "display" : "Worker's compensation first report of injury attachment"
     },
     {
       "system" : "http://loinc.org",
@@ -34947,17 +34947,17 @@
     {
       "system" : "http://loinc.org",
       "code" : "52045-2",
-      "display" : "Gait trainers"
+      "display" : "Gait trainers attachment"
     },
     {
       "system" : "http://loinc.org",
       "code" : "52033-8",
-      "display" : "General correspondence"
+      "display" : "General correspondence attachment"
     },
     {
       "system" : "http://loinc.org",
       "code" : "51969-4",
-      "display" : "Genetic analysis summary report in Blood or Tissue Document by Molecular genetics method"
+      "display" : "Genetic analysis report"
     },
     {
       "system" : "http://loinc.org",
@@ -34997,122 +34997,122 @@
     {
       "system" : "http://loinc.org",
       "code" : "35884-6",
-      "display" : "CT Guidance for abscess drainage of Abdomen"
+      "display" : "CT Guidance for drainage of abscess and placement of drainage catheter of Abdomen"
     },
     {
       "system" : "http://loinc.org",
       "code" : "42280-8",
-      "display" : "CT Guidance for abscess drainage of Appendix"
+      "display" : "CT Guidance for drainage of abscess and placement of drainage catheter of Appendix"
     },
     {
       "system" : "http://loinc.org",
       "code" : "42705-4",
-      "display" : "US Guidance for abscess drainage of Appendix"
+      "display" : "US Guidance for drainage of abscess and placement of drainage catheter of Appendix"
     },
     {
       "system" : "http://loinc.org",
       "code" : "42281-6",
-      "display" : "CT Guidance for abscess drainage of Chest"
+      "display" : "CT Guidance for drainage of abscess and placement of drainage catheter of Chest"
     },
     {
       "system" : "http://loinc.org",
       "code" : "42285-7",
-      "display" : "CT Guidance for abscess drainage of Kidney"
+      "display" : "CT Guidance for drainage of abscess and placement of drainage catheter of Kidney"
     },
     {
       "system" : "http://loinc.org",
       "code" : "44167-5",
-      "display" : "US Guidance for abscess drainage of Kidney"
+      "display" : "US Guidance for drainage of abscess and placement of drainage catheter of Kidney"
     },
     {
       "system" : "http://loinc.org",
       "code" : "42282-4",
-      "display" : "CT Guidance for abscess drainage of Liver"
+      "display" : "CT Guidance for drainage of abscess and placement of drainage catheter of Liver"
     },
     {
       "system" : "http://loinc.org",
       "code" : "42133-9",
-      "display" : "US Guidance for abscess drainage of Liver"
+      "display" : "US Guidance for drainage of abscess and placement of drainage catheter of Liver"
     },
     {
       "system" : "http://loinc.org",
       "code" : "39361-1",
-      "display" : "Fluoroscopy Guidance for abscess drainage of Liver"
+      "display" : "RF Guidance for drainage of abscess and placement of drainage catheter of Liver"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69120-4",
-      "display" : "Fluoroscopy Guidance for abscess drainage of Neck"
+      "display" : "RF Guidance for drainage of abscess and placement of drainage catheter of Neck"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69122-0",
-      "display" : "Fluoroscopy Guidance for abscess drainage of Pancreas"
+      "display" : "RF Guidance for drainage of abscess and placement of drainage catheter of Pancreas"
     },
     {
       "system" : "http://loinc.org",
       "code" : "42286-5",
-      "display" : "CT Guidance for abscess drainage of Pelvis"
+      "display" : "CT Guidance for drainage of abscess and placement of drainage catheter of Pelvis"
     },
     {
       "system" : "http://loinc.org",
       "code" : "44168-3",
-      "display" : "US Guidance for abscess drainage of Pelvis"
+      "display" : "US Guidance for drainage of abscess and placement of drainage catheter of Pelvis"
     },
     {
       "system" : "http://loinc.org",
       "code" : "44169-1",
-      "display" : "US Guidance for abscess drainage of Peritoneal space"
+      "display" : "US Guidance for drainage of abscess and placement of drainage catheter of Peritoneal space"
     },
     {
       "system" : "http://loinc.org",
       "code" : "42284-0",
-      "display" : "CT Guidance for abscess drainage of Pleural space"
+      "display" : "CT Guidance for drainage of abscess and placement of chest tube of Pleural space"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69123-8",
-      "display" : "Fluoroscopy Guidance for abscess drainage of Pleural space"
+      "display" : "RF Guidance for drainage of abscess and placement of chest tube of Pleural space"
     },
     {
       "system" : "http://loinc.org",
       "code" : "43502-4",
-      "display" : "CT Guidance for abscess drainage of Subphrenic space"
+      "display" : "CT Guidance for drainage of abscess and placement of drainage catheter of Subphrenic space"
     },
     {
       "system" : "http://loinc.org",
       "code" : "44166-7",
-      "display" : "US Guidance for abscess drainage of Subphrenic space"
+      "display" : "US Guidance for drainage of abscess and placement of drainage catheter of Subphrenic space"
     },
     {
       "system" : "http://loinc.org",
       "code" : "39451-0",
-      "display" : "US Guidance for abscess drainage of Unspecified body region"
+      "display" : "US Guidance for drainage of abscess and placement of drainage catheter of Unspecified body region"
     },
     {
       "system" : "http://loinc.org",
       "code" : "35885-3",
-      "display" : "Fluoroscopy Guidance for abscess drainage of Unspecified body region"
+      "display" : "RF Guidance for drainage of abscess and placement of drainage catheter of Unspecified body region"
     },
     {
       "system" : "http://loinc.org",
       "code" : "39620-0",
-      "display" : "Scan Guidance for abscess localization limited"
+      "display" : "NM Guidance for abscess localization limited of Unspecified body region"
     },
     {
       "system" : "http://loinc.org",
       "code" : "39623-4",
-      "display" : "Scan Guidance for abscess localization whole body"
+      "display" : "NM Guidance for abscess localization of Whole body"
     },
     {
       "system" : "http://loinc.org",
       "code" : "39622-6",
-      "display" : "SPECT Guidance for abscess localization whole body"
+      "display" : "SPECT Guidance for abscess localization of Whole body"
     },
     {
       "system" : "http://loinc.org",
       "code" : "39621-8",
-      "display" : "SPECT Guidance for abscess localization"
+      "display" : "SPECT Guidance for abscess localization of Unspecified body region"
     },
     {
       "system" : "http://loinc.org",
@@ -35127,82 +35127,82 @@
     {
       "system" : "http://loinc.org",
       "code" : "42688-2",
-      "display" : "CT Guidance for anesthetic block injection of Spine"
+      "display" : "CT Guidance for nerve block of Spine"
     },
     {
       "system" : "http://loinc.org",
       "code" : "35886-1",
-      "display" : "CT Guidance for aspiration of Breast"
+      "display" : "CT Guidance for fluid aspiration of Breast"
     },
     {
       "system" : "http://loinc.org",
       "code" : "43756-6",
-      "display" : "US Guidance for aspiration of Breast"
+      "display" : "US Guidance for fluid aspiration of Breast"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69278-0",
-      "display" : "US Guidance for aspiration of Breast - bilateral"
+      "display" : "US Guidance for fluid aspiration of Breast - bilateral"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69292-1",
-      "display" : "US Guidance for aspiration of Breast - left"
+      "display" : "US Guidance for fluid aspiration of Breast - left"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69296-2",
-      "display" : "US Guidance for aspiration of Breast - right"
+      "display" : "US Guidance for fluid aspiration of Breast - right"
     },
     {
       "system" : "http://loinc.org",
       "code" : "35888-7",
-      "display" : "Fluoroscopy Guidance for aspiration of Hip"
+      "display" : "RF Guidance for arthrocentesis of Hip"
     },
     {
       "system" : "http://loinc.org",
       "code" : "48434-5",
-      "display" : "US Guidance for aspiration of Kidney"
+      "display" : "US Guidance for fluid aspiration of Kidney"
     },
     {
       "system" : "http://loinc.org",
       "code" : "69287-1",
-      "display" : "US Guidance for aspiration of Lymph node"
+      "display" : "US Guidance for fluid aspiration of Lymph node"
     },
     {
       "system" : "http://loinc.org",
       "code" : "39452-8",
-      "display" : "US Guidance for aspiration of Ovary"
+      "display" : "US Guidance for fluid aspiration of Ovary"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30703-3",
-      "display" : "US Guidance for aspiration of Pericardial space"
+      "display" : "US Guidance for fluid aspiration of Pericardial space"
     },
     {
       "system" : "http://loinc.org",
       "code" : "37491-8",
-      "display" : "CT Guidance for aspiration of Pleural space"
+      "display" : "CT Guidance for fluid aspiration of Pleural space"
     },
     {
       "system" : "http://loinc.org",
       "code" : "37887-7",
-      "display" : "Fluoroscopy Guidance for aspiration of Pleural space"
+      "display" : "RF Guidance for fluid aspiration of Pleural space"
     },
     {
       "system" : "http://loinc.org",
       "code" : "42134-7",
-      "display" : "US Guidance for aspiration of Thyroid"
+      "display" : "US Guidance for fluid aspiration of Thyroid gland"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30878-3",
-      "display" : "US Guidance for aspiration of Unspecified body region"
+      "display" : "US Guidance for fluid aspiration of Unspecified body region"
     },
     {
       "system" : "http://loinc.org",
       "code" : "36926-4",
-      "display" : "CT Guidance for aspiration and placement of drainage tube of Abdomen"
+      "display" : "Deprecated CT Guidance for aspiration and placement of drainage tube of Abdomen"
     }]
   }
 }

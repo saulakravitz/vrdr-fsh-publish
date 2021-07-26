@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9af3e5ad-33a1-4b61-beab-dcc440f10c7b-8",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9af3e5ad-33a1-4b61-beab-dcc440f10c7b-8",
+  "id" : "3c10922c-5339-4e40-83f5-66bf8841b111-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3c10922c-5339-4e40-83f5-66bf8841b111-8",
   "name" : "UnionUSCoreDocumentReferenceCategoryAndDocumentClassValueSet",
   "title" : "Union of US Core DocumentReference Category And Document Class Value Set",
   "status" : "active",
-  "date" : "2021-04-27T03:50:36+00:00",
+  "date" : "2021-07-26T15:50:15+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -206,7 +206,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "11369-6",
-      "display" : "History of Immunization"
+      "display" : "History of Immunization Narrative"
     },
     {
       "system" : "http://loinc.org",
@@ -221,12 +221,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "11488-4",
-      "display" : "Consult Note"
+      "display" : "Consult note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "11506-3",
-      "display" : "Provider-unspecified progress note"
+      "display" : "Progress note"
     },
     {
       "system" : "http://loinc.org",
@@ -246,7 +246,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "18761-7",
-      "display" : "Provider-unspecified transfer summary"
+      "display" : "Transfer summary note"
     },
     {
       "system" : "http://loinc.org",
@@ -256,7 +256,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "26436-6",
-      "display" : "Laboratory Studies (set)"
+      "display" : "Laboratory studies (set)"
     },
     {
       "system" : "http://loinc.org",
@@ -291,12 +291,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "28570-0",
-      "display" : "Provider-unspecified procedure note"
+      "display" : "Procedure note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "28619-5",
-      "display" : "Ophthalmology/optometry studies (set)"
+      "display" : "Ophthalmology/Optometry studies (set)"
     },
     {
       "system" : "http://loinc.org",
@@ -326,12 +326,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "34109-9",
-      "display" : "Evaluation and management note"
+      "display" : "Note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34117-2",
-      "display" : "Provider-unspecified, History and physical note"
+      "display" : "History and physical note"
     },
     {
       "system" : "http://loinc.org",
@@ -341,32 +341,32 @@
     {
       "system" : "http://loinc.org",
       "code" : "34122-2",
-      "display" : "Pathology procedure note"
+      "display" : "Pathology Procedure note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34133-9",
-      "display" : "Summarization of episode note"
+      "display" : "Summary of episode note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34140-4",
-      "display" : "Transfer of care referral note"
+      "display" : "Deprecated Transfer of care referral note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34748-4",
-      "display" : "Telephone encounter note"
+      "display" : "Telephone encounter Note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "34775-7",
-      "display" : "General surgery Pre-operative evaluation and management note"
+      "display" : "Deprecated General surgery Pre-operative evaluation and management note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "47039-3",
-      "display" : "Inpatient Admission history and physical note"
+      "display" : "Hospital Admission history and physical note"
     },
     {
       "system" : "http://loinc.org",
@@ -376,32 +376,32 @@
     {
       "system" : "http://loinc.org",
       "code" : "47045-0",
-      "display" : "Study report Document"
+      "display" : "Study report"
     },
     {
       "system" : "http://loinc.org",
       "code" : "47046-8",
-      "display" : "Summary of death"
+      "display" : "Summary of death note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "47049-2",
-      "display" : "Non-patient Communication"
+      "display" : "Deprecated Non-patient Communication note"
     },
     {
       "system" : "http://loinc.org",
       "code" : "57017-6",
-      "display" : "Privacy Policy Organization Document"
+      "display" : "Privacy policy Organization Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "57016-8",
-      "display" : "Privacy Policy Acknowledgment Document"
+      "display" : "Privacy policy acknowledgment Document"
     },
     {
       "system" : "http://loinc.org",
       "code" : "56445-0",
-      "display" : "Medication Summary Document"
+      "display" : "Medication summary Document"
     },
     {
       "system" : "http://loinc.org",
@@ -411,7 +411,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "56447-6",
-      "display" : "Plan of care note"
+      "display" : "Deprecated Plan of care note"
     },
     {
       "system" : "http://loinc.org",

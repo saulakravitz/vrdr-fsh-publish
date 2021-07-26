@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3a1fc12b-6773-44ce-a822-41feb189fa7d-90",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3a1fc12b-6773-44ce-a822-41feb189fa7d-90",
+  "id" : "7ed3b026-47ff-4d45-8e2e-01c5b86878e3-90",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7ed3b026-47ff-4d45-8e2e-01c5b86878e3-90",
   "name" : "IntersectionWithin_City_Limits_IndicatorAndWithin_City_Limits_Indicator",
   "title" : "Intersection of VRDR Within City Limits Indicator And VRDR Within City Limits Indicator",
   "status" : "draft",
-  "date" : "2021-04-27T03:50:54+00:00",
+  "date" : "2021-07-26T15:50:27+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
