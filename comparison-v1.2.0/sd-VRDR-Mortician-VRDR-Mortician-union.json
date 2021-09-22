@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "965a3b52-63dd-449d-90da-6bb886721b1e-110",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/965a3b52-63dd-449d-90da-6bb886721b1e-110",
+  "id" : "c6e64e09-f83c-4838-b9da-aa6b0646c6aa-110",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c6e64e09-f83c-4838-b9da-aa6b0646c6aa-110",
   "name" : "UnionMorticianAndMortician",
   "title" : "Union of VRDR Mortician And VRDR Mortician",
   "status" : "draft",
-  "date" : "2021-09-22T20:00:04+00:00",
+  "date" : "2021-09-22T20:03:56+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

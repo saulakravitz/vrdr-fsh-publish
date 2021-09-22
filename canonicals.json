@@ -376,5 +376,26 @@
     "url": "http://hl7.org/fhir/us/vrdr/ValueSet/USStates-Territories-VS",
     "version": "1.2.0",
     "name": "USStatesAndTerritoriesVS"
+  },
+  {
+    "id": "vrdr-YesNo",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNo",
+    "version": "1.2.0",
+    "name": "YesNoVS"
+  },
+  {
+    "id": "vrdr-YesNoNotApplicable",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNoNotApplicable",
+    "version": "1.2.0",
+    "name": "YesNoNotApplicableVS"
+  },
+  {
+    "id": "vrdr-administrative-gender",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-administrative-gender",
+    "version": "1.2.0",
+    "name": "AdministrativeGenderVS"
   }
 ]

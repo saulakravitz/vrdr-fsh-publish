@@ -9,7 +9,7 @@
   <version value="1.2.0"/>
   <name value="VRDR"/>
   <status value="draft"/>
-  <date value="2021-09-22T19:59:17+00:00"/>
+  <date value="2021-09-22T20:03:14+00:00"/>
   <publisher value="HL7 Public Health Working Group"/>
   <contact>
     <name value="HL7 Public Health Working Group"/>
@@ -720,6 +720,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/vrdr-administrative-gender"/>
+      </reference>
+      <name value="Yes No Not Applicable  Value Set"/>
+      <description value="Yes No Not Applicable Valueset built HL7 Administrative Gender Codesystem.  If the &#39;other&#39; value were included, this could use the standard valuesystem used by USCore http://hl7.org/fhir/R4/valueset-administrative-gender.html#4.4.1.369"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/Canada-Provinces-VS"/>
       </reference>
       <name value="Canadian Provinces Value Set"/>
@@ -757,6 +768,28 @@
       </reference>
       <name value="VRDR Jurisdictions Value Set"/>
       <description value="2 Letter States and Provinces Value Set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vrdr-YesNoNotApplicable"/>
+      </reference>
+      <name value="Yes No Not Applicable  Value Set"/>
+      <description value="Yes No Not Applicable Valueset built HL7 Expanded Yes/No Codesystem"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vrdr-YesNo"/>
+      </reference>
+      <name value="Yes No Unknown  Value Set"/>
+      <description value="Yes No Unknown Valueset built HL7 Expanded Yes/No Codesystem"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "1.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "VRDR"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-09-22T19:59:17+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-09-22T20:03:14+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Public Health Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -983,6 +983,20 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-administrative-gender>;
+         fhir:Reference.reference [ fhir:value "ValueSet/vrdr-administrative-gender" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes No Not Applicable  Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes No Not Applicable Valueset built HL7 Administrative Gender Codesystem.  If the 'other' value were included, this could use the standard valuesystem used by USCore http://hl7.org/fhir/R4/valueset-administrative-gender.html#4.4.1.369" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://hl7.org/fhir/us/vrdr/ValueSet/Canada-Provinces-VS>;
          fhir:Reference.reference [ fhir:value "ValueSet/Canada-Provinces-VS" ]
        ];
@@ -990,7 +1004,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "2 Letter Candadian Provinces Value Set" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 49;
+       fhir:index 50;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1004,7 +1018,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "2 Letter States and Provinces Value Set" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 50;
+       fhir:index 51;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1018,7 +1032,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "2 Letter States and Territories Value Set" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 51;
+       fhir:index 52;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1032,7 +1046,35 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "2 Letter States and Provinces Value Set" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 52;
+       fhir:index 53;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNoNotApplicable>;
+         fhir:Reference.reference [ fhir:value "ValueSet/vrdr-YesNoNotApplicable" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes No Not Applicable  Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes No Not Applicable Valueset built HL7 Expanded Yes/No Codesystem" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 54;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNo>;
+         fhir:Reference.reference [ fhir:value "ValueSet/vrdr-YesNo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes No Unknown  Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes No Unknown Valueset built HL7 Expanded Yes/No Codesystem" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 55;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1046,7 +1088,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "VRDR Jurisdictions that are not US States or Territories" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 53;
+       fhir:index 56;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1063,7 +1105,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Pregnancy>
        ]
      ], [
-       fhir:index 54;
+       fhir:index 57;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1080,7 +1122,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Autopsy-Performed-Indicator>
        ]
      ], [
-       fhir:index 55;
+       fhir:index 58;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1097,7 +1139,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Interested-Party>
        ]
      ], [
-       fhir:index 56;
+       fhir:index 59;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1114,7 +1156,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Certification>
        ]
      ], [
-       fhir:index 57;
+       fhir:index 60;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1130,7 +1172,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-National-Reporting-Jurisdiction>
        ]
      ], [
-       fhir:index 58;
+       fhir:index 61;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1147,7 +1189,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-InjuryIncident>
        ]
      ], [
-       fhir:index 59;
+       fhir:index 62;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1164,7 +1206,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Transportation-Role>
        ]
      ], [
-       fhir:index 60;
+       fhir:index 63;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1181,7 +1223,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Usual-Work>
        ]
      ], [
-       fhir:index 61;
+       fhir:index 64;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1198,7 +1240,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Examiner-Contacted>
        ]
      ], [
-       fhir:index 62;
+       fhir:index 65;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1215,7 +1257,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Injury-Location>
        ]
      ], [
-       fhir:index 63;
+       fhir:index 66;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1232,7 +1274,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Funeral-Service-Licensee>
        ]
      ], [
-       fhir:index 64;
+       fhir:index 67;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1249,7 +1291,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Tobacco-Use-Contributed-To-Death>
        ]
      ], [
-       fhir:index 65;
+       fhir:index 68;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1266,7 +1308,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent>
        ]
      ], [
-       fhir:index 66;
+       fhir:index 69;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1283,7 +1325,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Certificate>
        ]
      ], [
-       fhir:index 67;
+       fhir:index 70;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1300,7 +1342,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Condition-Contributing-To-Death>
        ]
      ], [
-       fhir:index 68;
+       fhir:index 71;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1317,7 +1359,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Cause-of-Death-Pathway>
        ]
      ], [
-       fhir:index 69;
+       fhir:index 72;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1334,7 +1376,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Military-Service>
        ]
      ], [
-       fhir:index 70;
+       fhir:index 73;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1351,7 +1393,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-BirthRecordIdentifier>
        ]
      ], [
-       fhir:index 71;
+       fhir:index 74;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1368,7 +1410,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Funeral-Home>
        ]
      ], [
-       fhir:index 72;
+       fhir:index 75;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1385,7 +1427,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Certificate-Document>
        ]
      ], [
-       fhir:index 73;
+       fhir:index 76;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1402,7 +1444,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Mortician>
        ]
      ], [
-       fhir:index 74;
+       fhir:index 77;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1419,7 +1461,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Mother>
        ]
      ], [
-       fhir:index 75;
+       fhir:index 78;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1436,7 +1478,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Pronouncement-Performer>
        ]
      ], [
-       fhir:index 76;
+       fhir:index 79;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1453,7 +1495,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Spouse>
        ]
      ], [
-       fhir:index 77;
+       fhir:index 80;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1470,7 +1512,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Education-Level>
        ]
      ], [
-       fhir:index 78;
+       fhir:index 81;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1487,7 +1529,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Father>
        ]
      ], [
-       fhir:index 79;
+       fhir:index 82;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1504,7 +1546,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Date>
        ]
      ], [
-       fhir:index 80;
+       fhir:index 83;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1521,7 +1563,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Location>
        ]
      ], [
-       fhir:index 81;
+       fhir:index 84;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1538,7 +1580,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Certificate-Reference>
        ]
      ], [
-       fhir:index 82;
+       fhir:index 85;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1555,7 +1597,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Disposition-Location>
        ]
      ], [
-       fhir:index 83;
+       fhir:index 86;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1572,7 +1614,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Certifier>
        ]
      ], [
-       fhir:index 84;
+       fhir:index 87;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1589,7 +1631,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Manner-of-Death>
        ]
      ], [
-       fhir:index 85;
+       fhir:index 88;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1606,7 +1648,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Disposition-Method>
        ]
      ], [
-       fhir:index 86;
+       fhir:index 89;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1623,7 +1665,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Age>
        ]
      ], [
-       fhir:index 87;
+       fhir:index 90;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1640,7 +1682,7 @@
          fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Cause-Of-Death-Condition>
        ]
      ], [
-       fhir:index 88;
+       fhir:index 91;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1888,6 +1930,8 @@
 
 <http://hl7.org/fhir/us/vrdr/StructureDefinition/Within-City-Limits-Indicator> a fhir:us .
 
+<http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-administrative-gender> a fhir:us .
+
 <http://hl7.org/fhir/us/vrdr/ValueSet/Canada-Provinces-VS> a fhir:us .
 
 <http://hl7.org/fhir/us/vrdr/ValueSet/States-TerritoriesProvinces-VS> a fhir:us .
@@ -1895,6 +1939,10 @@
 <http://hl7.org/fhir/us/vrdr/ValueSet/USStates-Territories-VS> a fhir:us .
 
 <http://hl7.org/fhir/us/vrdr/ValueSet/Jurisdictions-VS> a fhir:us .
+
+<http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNoNotApplicable> a fhir:us .
+
+<http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNo> a fhir:us .
 
 <http://hl7.org/fhir/us/vrdr/CodeSystem/VRDR-Jurisdictions> a fhir:us .
 

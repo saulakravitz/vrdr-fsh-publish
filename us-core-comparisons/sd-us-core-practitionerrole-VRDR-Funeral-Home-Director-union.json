@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-245",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-245",
+  "id" : "f2339ee8-c471-4802-a3b1-1ce6d921135d-245",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f2339ee8-c471-4802-a3b1-1ce6d921135d-245",
   "name" : "UnionUSCorePractitionerRoleProfileAndFuneralHomeDirector",
   "title" : "Union of US Core PractitionerRole Profile And VRDR Funeral Home Director",
   "status" : "active",
-  "date" : "2021-09-22T19:59:48+00:00",
+  "date" : "2021-09-22T20:03:43+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -502,7 +502,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: Provider role codes consisting of NUCC Health Care Provider Taxonomy Code Set for providers.; right: PractitionerRole",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-248"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f2339ee8-c471-4802-a3b1-1ce6d921135d-248"
       },
       "mapping" : [{
         "identity" : "v2",

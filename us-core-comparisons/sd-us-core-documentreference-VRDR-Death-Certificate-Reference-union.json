@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-2",
+  "id" : "f2339ee8-c471-4802-a3b1-1ce6d921135d-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f2339ee8-c471-4802-a3b1-1ce6d921135d-2",
   "name" : "UnionUSCoreDocumentReferenceProfileAndDeathCertificateReference",
   "title" : "Union of US Core DocumentReference Profile And VRDR Death Certificate Reference",
   "status" : "active",
-  "date" : "2021-09-22T19:59:44+00:00",
+  "date" : "2021-09-22T20:03:38+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -510,7 +510,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "left: All LOINC  values whose SCALE is DOC in the LOINC database and the HL7 v3 Code System NullFlavor concept 'unknown'; right: Precise type of clinical document.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f2339ee8-c471-4802-a3b1-1ce6d921135d-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -566,7 +566,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The US Core DocumentReferences Type Value Set is a &#39;starter set&#39; of categories supported for fetching and storing clinical notes.; right: High-level kind of a clinical document at a macro level.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-8"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f2339ee8-c471-4802-a3b1-1ce6d921135d-8"
       },
       "mapping" : [{
         "identity" : "w5",

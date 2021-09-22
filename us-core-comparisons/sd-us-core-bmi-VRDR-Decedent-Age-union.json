@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-26",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-26",
+  "id" : "f2339ee8-c471-4802-a3b1-1ce6d921135d-26",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f2339ee8-c471-4802-a3b1-1ce6d921135d-26",
   "name" : "UnionUSCoreBMIProfileProfileAndDecedentAge",
   "title" : "Union of US Core BMI Profile And VRDR Decedent Age",
   "status" : "active",
-  "date" : "2021-09-22T19:59:47+00:00",
+  "date" : "2021-09-22T20:03:42+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-14"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f2339ee8-c471-4802-a3b1-1ce6d921135d-14"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1724,7 +1724,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-14"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f2339ee8-c471-4802-a3b1-1ce6d921135d-14"
       },
       "mapping" : [{
         "identity" : "w5",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-12",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-12",
+  "id" : "f2339ee8-c471-4802-a3b1-1ce6d921135d-12",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f2339ee8-c471-4802-a3b1-1ce6d921135d-12",
   "name" : "IntersectionUSCorePediatricHeadOccipitalFrontalCircumferencePercentileProfileAndDecedentAge",
   "title" : "Intersection of US Core Pediatric Head Occipital-frontal Circumference Percentile Profile And VRDR Decedent Age",
   "status" : "active",
-  "date" : "2021-09-22T19:59:46+00:00",
+  "date" : "2021-09-22T20:03:41+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

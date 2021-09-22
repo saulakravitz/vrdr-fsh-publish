@@ -3,7 +3,7 @@
 
 err = 20, warn = 60, info = 11
 IG Publisher Version: 1.1.80
-Generated Wed Sep 22 20:01:39 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.vrdr#1.2.0 (canonical = http://hl7.org/fhir/us/vrdr)
+Generated Wed Sep 22 20:05:24 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.vrdr#1.2.0 (canonical = http://hl7.org/fhir/us/vrdr)
 
  Build Errors : 1 / 37 / 0
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Bundle-7a4613cc-b306-49b2-a428-9f8e67e67a85 : 0 / 1 / 5
@@ -96,6 +96,9 @@ Generated Wed Sep 22 20:01:39 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.vrdr#
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-Jurisdictions-VS : 1 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-States-TerritoriesProvinces-VS : 1 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-USStates-Territories-VS : 1 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-vrdr-YesNo : 0 / 0 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-vrdr-YesNoNotApplicable : 0 / 0 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-vrdr-administrative-gender : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.dependency[3].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
@@ -279,3 +282,6 @@ ERROR: ValueSet.where(id = 'States-TerritoriesProvinces-VS'): Error from server:
 == fsh-generated/resources/ValueSet-USStates-Territories-VS.json ==
 WARNING: ValueSet/USStates-Territories-VS: ValueSet.compose[0].include[0].valueSet[0]: The value set import https://www.usps.com/ could not be found so cannot be checked
 ERROR: ValueSet.where(id = 'USStates-Territories-VS'): Error from server: Unable to find value set "https://www.usps.com/"
+== fsh-generated/resources/ValueSet-vrdr-YesNo.json ==
+== fsh-generated/resources/ValueSet-vrdr-YesNoNotApplicable.json ==
+== fsh-generated/resources/ValueSet-vrdr-administrative-gender.json ==

@@ -1,8 +1,200 @@
 {
   "resourceType" : "Bundle",
-  "id" : "657ca5ff-4631-42cf-a6b7-154e246e7617",
+  "id" : "2824711c-96f9-40fb-b552-001462914604",
   "meta" : {
-    "lastUpdated" : "2021-09-22T19:59:17.619+00:00"
+    "lastUpdated" : "2021-09-22T20:03:14.495+00:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-administrative-gender",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vrdr-administrative-gender",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">AdministrativeGender v4.0.1 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-male\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>male</td><td>Male.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-female\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>female</td><td>Female.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-unknown\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a></td><td>unknown</td><td>Unknown.</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-administrative-gender",
+      "version" : "1.2.0",
+      "name" : "AdministrativeGenderVS",
+      "title" : "Yes No Not Applicable  Value Set",
+      "status" : "active",
+      "date" : "2021-09-22T20:03:14+00:00",
+      "publisher" : "HL7 Public Health Working Group",
+      "contact" : [{
+        "name" : "HL7 Public Health Working Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/pher/index.cfm"
+        },
+        {
+          "system" : "email",
+          "value" : "pher@lists.HL7.org"
+        }]
+      }],
+      "description" : "Yes No Not Applicable Valueset built HL7 Administrative Gender Codesystem.  If the 'other' value were included, this could use the standard valuesystem used by USCore http://hl7.org/fhir/R4/valueset-administrative-gender.html#4.4.1.369",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:f03b23f6-fb23-4927-af2c-c33c30a87c1a",
+        "timestamp" : "2021-09-22T20:04:32+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "female"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "unknown",
+          "display" : "unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNoNotApplicable",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vrdr-YesNoNotApplicable",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html\">expandedYes-NoIndicator v2.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v2-0532-Y\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html#v2-0532-Y\">Y</a></td><td>Yes</td><td>Yes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v2-0532-N\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html#v2-0532-N\">N</a></td><td>No</td><td>No</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v2-0532-NA\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html#v2-0532-NA\">NA</a></td><td>Not Applicable</td><td>not applicable</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNoNotApplicable",
+      "version" : "1.2.0",
+      "name" : "YesNoNotApplicableVS",
+      "title" : "Yes No Not Applicable  Value Set",
+      "status" : "active",
+      "date" : "2021-09-22T20:03:14+00:00",
+      "publisher" : "HL7 Public Health Working Group",
+      "contact" : [{
+        "name" : "HL7 Public Health Working Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/pher/index.cfm"
+        },
+        {
+          "system" : "email",
+          "value" : "pher@lists.HL7.org"
+        }]
+      }],
+      "description" : "Yes No Not Applicable Valueset built HL7 Expanded Yes/No Codesystem",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:fc54f255-45ec-4900-9770-94003fcdbd2e",
+        "timestamp" : "2021-09-22T20:04:36+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/v2-0532|2.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "Y",
+          "display" : "Yes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "N",
+          "display" : "No"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "NA",
+          "display" : "Not Applicable"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNo",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vrdr-YesNo",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html\">expandedYes-NoIndicator v2.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v2-0532-Y\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html#v2-0532-Y\">Y</a></td><td>Yes</td><td>Yes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v2-0532-N\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html#v2-0532-N\">N</a></td><td>No</td><td>No</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v2-0532-UNK\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0532.html#v2-0532-UNK\">UNK</a></td><td>Unknown</td><td>unknown</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/vrdr/ValueSet/vrdr-YesNo",
+      "version" : "1.2.0",
+      "name" : "YesNoVS",
+      "title" : "Yes No Unknown  Value Set",
+      "status" : "active",
+      "date" : "2021-09-22T20:03:14+00:00",
+      "publisher" : "HL7 Public Health Working Group",
+      "contact" : [{
+        "name" : "HL7 Public Health Working Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/pher/index.cfm"
+        },
+        {
+          "system" : "email",
+          "value" : "pher@lists.HL7.org"
+        }]
+      }],
+      "description" : "Yes No Unknown Valueset built HL7 Expanded Yes/No Codesystem",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:905cc50a-5730-4aa6-a312-c7602789cab1",
+        "timestamp" : "2021-09-22T20:04:36+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/v2-0532|2.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "Y",
+          "display" : "Yes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "N",
+          "display" : "No"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "UNK",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  }]
 }

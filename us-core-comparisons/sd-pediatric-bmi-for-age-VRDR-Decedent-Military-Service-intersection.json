@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-570",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-570",
+  "id" : "f2339ee8-c471-4802-a3b1-1ce6d921135d-570",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f2339ee8-c471-4802-a3b1-1ce6d921135d-570",
   "name" : "IntersectionUSCorePediatricBMIforAgeObservationProfileAndVRDR_DecedentMilitaryService",
   "title" : "Intersection of US Core Pediatric BMI for Age Observation Profile And Decedent Military Service",
   "status" : "active",
-  "date" : "2021-09-22T19:59:49+00:00",
+  "date" : "2021-09-22T20:03:45+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
