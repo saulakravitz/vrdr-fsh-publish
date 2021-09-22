@@ -1,9 +1,65 @@
 {
   "package": "hl7.fhir.us.vrdr",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "US",
   "extensions": [
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Census-Tract",
+      "title": "CensusTract",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Absent-Reason",
+      "title": "Date Absent Reason",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Day",
+      "title": "Date Day",
+      "types": [
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Month",
+      "title": "Date Month",
+      "types": [
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Year",
+      "title": "Date Year",
+      "types": [
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Death-Location-Reference",
+      "title": "Death Location Reference",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Disposition-Location-Reference",
+      "title": "Disposition Location Reference",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Injury-Location-Reference",
+      "title": "Injury Location Reference",
+      "types": [
+        "Reference"
+      ]
+    },
     {
       "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Location-Jurisdiction-Id",
       "title": "Location Jurisdiction Id",
@@ -16,6 +72,62 @@
       "title": "Observation Location",
       "types": [
         "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason",
+      "title": "Extension - Partial Date Part Absent Reason",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
       ]
     },
     {
@@ -77,8 +189,8 @@
     ],
     "Location": [
       {
-        "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Injury-Location",
-        "title": "VRDR Injury Location"
+        "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-National-Reporting-Jurisdiction",
+        "title": "VRDR National Reporting Jurisdiction"
       }
     ],
     "Patient": [
@@ -101,8 +213,8 @@
     ],
     "PractitionerRole": [
       {
-        "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Funeral-Service-Licensee",
-        "title": "VRDR Funeral Service Licensee"
+        "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR_FuneralHomeDirector",
+        "title": "VRDR Funeral Home Director"
       }
     ]
   },
@@ -127,6 +239,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
@@ -168,11 +283,34 @@
       "Bundle.entry.resource",
       "Patient"
     ],
+    "http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Absent-Reason": [
+      "Extension"
+    ],
+    "http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Day": [
+      "Extension"
+    ],
+    "http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Month": [
+      "Extension"
+    ],
+    "http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Year": [
+      "Extension"
+    ],
+    "http://hl7.org/fhir/us/vrdr/StructureDefinition/Death-Location-Reference": [
+      "Observation"
+    ],
+    "http://hl7.org/fhir/us/vrdr/StructureDefinition/Disposition-Location-Reference": [
+      "Observation"
+    ],
+    "http://hl7.org/fhir/us/vrdr/StructureDefinition/Injury-Location-Reference": [
+      "Observation"
+    ],
     "http://hl7.org/fhir/us/vrdr/StructureDefinition/Location-Jurisdiction-Id": [
       "Location"
     ],
-    "http://hl7.org/fhir/us/vrdr/StructureDefinition/Observation-Location": [
-      "Observation"
+    "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason": [
+      "Observation.valueDateTime",
+      "Observation.value[x]",
+      "Patient.birthDate"
     ],
     "http://hl7.org/fhir/us/vrdr/StructureDefinition/Within-City-Limits-Indicator": [
       "Bundle.entry.resource.address",

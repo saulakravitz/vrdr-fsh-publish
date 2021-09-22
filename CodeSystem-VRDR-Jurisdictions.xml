@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="VRDR-Jurisdictions"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/vrdr/CodeSystem/VRDR-Jurisdictions defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">YC<a name="VRDR-Jurisdictions-YC"> </a></td><td>New York City</td><td>New York City</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/vrdr/CodeSystem/VRDR-Jurisdictions"/>
+  <version value="1.2.0"/>
+  <name value="VRDRJurisdictionsCS"/>
+  <title value="VRDR Jurisdictions"/>
+  <status value="active"/>
+  <date value="2021-09-22T19:59:17+00:00"/>
+  <publisher value="HL7 Public Health Working Group"/>
+  <contact>
+    <name value="HL7 Public Health Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pher/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pher@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="VRDR Jurisdictions that are not US States or Territories"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="YC"/>
+    <display value="New York City"/>
+    <definition value="New York City"/>
+  </concept>
+</CodeSystem>

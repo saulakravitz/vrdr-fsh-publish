@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Jurisdictions-VS",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-USStates-Territories-VS.html\">http://hl7.org/fhir/us/vrdr/ValueSet/USStates-Territories-VS</a></li><li>Include these codes as defined in <a href=\"CodeSystem-VRDR-Jurisdictions.html\"><code>http://hl7.org/fhir/us/vrdr/CodeSystem/VRDR-Jurisdictions</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-VRDR-Jurisdictions.html#VRDR-Jurisdictions-YC\">YC</a></td><td>New York City</td><td>New York City</td></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/us/vrdr/ValueSet/Jurisdictions-VS",
+  "version": "1.2.0",
+  "name": "VRDRJurisdictionVS",
+  "title": "VRDR Jurisdictions Value Set",
+  "status": "active",
+  "date": "2021-09-22T19:59:17+00:00",
+  "publisher": "HL7 Public Health Working Group",
+  "contact": [
+    {
+      "name": "HL7 Public Health Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/pher/index.cfm"
+        },
+        {
+          "system": "email",
+          "value": "pher@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "2 Letter States and Provinces Value Set",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/us/vrdr/ValueSet/USStates-Territories-VS"
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/us/vrdr/CodeSystem/VRDR-Jurisdictions",
+        "concept": [
+          {
+            "code": "YC",
+            "display": "New York City"
+          }
+        ]
+      }
+    ]
+  }
+}

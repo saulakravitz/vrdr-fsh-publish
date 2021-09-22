@@ -1,0 +1,102 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Canada-Provinces-VS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://canadapost.ca/CodeSystem/ProvinceCodes</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>AB</td><td>Alberta</td></tr><tr><td>BC</td><td>British Columbia</td></tr><tr><td>MB</td><td>Manitoba</td></tr><tr><td>NB</td><td>New Brunswick</td></tr><tr><td>NL</td><td>Newfoundland and Labrador</td></tr><tr><td>NS</td><td>Nova Scotia</td></tr><tr><td>NT</td><td>Northwest Territories</td></tr><tr><td>NU</td><td>Nunavut</td></tr><tr><td>ON</td><td>Ontario</td></tr><tr><td>PE</td><td>Prince Edward Island</td></tr><tr><td>QC</td><td>Quebec</td></tr><tr><td>SK</td><td>Saskatchewan</td></tr><tr><td>YT</td><td>Yukon</td></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/us/vrdr/ValueSet/Canada-Provinces-VS",
+  "version": "1.2.0",
+  "name": "CanadaProvincesVS",
+  "title": "Canadian Provinces Value Set",
+  "status": "active",
+  "date": "2021-09-22T19:59:17+00:00",
+  "publisher": "HL7 Public Health Working Group",
+  "contact": [
+    {
+      "name": "HL7 Public Health Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/pher/index.cfm"
+        },
+        {
+          "system": "email",
+          "value": "pher@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "2 Letter Candadian Provinces Value Set",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+        "concept": [
+          {
+            "code": "AB",
+            "display": "Alberta"
+          },
+          {
+            "code": "BC",
+            "display": "British Columbia"
+          },
+          {
+            "code": "MB",
+            "display": "Manitoba"
+          },
+          {
+            "code": "NB",
+            "display": "New Brunswick"
+          },
+          {
+            "code": "NL",
+            "display": "Newfoundland and Labrador"
+          },
+          {
+            "code": "NS",
+            "display": "Nova Scotia"
+          },
+          {
+            "code": "NT",
+            "display": "Northwest Territories"
+          },
+          {
+            "code": "NU",
+            "display": "Nunavut"
+          },
+          {
+            "code": "ON",
+            "display": "Ontario"
+          },
+          {
+            "code": "PE",
+            "display": "Prince Edward Island"
+          },
+          {
+            "code": "QC",
+            "display": "Quebec"
+          },
+          {
+            "code": "SK",
+            "display": "Saskatchewan"
+          },
+          {
+            "code": "YT",
+            "display": "Yukon"
+          }
+        ]
+      }
+    ]
+  }
+}

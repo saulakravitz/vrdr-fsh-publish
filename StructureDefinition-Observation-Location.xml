@@ -15,11 +15,11 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://hl7.org/fhir/us/vrdr/StructureDefinition/Observation-Location"/>
-  <version value="1.0.0"/>
+  <version value="1.2.0"/>
   <name value="ObservationLocation"/>
   <title value="Observation Location"/>
   <status value="active"/>
-  <date value="2021-04-07T19:28:04+00:00"/>
+  <date value="2021-09-22T19:59:17+00:00"/>
   <publisher value="HL7 Public Health Working Group"/>
   <contact>
     <name value="HL7 Public Health Working Group"/>

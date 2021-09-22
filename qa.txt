@@ -1,39 +1,41 @@
 ﻿VRDR : Validation Results
 =========================================
 
-err = 1, warn = 32, info = 0
-IG Publisher Version: 1.1.77
-Generated Mon Jul 26 15:51:33 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.vrdr#1.0.0 (canonical = http://hl7.org/fhir/us/vrdr)
+err = 20, warn = 60, info = 11
+IG Publisher Version: 1.1.80
+Generated Wed Sep 22 20:01:39 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.vrdr#1.2.0 (canonical = http://hl7.org/fhir/us/vrdr)
 
- Build Errors : 1 / 30 / 0
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Bundle-79ee2174-1469-4301-a667-6332d4d26198 : 0 / 0 / 1
+ Build Errors : 1 / 37 / 0
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Bundle-7a4613cc-b306-49b2-a428-9f8e67e67a85 : 0 / 1 / 5
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/CodeSystem-VRDR-Jurisdictions : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Composition-54fd9b4c-7633-4e34-bf6b-6fbe9d48fd30 : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Condition-56b8ce2e-64f8-450b-8885-0699a53fc781 : 0 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Condition-f0cbc63d-ac4e-469b-8761-70b6ea8bf666 : 0 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/DocumentReference-bafe16b9-8b50-47e1-829a-a7dbafb45e05 : 0 / 0 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.vrdr : 0 / 2 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.vrdr : 0 / 3 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/List-60401545-f1e1-4a80-867f-02384ffed857 : 0 / 0 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Location-361aaa44-9955-4cd4-8f55-9f7df3537e17 : 0 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Location-4b863da8-1bb5-4b17-9be2-4ea39b5d3a2a : 0 / 0 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Location-b7de6056-817f-4d73-9830-ce566accd044 : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Location-b7de6056-817f-4d73-9830-ce566accd044 : 4 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Location-bbe38248-9a8d-414f-996e-58d5fc9eb800 : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-092e7b13-224d-46a6-ac31-0d98d4c84126 : 0 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-0db13e0d-fea6-4ef1-8285-62d761f61d88 : 0 / 2 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-37c086a1-05bd-479c-92b4-1234d38bfe5a : 0 / 3 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-37c086a1-05bd-479c-92b4-1234d38bfe5a : 0 / 3 / 2
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-4424113f-69c4-40fe-b88f-d7b03304dfe4 : 0 / 1 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-48b230c3-c5b5-4844-83bf-ede59170676e : 0 / 0 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-4aed1450-ab2d-4cb9-858f-227b127323a6 : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-48b230c3-c5b5-4844-83bf-ede59170676e : 0 / 1 / 2
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-4aed1450-ab2d-4cb9-858f-227b127323a6 : 0 / 1 / 2
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-4d0ce010-16f1-44f4-bbf8-3a2030e9de99 : 0 / 1 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-636dafac-0d92-4649-b838-004bcf714f5aj : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-636dafac-0d92-4649-b838-004bcf714f5aj : 0 / 1 / 2
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-6606dd3a-49ba-47a9-a6e7-e7e4ebeddac7 : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-9676ae27-2a89-4295-913c-0d6847300a3a : 0 / 1 / 2
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-b531cbf7-6290-424c-8155-0549c3fb3243 : 0 / 0 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-b531cbf7-6290-424c-8155-0549c3fb3243 : 3 / 0 / 4
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-d7c2e459-c7ca-415c-a38c-f78a0f0c5813 : 0 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-d80681ff-9f1d-4915-87b5-eda54534096a : 0 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-df5a2807-e0b2-4971-9820-efdbbbfcef7b : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Organization-1a110397-936f-4be4-ab10-2caed226569d : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Organization-6f47da13-0c25-483b-8729-7b96716b17fc : 0 / 0 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Patient-51b806c8-566f-463e-8783-9fbf6be8161d : 0 / 3 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Parameters-terminology-settings : 0 / 0 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Patient-51b806c8-566f-463e-8783-9fbf6be8161d : 3 / 4 / 4
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Practitioner-80db6f45-8a6d-4583-8a03-55a6663523c2 : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Practitioner-9102c234-53ca-4066-8452-42f3ba751c7d : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Practitioner-cb1219bc-785f-431c-9f56-b8fbbe78bc4d : 0 / 1 / 1
@@ -42,11 +44,19 @@ Generated Mon Jul 26 15:51:33 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.vrdr#
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/RelatedPerson-89ababc6-8c2a-4e76-9f53-8677822f54a9 : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/RelatedPerson-962fded4-b90a-44f7-950e-3832011ad65f : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/RelatedPerson-976c548f-9460-42f2-b41e-390b3bee91c8 : 0 / 0 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Location-Jurisdiction-Id : 0 / 3 / 7
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Census-Tract : 1 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Date-Absent-Reason : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Date-Day : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Date-Month : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Date-Year : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Death-Location-Reference : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Disposition-Location-Reference : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Injury-Location-Reference : 0 / 1 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Location-Jurisdiction-Id : 0 / 2 / 2
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Observation-Location : 0 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Autopsy-Performed-Indicator : 0 / 5 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-BirthRecordIdentifier : 0 / 1 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Cause-Of-Death-Condition : 0 / 2 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Cause-Of-Death-Condition : 0 / 3 / 8
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Cause-of-Death-Pathway : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Certifier : 0 / 2 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Condition-Contributing-To-Death : 0 / 2 / 1
@@ -57,7 +67,7 @@ Generated Mon Jul 26 15:51:33 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.vrdr#
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Date : 0 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Location : 0 / 2 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Pronouncement-Performer : 0 / 0 / 1
- /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent : 0 / 8 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent : 4 / 11 / 8
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Age : 0 / 1 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Disposition-Method : 0 / 3 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Education-Level : 0 / 3 / 1
@@ -71,17 +81,24 @@ Generated Mon Jul 26 15:51:33 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.vrdr#
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Disposition-Location : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Examiner-Contacted : 0 / 3 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Funeral-Home : 0 / 0 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Funeral-Home-Director : 1 / 2 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Funeral-Service-Licensee : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Injury-Location : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-InjuryIncident : 0 / 7 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Interested-Party : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Manner-of-Death : 0 / 3 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Mortician : 0 / 0 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-National-Reporting-Jurisdiction : 0 / 2 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Partial-date-part-absent-reason : 0 / 0 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Tobacco-Use-Contributed-To-Death : 0 / 3 / 1
  /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Within-City-Limits-Indicator : 0 / 2 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-Canada-Provinces-VS : 0 / 2 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-Jurisdictions-VS : 1 / 0 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-States-TerritoriesProvinces-VS : 1 / 0 / 1
+ /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ValueSet-USStates-Territories-VS : 1 / 1 / 1
 </table>
 == n/a ==
-WARNING: ImplementationGuide.dependency[2].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: ImplementationGuide.dependency[3].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Death-Certification.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Death-Location.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Death-Pronouncement-Performer.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -94,6 +111,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Disposition-Location.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Examiner-Contacted.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Funeral-Home.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Funeral-Home-Director.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Funeral-Service-Licensee.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-InjuryIncident.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Injury-Location.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -109,81 +127,155 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Decedent-Military-Service.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Decedent-Mother.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VRDR-Decedent-Usual-Work.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Census-Tract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Death-Location-Reference.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Disposition-Location-Reference.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Injury-Location-Reference.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Location-Jurisdiction-Id.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/79ee2174-1469-4301-a667-6332d4d26198.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: There is no jira specification file defined with the expected name of FHIR-us-vrdr in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Bundle-79ee2174-1469-4301-a667-6332d4d26198.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Bundle-7a4613cc-b306-49b2-a428-9f8e67e67a85.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Composition-54fd9b4c-7633-4e34-bf6b-6fbe9d48fd30.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Condition-56b8ce2e-64f8-450b-8885-0699a53fc781.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Condition-f0cbc63d-ac4e-469b-8761-70b6ea8bf666.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/DocumentReference-bafe16b9-8b50-47e1-829a-a7dbafb45e05.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.vrdr.json ==
-WARNING: ImplementationGuide/hl7.fhir.us.vrdr: ImplementationGuide.definition.resource[27].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/hl7.fhir.us.vrdr: ImplementationGuide.definition.resource[36].description: value should not start or finish with whitespace
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/List-60401545-f1e1-4a80-867f-02384ffed857.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Location-4b863da8-1bb5-4b17-9be2-4ea39b5d3a2a.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Location-b7de6056-817f-4d73-9830-ce566accd044.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Location-bbe38248-9a8d-414f-996e-58d5fc9eb800.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-092e7b13-224d-46a6-ac31-0d98d4c84126.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-0db13e0d-fea6-4ef1-8285-62d761f61d88.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-37c086a1-05bd-479c-92b4-1234d38bfe5a.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-4424113f-69c4-40fe-b88f-d7b03304dfe4.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-48b230c3-c5b5-4844-83bf-ede59170676e.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-4aed1450-ab2d-4cb9-858f-227b127323a6.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-4d0ce010-16f1-44f4-bbf8-3a2030e9de99.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-636dafac-0d92-4649-b838-004bcf714f5aj.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-6606dd3a-49ba-47a9-a6e7-e7e4ebeddac7.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-9676ae27-2a89-4295-913c-0d6847300a3a.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-b531cbf7-6290-424c-8155-0549c3fb3243.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-d7c2e459-c7ca-415c-a38c-f78a0f0c5813.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-d80681ff-9f1d-4915-87b5-eda54534096a.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Observation-df5a2807-e0b2-4971-9820-efdbbbfcef7b.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Organization-1a110397-936f-4be4-ab10-2caed226569d.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Organization-6f47da13-0c25-483b-8729-7b96716b17fc.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Patient-51b806c8-566f-463e-8783-9fbf6be8161d.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Practitioner-80db6f45-8a6d-4583-8a03-55a6663523c2.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Practitioner-9102c234-53ca-4066-8452-42f3ba751c7d.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Practitioner-cb1219bc-785f-431c-9f56-b8fbbe78bc4d.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/PractitionerRole-4b96759f-8395-4093-8417-e1ca3cd26f0a.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/Procedure-219ef5e3-ed0c-4dab-88eb-b114daaebd73.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/RelatedPerson-89ababc6-8c2a-4e76-9f53-8677822f54a9.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/RelatedPerson-962fded4-b90a-44f7-950e-3832011ad65f.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/RelatedPerson-976c548f-9460-42f2-b41e-390b3bee91c8.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Location-Jurisdiction-Id.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Observation-Location.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Autopsy-Performed-Indicator.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-BirthRecordIdentifier.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Cause-Of-Death-Condition.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Cause-of-Death-Pathway.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Certifier.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Condition-Contributing-To-Death.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Certificate.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Certificate-Document.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Certificate-Reference.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Certification.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Date.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Location.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Death-Pronouncement-Performer.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Age.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Disposition-Method.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Education-Level.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Father.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Military-Service.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Mother.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Pregnancy.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Spouse.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Transportation-Role.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Decedent-Usual-Work.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Disposition-Location.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Examiner-Contacted.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Funeral-Home.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Funeral-Service-Licensee.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Injury-Location.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-InjuryIncident.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Interested-Party.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Manner-of-Death.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Mortician.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-VRDR-Tobacco-Use-Contributed-To-Death.json ==
-== /home/runner/work/vrdr-fsh/vrdr-fsh/fsh-generated/resources/StructureDefinition-Within-City-Limits-Indicator.json ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/361aaa44-9955-4cd4-8f55-9f7df3537e17.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Parameters/terminology-settings.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
+ERROR: /home/runner/work/vrdr-fsh/vrdr-fsh/output/scope_of_the_vrdr_fhir_ig.html#/html/body/div/div/div/div/div/center/table/tr/td/img at Line 147, column 17: The image source 'Scope.png' cannot be resolved
+== fsh-generated/resources/Bundle-7a4613cc-b306-49b2-a428-9f8e67e67a85.json ==
+== fsh-generated/resources/CodeSystem-VRDR-Jurisdictions.json ==
+== fsh-generated/resources/Composition-54fd9b4c-7633-4e34-bf6b-6fbe9d48fd30.json ==
+== fsh-generated/resources/Condition-56b8ce2e-64f8-450b-8885-0699a53fc781.json ==
+== fsh-generated/resources/Condition-f0cbc63d-ac4e-469b-8761-70b6ea8bf666.json ==
+== fsh-generated/resources/DocumentReference-bafe16b9-8b50-47e1-829a-a7dbafb45e05.json ==
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.us.vrdr.json ==
+WARNING: ImplementationGuide/hl7.fhir.us.vrdr: ImplementationGuide.definition.resource[25].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/hl7.fhir.us.vrdr: ImplementationGuide.definition.resource[29].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/hl7.fhir.us.vrdr: ImplementationGuide.definition.resource[47].description: value should not start or finish with whitespace
+== fsh-generated/resources/List-60401545-f1e1-4a80-867f-02384ffed857.json ==
+== fsh-generated/resources/Location-361aaa44-9955-4cd4-8f55-9f7df3537e17.json ==
+WARNING: Location/361aaa44-9955-4cd4-8f55-9f7df3537e17: Location.identifier[0].value: ValueSet https://phinvads.cdc.gov/vads/ViewValueSet.action?id=409AF67D-DA64-DE11-9B52-0015173D1785# not found by validator
+== fsh-generated/resources/Location-4b863da8-1bb5-4b17-9be2-4ea39b5d3a2a.json ==
+== fsh-generated/resources/Location-b7de6056-817f-4d73-9830-ce566accd044.json ==
+ERROR: Location.extension[0]: Unrecognised property '@value[x]'
+ERROR: Location/b7de6056-817f-4d73-9830-ce566accd044: Location.extension[0]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
+ERROR: Location/b7de6056-817f-4d73-9830-ce566accd044: Location.extension[0]: The Extension 'http://hl7.org/fhir/us/vrdr/StructureDefinition/Location-Jurisdiction-Id' definition is for a simple extension, so it must contain a value, not extensions
+ERROR: Location/b7de6056-817f-4d73-9830-ce566accd044: Location.extension[0]: Extension.value[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/vrdr/StructureDefinition/Location-Jurisdiction-Id)
+== fsh-generated/resources/Location-bbe38248-9a8d-414f-996e-58d5fc9eb800.json ==
+== fsh-generated/resources/Observation-092e7b13-224d-46a6-ac31-0d98d4c84126.json ==
+== fsh-generated/resources/Observation-0db13e0d-fea6-4ef1-8285-62d761f61d88.json ==
+== fsh-generated/resources/Observation-37c086a1-05bd-479c-92b4-1234d38bfe5a.json ==
+INFORMATION: Observation/37c086a1-05bd-479c-92b4-1234d38bfe5a: Observation.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI 'urn:oid:2.16.840.1.114222.4.5.320' is unknown so the code cannot be validated
+== fsh-generated/resources/Observation-4424113f-69c4-40fe-b88f-d7b03304dfe4.json ==
+== fsh-generated/resources/Observation-48b230c3-c5b5-4844-83bf-ede59170676e.json ==
+WARNING: Observation/48b230c3-c5b5-4844-83bf-ede59170676e: Observation.value.ofType(CodeableConcept): ValueSet https://phinvads.cdc.gov/vads/ViewValueSet.action?oid=2.16.840.1.114222.4.11.7186 not found by validator
+INFORMATION: Observation/48b230c3-c5b5-4844-83bf-ede59170676e: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.114222.4.5.314' is unknown so the code cannot be validated
+== fsh-generated/resources/Observation-4aed1450-ab2d-4cb9-858f-227b127323a6.json ==
+INFORMATION: Observation/4aed1450-ab2d-4cb9-858f-227b127323a6: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.12.136' is unknown so the code cannot be validated
+== fsh-generated/resources/Observation-4d0ce010-16f1-44f4-bbf8-3a2030e9de99.json ==
+== fsh-generated/resources/Observation-636dafac-0d92-4649-b838-004bcf714f5aj.json ==
+INFORMATION: Observation/636dafac-0d92-4649-b838-004bcf714f5aj: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.12.136' is unknown so the code cannot be validated
+== fsh-generated/resources/Observation-6606dd3a-49ba-47a9-a6e7-e7e4ebeddac7.json ==
+== fsh-generated/resources/Observation-9676ae27-2a89-4295-913c-0d6847300a3a.json ==
+== fsh-generated/resources/Observation-b531cbf7-6290-424c-8155-0549c3fb3243.json ==
+INFORMATION: Observation/b531cbf7-6290-424c-8155-0549c3fb3243: Observation.value.ofType(dateTime).extension[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+INFORMATION: Observation/b531cbf7-6290-424c-8155-0549c3fb3243: Observation.value.ofType(dateTime).extension[0].extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+INFORMATION: Observation/b531cbf7-6290-424c-8155-0549c3fb3243: Observation.value.ofType(dateTime).extension[0].extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+ERROR: Observation/b531cbf7-6290-424c-8155-0549c3fb3243: Observation.value.ofType(dateTime).extension[0].extension[0][url='date-year']: Sub-extension url 'date-year' is not defined by the Extension http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+ERROR: Observation/b531cbf7-6290-424c-8155-0549c3fb3243: Observation.value.ofType(dateTime).extension[0].extension[1][url='date-month']: Sub-extension url 'date-month' is not defined by the Extension http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+ERROR: Observation/b531cbf7-6290-424c-8155-0549c3fb3243: Observation.value.ofType(dateTime).extension[0].extension[2][url='day-absent-reason']: Sub-extension url 'day-absent-reason' is not defined by the Extension http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+== fsh-generated/resources/Observation-d7c2e459-c7ca-415c-a38c-f78a0f0c5813.json ==
+== fsh-generated/resources/Observation-d80681ff-9f1d-4915-87b5-eda54534096a.json ==
+== fsh-generated/resources/Observation-df5a2807-e0b2-4971-9820-efdbbbfcef7b.json ==
+== fsh-generated/resources/Organization-1a110397-936f-4be4-ab10-2caed226569d.json ==
+== fsh-generated/resources/Organization-6f47da13-0c25-483b-8729-7b96716b17fc.json ==
+== fsh-generated/resources/Parameters-terminology-settings.json ==
+== fsh-generated/resources/Patient-51b806c8-566f-463e-8783-9fbf6be8161d.json ==
+INFORMATION: Patient/51b806c8-566f-463e-8783-9fbf6be8161d: Patient.birthDate.extension[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+INFORMATION: Patient/51b806c8-566f-463e-8783-9fbf6be8161d: Patient.birthDate.extension[0].extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+INFORMATION: Patient/51b806c8-566f-463e-8783-9fbf6be8161d: Patient.birthDate.extension[0].extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+ERROR: Patient/51b806c8-566f-463e-8783-9fbf6be8161d: Patient.birthDate.extension[0].extension[0][url='year-absent-reason']: Sub-extension url 'year-absent-reason' is not defined by the Extension http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+ERROR: Patient/51b806c8-566f-463e-8783-9fbf6be8161d: Patient.birthDate.extension[0].extension[1][url='date-month']: Sub-extension url 'date-month' is not defined by the Extension http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+ERROR: Patient/51b806c8-566f-463e-8783-9fbf6be8161d: Patient.birthDate.extension[0].extension[2][url='date-day']: Sub-extension url 'date-day' is not defined by the Extension http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Partial-date-part-absent-reason
+WARNING: Patient/51b806c8-566f-463e-8783-9fbf6be8161d: Patient.address[0].country: ValueSet https://phinvads.cdc.gov/vads/ViewValueSet.action?id=BF77DB9E-1023-4CBE-A79D-7354FF9C968C not found by validator
+== fsh-generated/resources/Practitioner-80db6f45-8a6d-4583-8a03-55a6663523c2.json ==
+== fsh-generated/resources/Practitioner-9102c234-53ca-4066-8452-42f3ba751c7d.json ==
+== fsh-generated/resources/Practitioner-cb1219bc-785f-431c-9f56-b8fbbe78bc4d.json ==
+== fsh-generated/resources/PractitionerRole-4b96759f-8395-4093-8417-e1ca3cd26f0a.json ==
+== fsh-generated/resources/Procedure-219ef5e3-ed0c-4dab-88eb-b114daaebd73.json ==
+== fsh-generated/resources/RelatedPerson-89ababc6-8c2a-4e76-9f53-8677822f54a9.json ==
+== fsh-generated/resources/RelatedPerson-962fded4-b90a-44f7-950e-3832011ad65f.json ==
+== fsh-generated/resources/RelatedPerson-976c548f-9460-42f2-b41e-390b3bee91c8.json ==
+== fsh-generated/resources/StructureDefinition-Census-Tract.json ==
+ERROR: StructureDefinition/Census-Tract: StructureDefinition: sdf-5: 'If the structure defines an extension then the structure must have context information' Rule 'If the structure defines an extension then the structure must have context information' Failed
+== fsh-generated/resources/StructureDefinition-Date-Absent-Reason.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Absent-Reason'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-Date-Day.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Day'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-Date-Month.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Month'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-Date-Year.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vrdr/StructureDefinition/Date-Year'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-Death-Location-Reference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vrdr/StructureDefinition/Death-Location-Reference'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-Disposition-Location-Reference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vrdr/StructureDefinition/Disposition-Location-Reference'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-Injury-Location-Reference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vrdr/StructureDefinition/Injury-Location-Reference'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-Location-Jurisdiction-Id.json ==
+INFORMATION: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vrdr/StructureDefinition/Location-Jurisdiction-Id'): The Implementation Guide contains no explicitly linked examples for this profile
+== fsh-generated/resources/StructureDefinition-Observation-Location.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Autopsy-Performed-Indicator.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-BirthRecordIdentifier.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Cause-Of-Death-Condition.json ==
+WARNING: StructureDefinition/VRDR-Cause-Of-Death-Condition: StructureDefinition.meta.tag[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED should be one of 'subsetted' instead of 'Resource encoded in summary mode' for 'http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED'
+== fsh-generated/resources/StructureDefinition-VRDR-Cause-of-Death-Pathway.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Certifier.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Condition-Contributing-To-Death.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Death-Certificate.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Death-Certificate-Document.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Death-Certificate-Reference.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Death-Certification.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Death-Date.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Death-Location.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Death-Pronouncement-Performer.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent.json ==
+ERROR: http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent#Patient.extension:patient-birthPlace.value[x].country: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent: The profile http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent has 1 element in the differential (id: Patient.extension:patient-birthPlace.value[x].country) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/VRDR-Decedent: StructureDefinition.differential.element.where(path = 'Patient.extension:patient-birthPlace.value[x].country'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/VRDR-Decedent: StructureDefinition: The profile http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent has 1 element in the differential (id: Patient.extension:patient-birthPlace.value[x].country) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
+WARNING: StructureDefinition/VRDR-Decedent: StructureDefinition.differential.element[2].binding: The valueSet reference https://phinvads.cdc.gov/vads/ViewValueSet.action?id=8B471CEB-EA88-45A4-8FAD-7805402A53F7 on element Patient.extension.value[x].country could not be resolved
+WARNING: StructureDefinition/VRDR-Decedent: StructureDefinition.differential.element[7].binding: The valueSet reference https://phinvads.cdc.gov/vads/ViewValueSet.action?id=BF77DB9E-1023-4CBE-A79D-7354FF9C968C on element Patient.address.country could not be resolved
+WARNING: StructureDefinition/VRDR-Decedent: StructureDefinition.snapshot.element[75].binding: The valueSet reference https://phinvads.cdc.gov/vads/ViewValueSet.action?id=BF77DB9E-1023-4CBE-A79D-7354FF9C968C on element Patient.address.country could not be resolved
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Age.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Disposition-Method.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Education-Level.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Father.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Military-Service.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Mother.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Pregnancy.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Spouse.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Transportation-Role.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Decedent-Usual-Work.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Disposition-Location.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Examiner-Contacted.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Funeral-Home.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Funeral-Home-Director.json ==
+ERROR: StructureDefinition.url: Resource id/url mismatch: VRDR-Funeral-Home-Director/http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR_FuneralHomeDirector
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR_FuneralHomeDirector').baseDefinition: US FHIR Usage rules require that all profiles on PractitionerRole derive from the core US profile
+== fsh-generated/resources/StructureDefinition-VRDR-Funeral-Service-Licensee.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Injury-Location.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-InjuryIncident.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Interested-Party.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Manner-of-Death.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Mortician.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-National-Reporting-Jurisdiction.json ==
+WARNING: StructureDefinition/VRDR-National-Reporting-Jurisdiction: StructureDefinition.differential.element[2].binding: The valueSet reference https://phinvads.cdc.gov/vads/ViewValueSet.action?id=409AF67D-DA64-DE11-9B52-0015173D1785# on element Location.identifier.value could not be resolved
+WARNING: StructureDefinition/VRDR-National-Reporting-Jurisdiction: StructureDefinition.snapshot.element[15].binding: The valueSet reference https://phinvads.cdc.gov/vads/ViewValueSet.action?id=409AF67D-DA64-DE11-9B52-0015173D1785# on element Location.identifier.value could not be resolved
+== fsh-generated/resources/StructureDefinition-VRDR-Partial-date-part-absent-reason.json ==
+== fsh-generated/resources/StructureDefinition-VRDR-Tobacco-Use-Contributed-To-Death.json ==
+== fsh-generated/resources/StructureDefinition-Within-City-Limits-Indicator.json ==
+== fsh-generated/resources/ValueSet-Canada-Provinces-VS.json ==
+WARNING: ValueSet/Canada-Provinces-VS: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet.where(id = 'Canada-Provinces-VS'): Error from server: Unable to provide support for code system http://canadapost.ca/CodeSystem/ProvinceCodes
+== fsh-generated/resources/ValueSet-Jurisdictions-VS.json ==
+ERROR: ValueSet.where(id = 'Jurisdictions-VS'): Error from server: Unable to find value set "https://www.usps.com/"
+== fsh-generated/resources/ValueSet-States-TerritoriesProvinces-VS.json ==
+ERROR: ValueSet.where(id = 'States-TerritoriesProvinces-VS'): Error from server: Unable to find value set "https://www.usps.com/"
+== fsh-generated/resources/ValueSet-USStates-Territories-VS.json ==
+WARNING: ValueSet/USStates-Territories-VS: ValueSet.compose[0].include[0].valueSet[0]: The value set import https://www.usps.com/ could not be found so cannot be checked
+ERROR: ValueSet.where(id = 'USStates-Territories-VS'): Error from server: Unable to find value set "https://www.usps.com/"

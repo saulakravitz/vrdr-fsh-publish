@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3c10922c-5339-4e40-83f5-66bf8841b111-546",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3c10922c-5339-4e40-83f5-66bf8841b111-546",
+  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-552",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-552",
   "name" : "IntersectionUSCoreLaboratoryResultObservationProfileAndVRDR_DecedentDispositionMethod",
   "title" : "Intersection of US Core Laboratory Result Observation Profile And Decedent Disposition Method",
   "status" : "active",
-  "date" : "2021-07-26T15:50:16+00:00",
+  "date" : "2021-09-22T19:59:49+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -566,7 +566,7 @@
     {
       "path" : "Observation.code",
       "short" : "left: Laboratory Test Name; right: code",
-      "definition" : "left: The test that was performed.  A LOINC **SHALL** be used if the concept is present in LOINC.; right: SHALL contain exactly one [1..1] code=\"80905-3\"  Body disposition method (CodeSystem: LOINC urn:oid:2.16.840.1.113883.6.1) (CONF:4393-163).",
+      "definition" : "left: The test that was performed.  A LOINC **SHALL** be used if the concept is present in LOINC.; right: SHALL contain exactly one [1..1] code=\"80905-3\" \tBody disposition method (CodeSystem: LOINC urn:oid:2.16.840.1.113883.6.1) (CONF:4393-163).",
       "comment" : "left: The typical patterns for codes are:  1)  a LOINC code either as a  translation from a \"local\" code or as a primary code, or 2)  a local code only if no suitable LOINC exists,  or 3)  both the local and the LOINC translation.   Systems SHALL be capable of sending the local code if one exists.  When using LOINC , Use either the SHORTNAME or LONG_COMMON_NAME field for the display.; right: *All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.",
       "requirements" : "Knowing what kind of observation is being made is essential to understanding the observation.",
       "alias" : ["Name",

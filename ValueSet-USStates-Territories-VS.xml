@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="USStates-Territories-VS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in https://www.usps.com/</li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude these codes as defined in <code>https://www.usps.com/</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>FM</td><td>Federated States of Micronesia</td></tr><tr><td>MH</td><td>Marshall Islands</td></tr><tr><td>PW</td><td>Palau</td></tr><tr><td>AP</td><td>Armed Forces Pacific</td></tr><tr><td>AE</td><td>Armed Forces Europe, the Middle East, and Canada</td></tr><tr><td>AA</td><td>Armed Forces Americas (except Canada)</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/vrdr/ValueSet/USStates-Territories-VS"/>
+  <version value="1.2.0"/>
+  <name value="USStatesAndTerritoriesVS"/>
+  <title value="US States, Territories Value Set"/>
+  <status value="active"/>
+  <date value="2021-09-22T19:59:17+00:00"/>
+  <publisher value="HL7 Public Health Working Group"/>
+  <contact>
+    <name value="HL7 Public Health Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pher/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pher@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="2 Letter States and Territories Value Set"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <valueSet value="https://www.usps.com/"/>
+    </include>
+    <exclude>
+      <system value="https://www.usps.com/"/>
+      <concept>
+        <code value="FM"/>
+      </concept>
+      <concept>
+        <code value="MH"/>
+      </concept>
+      <concept>
+        <code value="PW"/>
+      </concept>
+      <concept>
+        <code value="AP"/>
+      </concept>
+      <concept>
+        <code value="AE"/>
+      </concept>
+      <concept>
+        <code value="AA"/>
+      </concept>
+    </exclude>
+  </compose>
+</ValueSet>

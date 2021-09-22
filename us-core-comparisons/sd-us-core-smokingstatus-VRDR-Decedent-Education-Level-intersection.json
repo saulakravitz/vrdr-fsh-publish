@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3c10922c-5339-4e40-83f5-66bf8841b111-105",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3c10922c-5339-4e40-83f5-66bf8841b111-105",
+  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-105",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-105",
   "name" : "IntersectionUSCoreSmokingStatusProfileAndDecedentEducationLevel",
   "title" : "Intersection of US Core Smoking Status Observation Profile And VRDR Decedent Education Level",
   "status" : "active",
-  "date" : "2021-07-26T15:50:16+00:00",
+  "date" : "2021-09-22T19:59:48+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -486,7 +486,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3c10922c-5339-4e40-83f5-66bf8841b111-57"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-57"
       },
       "mapping" : [{
         "identity" : "workflow",

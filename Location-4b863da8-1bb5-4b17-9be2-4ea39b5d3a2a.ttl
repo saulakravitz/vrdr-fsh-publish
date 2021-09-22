@@ -20,7 +20,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Example Injury Location Name</p><p><b>description</b>: Example Injury Location Description</p><p><b>address</b>: 781 Example Street Line 2 Bedford MA 01730 United States </p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Example Injury Location Name</p><p><b>description</b>: Example Injury Location Description</p><p><b>address</b>: 781 Example Street Line 2 54321 MA 01730 US </p><h3>Positions</h3><table class=\"grid\"><tr><td>-</td><td><b>Longitude</b></td><td><b>Latitude</b></td></tr><tr><td>*</td><td>38.8951</td><td>77.0364</td></tr></table></div>"
   ];
   fhir:Location.name [ fhir:value "Example Injury Location Name"];
   fhir:Location.description [ fhir:value "Example Injury Location Description"];
@@ -32,11 +32,15 @@
        fhir:value "Line 2";
        fhir:index 1
      ];
-     fhir:Address.city [ fhir:value "Bedford" ];
-     fhir:Address.district [ fhir:value "Middlesex" ];
+     fhir:Address.city [ fhir:value "54321" ];
+     fhir:Address.district [ fhir:value "OTH" ];
      fhir:Address.state [ fhir:value "MA" ];
      fhir:Address.postalCode [ fhir:value "01730" ];
-     fhir:Address.country [ fhir:value "United States" ]
+     fhir:Address.country [ fhir:value "US" ]
+  ];
+  fhir:Location.position [
+     fhir:Location.position.longitude [ fhir:value "38.8951"^^xsd:decimal ];
+     fhir:Location.position.latitude [ fhir:value "77.0364"^^xsd:decimal ]
   ] .
 
 # - ontology header ------------------------------------------------------------

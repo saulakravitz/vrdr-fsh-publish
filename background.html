@@ -64,7 +64,7 @@
         </div>
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span><br/>1.0.0 - vrdr</p>
+          <p><span style="font-size:12pt;font-weight:bold"></span><br/>1.2.0 - STU 2 (Post-Ballot, Pre-Publication Draft)</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -88,19 +88,10 @@
 
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
-    <a href="index.html">IG Home</a>
+    <a href="index.html">Home</a>
   </li>
   <li>
-    <a href="toc.html">Table of Contents</a>
-  </li>
-  <li>
-    <a href="artifacts.html#example-example-instances">Examples</a>
-  </li>
-  <li>
-    <a href="downloads.html">Downloads</a>
-  </li>
-  <li>
-    <a href="http://www.hl7.org/fhir/us/vrdr/history.cfml">History</a>
+    <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
@@ -134,7 +125,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">VRDR - Local Development build (v1.0.0). See the <a href="http://hl7.org/fhir/us/vrdr/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">VRDR - Local Development build (v1.2.0). See the <a href="http://hl7.org/fhir/us/vrdr/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Background</h2>
   
 
@@ -150,29 +141,51 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<p><a href="acknowledgements.html">Previous Page - Acknowledgements</a></p>
-
 <p>CDCs National Center for Health Statistics is working closely with Federal, State, and local partners to take a fresh look at how mortality data are gathered, stored, and exchanged across the United States. They are focused on adopting best practices for information exchange that lessen the burden on data providers (e.g., vital records offices, medical examiner and coroner offices, toxicology labs) while providing a seamlessly automated data feed to public health and public safety data requestors.</p>
 
 <p>To help make the mortality data ecosystem more connected, adaptable, and robust, they have chosen to leverage modern technologies and approaches, such as RESTful based APIs and HL7s Fast Healthcare Interoperability Resources (FHIR) standard.</p>
 
 <p>This implementation guide is an initial step to help define a common set of protocols and practices that developers can rely on to enhance their existing products and build solutions to help make mortality data flow more seamlessly.</p>
 
-<hr />
-<p><strong>Changes since prior release</strong>
-———-</p>
+<h1 id="change-history-">**Change History **</h1>
 
-<ol>
+<p><strong>August 2021 STU2 pre-ballot changes</strong></p>
+
+<ul>
   <li>Added patient-birthPlace extension to resource profile Decedent</li>
-  <li>Modified the terminology binding for the contact.relationship element in the resource profile Decedent to match the HL7v2.6 death reporting IG specification</li>
+  <li>Modified the terminology binding for the contact.relationship element in the resource profile Decedent to match the HL7v2.6 specification</li>
   <li>Modified resource profile Cause Of Death Condition to use USCoreCondition as its base profile and include the element condition.category</li>
   <li>Modified Cause Of Death Condition Example to include the element condition.category</li>
   <li>Modified resource profile Condition Contributing To Death to use USCoreCondition as its base profile and include the element condition.category</li>
   <li>Modified Condition Contributing To Death Example to include the element condition.category</li>
   <li>Added a section on recent change history to the background page.</li>
-</ol>
+  <li>Added Extension - Date Part Absent Reason from the vital records common library IG</li>
+  <li>Added Extension - Date Part Absent Reason to VRDR Decedent.birthdate</li>
+  <li>Added Extension - Date Part Absent Reason to VRDR Death Date.valueDateTime</li>
+  <li>Corrected the display name for LOINC code ‘81956-5’ - Date and time of death</li>
+  <li>Modified the cardinality of Resource Profile: Cause of Death Pathway entry from (0..<em>) to (1..</em>)</li>
+  <li>Added Observation.dataAbsentReason to Resource Profile: Decedent’s age</li>
+  <li>Added Observation.dataAbsentReason to Resource Profile: Birth Record Identifier</li>
+  <li>Added constraint on VRDR Decedent.address.city to require it be a five-digit numeric value greater than zero and less than 100000.</li>
+  <li>Modified value set bindings for	VRDR Decedent	.address.district - PHVS_DivisionVitalStatistics__County</li>
+  <li>Modified value set bindings for	VRDR Decedent[Residence].address.country - PHVS_DecedentResident_County</li>
+  <li>Modified value set bindings for	VRDR Decedent[Birthplace].address.country - PHVS_DecedentBirthplace_County</li>
+  <li>Modified value set bindings for	VRDR Death Location.address.district - PHVS_DivisionVitalStatistics__County</li>
+  <li>Modified value set bindings for	VRDR Decedent Military Service	.valueCodeableConcept - PHVS_YesNoUnknown_CDC</li>
+  <li>Modified value set bindings for	VRDR Examiner Contacted.valueCodeableConcept - PHVS_YesNoUnknown_CDC*</li>
+  <li>Added position.longitude and position.latitude to Resource Profile: Death Location</li>
+  <li>Added position.longitude and position.latitude to Resource Profile: Injury Location</li>
+  <li>Changed URL for Extension: LocationJurisdictionId to http://hl7.org/fhir/us/vrdr/StructureDefinition/Location-Jurisdiction-Id</li>
+  <li>Changed cardinality on Location-Jurisdiction-Id in Resource Profile: Death Location to 1..1</li>
+  <li>Constrained Extension: Observation Location.value[x] to Reference(Location)</li>
+  <li>Updated instance examples of modified resource profiles to reflect changes</li>
+  <li>Added requirement for use of meta.profile to identify the profile version to which the resource instance complies.</li>
+  <li>Added a dependency to the vital records common library IG</li>
+  <li>Changed the name of the guide from Vital Records Mortality and Morbidity Reporting FHIR Implementation Guide to Vital Records Death Reporting FHIR Implementation Guide</li>
+  <li>Changed author from Hetty Khan to Cynthia Bush</li>
+  <li>Changed release label from STU 1 to STU 2 and version from 1.0.0 to 1.1.0</li>
+</ul>
 
-<p><a href="death_reporting_dataflow.html">Next Page - Death Reporting Dataflow</a></p>
 
 
 
@@ -198,7 +211,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/pher/index.cfm">HL7 Public Health Working Group</a>.  Package hl7.fhir.us.vrdr#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 26, 2021 15:50+0000">2021-07-26</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/pher/index.cfm">HL7 Public Health Working Group</a>.  Package hl7.fhir.us.vrdr#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 22, 2021 19:59+0000">2021-09-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

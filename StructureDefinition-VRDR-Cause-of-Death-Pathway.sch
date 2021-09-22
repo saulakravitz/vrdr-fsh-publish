@@ -14,6 +14,7 @@
     <sch:rule context="f:List">
       <sch:assert test="count(f:source) &gt;= 1">source: minimum cardinality of 'source' is 1</sch:assert>
       <sch:assert test="count(f:orderedBy) &gt;= 1">orderedBy: minimum cardinality of 'orderedBy' is 1</sch:assert>
+      <sch:assert test="count(f:entry) &gt;= 1">entry: minimum cardinality of 'entry' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

@@ -28,7 +28,7 @@
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Transportation-Role"];
-  fhir:StructureDefinition.version [ fhir:value "1.0.0"];
+  fhir:StructureDefinition.version [ fhir:value "1.2.0"];
   fhir:StructureDefinition.name [ fhir:value "DecedentTransportationRole"];
   fhir:StructureDefinition.title [ fhir:value "VRDR Decedent Transportation Role"];
   fhir:StructureDefinition.status [ fhir:value "draft"];

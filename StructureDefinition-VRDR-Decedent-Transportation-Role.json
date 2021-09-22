@@ -21,7 +21,7 @@
     }
   ],
   "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Transportation-Role",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "name": "DecedentTransportationRole",
   "title": "VRDR Decedent Transportation Role",
   "status": "draft",

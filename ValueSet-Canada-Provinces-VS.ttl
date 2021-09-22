@@ -1,0 +1,111 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/vrdr/ValueSet/Canada-Provinces-VS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Canada-Provinces-VS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://canadapost.ca/CodeSystem/ProvinceCodes</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>AB</td><td>Alberta</td></tr><tr><td>BC</td><td>British Columbia</td></tr><tr><td>MB</td><td>Manitoba</td></tr><tr><td>NB</td><td>New Brunswick</td></tr><tr><td>NL</td><td>Newfoundland and Labrador</td></tr><tr><td>NS</td><td>Nova Scotia</td></tr><tr><td>NT</td><td>Northwest Territories</td></tr><tr><td>NU</td><td>Nunavut</td></tr><tr><td>ON</td><td>Ontario</td></tr><tr><td>PE</td><td>Prince Edward Island</td></tr><tr><td>QC</td><td>Quebec</td></tr><tr><td>SK</td><td>Saskatchewan</td></tr><tr><td>YT</td><td>Yukon</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/vrdr/ValueSet/Canada-Provinces-VS"];
+  fhir:ValueSet.version [ fhir:value "1.2.0"];
+  fhir:ValueSet.name [ fhir:value "CanadaProvincesVS"];
+  fhir:ValueSet.title [ fhir:value "Canadian Provinces Value Set"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-09-22T19:59:17+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "HL7 Public Health Working Group"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Public Health Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/pher/index.cfm" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "pher@lists.HL7.org" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "2 Letter Candadian Provinces Value Set"];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://canadapost.ca/CodeSystem/ProvinceCodes" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AB" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alberta" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BC" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "British Columbia" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MB" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Manitoba" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NB" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "New Brunswick" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NL" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Newfoundland and Labrador" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NS" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nova Scotia" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NT" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Northwest Territories" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NU" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nunavut" ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ON" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ontario" ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PE" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prince Edward Island" ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "QC" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Quebec" ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SK" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Saskatchewan" ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "YT" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yukon" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/vrdr/ValueSet/Canada-Provinces-VS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/vrdr/ValueSet/Canada-Provinces-VS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

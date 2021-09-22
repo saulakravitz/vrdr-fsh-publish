@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "3c10922c-5339-4e40-83f5-66bf8841b111-59",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/3c10922c-5339-4e40-83f5-66bf8841b111-59",
+  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-59",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-59",
   "name" : "UnionUSCoreSmokingStatusObservationCodesAndLOINCCodes",
   "title" : "Union of US Core Smoking Status Observation Codes And LOINC Codes",
   "status" : "active",
-  "date" : "2021-07-26T15:50:16+00:00",
+  "date" : "2021-09-22T19:59:47+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -430,7 +430,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "1007-4",
-      "display" : "Direct antiglobulin test.poly specific reagent [Presence] on Red Blood Cells"
+      "display" : "Direct antiglobulin test.polyspecific reagent [Presence] on Red Blood Cells"
     },
     {
       "system" : "http://loinc.org",
@@ -485,7 +485,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "1008-2",
-      "display" : "Indirect antiglobulin test.poly specific reagent [Presence] in Serum or Plasma"
+      "display" : "Indirect antiglobulin test.polyspecific reagent [Presence] in Serum or Plasma"
     },
     {
       "system" : "http://loinc.org",

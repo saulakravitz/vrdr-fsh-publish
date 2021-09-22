@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>VRDR</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/vrdr/ImplementationGuide/hl7.fhir.us.vrdr</pre></div>
   </text>
   <url value="http://hl7.org/fhir/us/vrdr/ImplementationGuide/hl7.fhir.us.vrdr"/>
-  <version value="1.0.0"/>
+  <version value="1.2.0"/>
   <name value="VRDR"/>
   <status value="draft"/>
-  <date value="2021-07-26T15:50:02+00:00"/>
+  <date value="2021-09-22T19:59:17+00:00"/>
   <publisher value="HL7 Public Health Working Group"/>
   <contact>
     <name value="HL7 Public Health Working Group"/>
@@ -36,6 +36,11 @@
     <packageId value="hl7.fhir.us.core"/>
     <version value="3.1.0"/>
   </dependsOn>
+  <dependsOn id="hl7_fhir_us_vr_common_library">
+    <uri value="http://hl7.org/fhir/us/vr-common-library/ImplementationGuide/hl7.fhir.us.vr-common-library"/>
+    <packageId value="hl7.fhir.us.vr-common-library"/>
+    <version value="0.1.0"/>
+  </dependsOn>
   <dependsOn id="hl7_fhir_us_odh">
     <uri value="http://hl7.org/fhir/us/odh/ImplementationGuide/hl7.fhir.us.odh"/>
     <packageId value="hl7.fhir.us.odh"/>
@@ -60,7 +65,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="vrdr"/>
+        <valueString value="STU 2 (Post-Ballot, Pre-Publication Draft)"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -406,6 +411,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/VRDR-Funeral-Home-Director"/>
+      </reference>
+      <name value="VRDR Funeral Home Director"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/VRDR-Funeral-Service-Licensee"/>
       </reference>
       <name value="VRDR Funeral Service Licensee"/>
@@ -459,6 +474,17 @@
         <reference value="StructureDefinition/VRDR-Mortician"/>
       </reference>
       <name value="VRDR Mortician"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VRDR-National-Reporting-Jurisdiction"/>
+      </reference>
+      <name value="VRDR National Reporting Jurisdiction"/>
+      <description value="The national jurisdiction reporting a death event to the National Center for Health Statistics (NCHS). The identifier of the National Reporting Jurisdiction guide uses a numeric value for a reporting State, territory, or city based on the FIPS5_2 coding system. "/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -567,6 +593,101 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/Census-Tract"/>
+      </reference>
+      <name value="CensusTract"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Date-Absent-Reason"/>
+      </reference>
+      <name value="Date Absent Reason"/>
+      <description value="Date Component Absent Reason"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Date-Day"/>
+      </reference>
+      <name value="Date Day"/>
+      <description value="The ydayear portion (DD) of the partial date."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Date-Month"/>
+      </reference>
+      <name value="Date Month"/>
+      <description value="The month portion (MM) of the partial date."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Date-Year"/>
+      </reference>
+      <name value="Date Year"/>
+      <description value="The year portion (YYYY) of the partial date."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Death-Location-Reference"/>
+      </reference>
+      <name value="Death Location Reference"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Disposition-Location-Reference"/>
+      </reference>
+      <name value="Disposition Location Reference"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VRDR-Partial-date-part-absent-reason"/>
+      </reference>
+      <name value="Extension - Partial Date Part Absent Reason"/>
+      <description value="Provides values of a partial date along with the reason one or more expected date part is missing."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Injury-Location-Reference"/>
+      </reference>
+      <name value="Injury Location Reference"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/Location-Jurisdiction-Id"/>
       </reference>
       <name value="Location Jurisdiction Id"/>
@@ -592,6 +713,61 @@
       </reference>
       <name value="VRDR Within City Limits Indicator"/>
       <description value="Used to indicate whether or not an address is within city limits. The content of the component shall be a value from the value set Yes No Unknown.  "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/Canada-Provinces-VS"/>
+      </reference>
+      <name value="Canadian Provinces Value Set"/>
+      <description value="2 Letter Candadian Provinces Value Set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/States-TerritoriesProvinces-VS"/>
+      </reference>
+      <name value="States, Territories and Provinces Value Set"/>
+      <description value="2 Letter States and Provinces Value Set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/USStates-Territories-VS"/>
+      </reference>
+      <name value="US States, Territories Value Set"/>
+      <description value="2 Letter States and Territories Value Set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/Jurisdictions-VS"/>
+      </reference>
+      <name value="VRDR Jurisdictions Value Set"/>
+      <description value="2 Letter States and Provinces Value Set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/VRDR-Jurisdictions"/>
+      </reference>
+      <name value="VRDR Jurisdictions"/>
+      <description value="VRDR Jurisdictions that are not US States or Territories"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -637,6 +813,16 @@
       <name value="Death Certification Instance Example"/>
       <description value="An instance example of a Death Certification resource profile. This example Death Certification procedure performed by a physician on 2019-01-29."/>
       <exampleCanonical value="http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Certification"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/361aaa44-9955-4cd4-8f55-9f7df3537e17"/>
+      </reference>
+      <name value="361aaa44-9955-4cd4-8f55-9f7df3537e17"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-National-Reporting-Jurisdiction"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -689,7 +875,7 @@
       <reference>
         <reference value="Location/4b863da8-1bb5-4b17-9be2-4ea39b5d3a2a"/>
       </reference>
-      <name value="Injury Location"/>
+      <name value="Injury Location Example"/>
       <description value="An instance example of the VRDR-Injury-Location resource profile."/>
       <exampleCanonical value="http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Injury-Location"/>
     </resource>
@@ -711,7 +897,7 @@
       <reference>
         <reference value="Observation/4d0ce010-16f1-44f4-bbf8-3a2030e9de99"/>
       </reference>
-      <name value="Tobacco Use Contributed To Death"/>
+      <name value="Tobacco Use Contributed To Death Example"/>
       <description value="An instance example of the VRDR-Tobacco-Use-Contributed-To-Death resource profile."/>
       <exampleCanonical value="http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Tobacco-Use-Contributed-To-Death"/>
     </resource>
@@ -791,16 +977,6 @@
       <name value="Funeral Home Example"/>
       <description value="An instance example of the VRDR-Funeral-Home resource profile."/>
       <exampleCanonical value="http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Funeral-Home"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/79ee2174-1469-4301-a667-6332d4d26198"/>
-      </reference>
-      <name value="79ee2174-1469-4301-a667-6332d4d26198"/>
-      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -977,6 +1153,16 @@
       <name value="Cause Of Death Condition Example"/>
       <description value="An instance example of the VRDR-Cause-Of-Death-Condition resource profile."/>
       <exampleCanonical value="http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Cause-Of-Death-Condition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Parameters"/>
+      </extension>
+      <reference>
+        <reference value="Parameters/terminology-settings"/>
+      </reference>
+      <name value="terminology-settings"/>
+      <exampleBoolean value="true"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

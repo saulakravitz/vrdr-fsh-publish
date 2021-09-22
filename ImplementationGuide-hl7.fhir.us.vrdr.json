@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VRDR</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/vrdr/ImplementationGuide/hl7.fhir.us.vrdr</pre></div>"
   },
   "url": "http://hl7.org/fhir/us/vrdr/ImplementationGuide/hl7.fhir.us.vrdr",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "name": "VRDR",
   "status": "draft",
-  "date": "2021-07-26T15:50:02+00:00",
+  "date": "2021-09-22T19:59:17+00:00",
   "publisher": "HL7 Public Health Working Group",
   "contact": [
     {
@@ -49,6 +49,12 @@
       "version": "3.1.0"
     },
     {
+      "id": "hl7_fhir_us_vr_common_library",
+      "uri": "http://hl7.org/fhir/us/vr-common-library/ImplementationGuide/hl7.fhir.us.vr-common-library",
+      "packageId": "hl7.fhir.us.vr-common-library",
+      "version": "0.1.0"
+    },
+    {
       "id": "hl7_fhir_us_odh",
       "uri": "http://hl7.org/fhir/us/odh/ImplementationGuide/hl7.fhir.us.odh",
       "packageId": "hl7.fhir.us.odh",
@@ -84,7 +90,7 @@
           },
           {
             "url": "value",
-            "valueString": "vrdr"
+            "valueString": "STU 2 (Post-Ballot, Pre-Publication Draft)"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -586,6 +592,19 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/VRDR-Funeral-Home-Director"
+        },
+        "name": "VRDR Funeral Home Director",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/VRDR-Funeral-Service-Licensee"
         },
         "name": "VRDR Funeral Service Licensee",
@@ -654,6 +673,20 @@
           "reference": "StructureDefinition/VRDR-Mortician"
         },
         "name": "VRDR Mortician",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/VRDR-National-Reporting-Jurisdiction"
+        },
+        "name": "VRDR National Reporting Jurisdiction",
+        "description": "The national jurisdiction reporting a death event to the National Center for Health Statistics (NCHS). The identifier of the National Reporting Jurisdiction guide uses a numeric value for a reporting State, territory, or city based on the FIPS5_2 coding system. ",
         "exampleBoolean": false
       },
       {
@@ -795,6 +828,128 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/Census-Tract"
+        },
+        "name": "CensusTract",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Date-Absent-Reason"
+        },
+        "name": "Date Absent Reason",
+        "description": "Date Component Absent Reason",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Date-Day"
+        },
+        "name": "Date Day",
+        "description": "The ydayear portion (DD) of the partial date.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Date-Month"
+        },
+        "name": "Date Month",
+        "description": "The month portion (MM) of the partial date.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Date-Year"
+        },
+        "name": "Date Year",
+        "description": "The year portion (YYYY) of the partial date.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Death-Location-Reference"
+        },
+        "name": "Death Location Reference",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Disposition-Location-Reference"
+        },
+        "name": "Disposition Location Reference",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/VRDR-Partial-date-part-absent-reason"
+        },
+        "name": "Extension - Partial Date Part Absent Reason",
+        "description": "Provides values of a partial date along with the reason one or more expected date part is missing.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Injury-Location-Reference"
+        },
+        "name": "Injury Location Reference",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/Location-Jurisdiction-Id"
         },
         "name": "Location Jurisdiction Id",
@@ -826,6 +981,76 @@
         },
         "name": "VRDR Within City Limits Indicator",
         "description": "Used to indicate whether or not an address is within city limits. The content of the component shall be a value from the value set Yes No Unknown.  ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/Canada-Provinces-VS"
+        },
+        "name": "Canadian Provinces Value Set",
+        "description": "2 Letter Candadian Provinces Value Set",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/States-TerritoriesProvinces-VS"
+        },
+        "name": "States, Territories and Provinces Value Set",
+        "description": "2 Letter States and Provinces Value Set",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/USStates-Territories-VS"
+        },
+        "name": "US States, Territories Value Set",
+        "description": "2 Letter States and Territories Value Set",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/Jurisdictions-VS"
+        },
+        "name": "VRDR Jurisdictions Value Set",
+        "description": "2 Letter States and Provinces Value Set",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/VRDR-Jurisdictions"
+        },
+        "name": "VRDR Jurisdictions",
+        "description": "VRDR Jurisdictions that are not US States or Territories",
         "exampleBoolean": false
       },
       {
@@ -883,6 +1108,19 @@
         "name": "Death Certification Instance Example",
         "description": "An instance example of a Death Certification resource profile. This example Death Certification procedure performed by a physician on 2019-01-29.",
         "exampleCanonical": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Certification"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/361aaa44-9955-4cd4-8f55-9f7df3537e17"
+        },
+        "name": "361aaa44-9955-4cd4-8f55-9f7df3537e17",
+        "exampleCanonical": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-National-Reporting-Jurisdiction"
       },
       {
         "extension": [
@@ -950,7 +1188,7 @@
         "reference": {
           "reference": "Location/4b863da8-1bb5-4b17-9be2-4ea39b5d3a2a"
         },
-        "name": "Injury Location",
+        "name": "Injury Location Example",
         "description": "An instance example of the VRDR-Injury-Location resource profile.",
         "exampleCanonical": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Injury-Location"
       },
@@ -978,7 +1216,7 @@
         "reference": {
           "reference": "Observation/4d0ce010-16f1-44f4-bbf8-3a2030e9de99"
         },
-        "name": "Tobacco Use Contributed To Death",
+        "name": "Tobacco Use Contributed To Death Example",
         "description": "An instance example of the VRDR-Tobacco-Use-Contributed-To-Death resource profile.",
         "exampleCanonical": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Tobacco-Use-Contributed-To-Death"
       },
@@ -1079,19 +1317,6 @@
         "name": "Funeral Home Example",
         "description": "An instance example of the VRDR-Funeral-Home resource profile.",
         "exampleCanonical": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Funeral-Home"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Bundle"
-          }
-        ],
-        "reference": {
-          "reference": "Bundle/79ee2174-1469-4301-a667-6332d4d26198"
-        },
-        "name": "79ee2174-1469-4301-a667-6332d4d26198",
-        "exampleBoolean": true
       },
       {
         "extension": [
@@ -1316,6 +1541,19 @@
         "name": "Cause Of Death Condition Example",
         "description": "An instance example of the VRDR-Cause-Of-Death-Condition resource profile.",
         "exampleCanonical": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Cause-Of-Death-Condition"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Parameters"
+          }
+        ],
+        "reference": {
+          "reference": "Parameters/terminology-settings"
+        },
+        "name": "terminology-settings",
+        "exampleBoolean": true
       }
     ],
     "page": {

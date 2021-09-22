@@ -21,7 +21,7 @@
     }
   ],
   "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Certificate-Document",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "name": "DeathCertificateDocument",
   "title": "VRDR Death Certificate Document",
   "status": "draft",

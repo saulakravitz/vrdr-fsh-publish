@@ -21,7 +21,7 @@
     }
   ],
   "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Father",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "name": "DecedentFather",
   "title": "Decedent Father",
   "status": "draft",

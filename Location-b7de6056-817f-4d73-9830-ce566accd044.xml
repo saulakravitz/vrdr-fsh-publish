@@ -9,8 +9,9 @@
     <profile value="http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Location"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>name</b>: Example Death Location Name</p><p><b>description</b>: Example Death Location Description</p><p><b>type</b>: <span title="Codes: {http://snomed.info/sct 16983000}">Death in hospital</span></p><p><b>address</b>: 671 Example Street Line 2 Bedford MA 01730 United States </p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>name</b>: Example Death Location Name</p><p><b>description</b>: Example Death Location Description</p><p><b>type</b>: <span title="Codes: {http://snomed.info/sct 16983000}">Death in hospital</span></p><p><b>address</b>: 671 Example Street Line 2 Bedford MA 01730 United States </p></div>
   </text>
+  <extension url="http://hl7.org/fhir/us/vrdr/StructureDefinition/Location-Jurisdiction-Id"/>
   <name value="Example Death Location Name"/>
   <description value="Example Death Location Description"/>
   <type>

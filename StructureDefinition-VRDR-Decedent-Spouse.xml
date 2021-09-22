@@ -25,7 +25,7 @@
     <valueCode value="patient"/>
   </extension>
   <url value="http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Spouse"/>
-  <version value="1.0.0"/>
+  <version value="1.2.0"/>
   <name value="DecedentSpouse"/>
   <title value="VRDR Decedent Spouse"/>
   <status value="draft"/>

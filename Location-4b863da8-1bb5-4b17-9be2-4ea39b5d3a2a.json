@@ -11,7 +11,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Example Injury Location Name</p><p><b>description</b>: Example Injury Location Description</p><p><b>address</b>: 781 Example Street Line 2 Bedford MA 01730 United States </p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Example Injury Location Name</p><p><b>description</b>: Example Injury Location Description</p><p><b>address</b>: 781 Example Street Line 2 54321 MA 01730 US </p><h3>Positions</h3><table class=\"grid\"><tr><td>-</td><td><b>Longitude</b></td><td><b>Latitude</b></td></tr><tr><td>*</td><td>38.8951</td><td>77.0364</td></tr></table></div>"
   },
   "name": "Example Injury Location Name",
   "description": "Example Injury Location Description",
@@ -20,10 +20,14 @@
       "781 Example Street",
       "Line 2"
     ],
-    "city": "Bedford",
-    "district": "Middlesex",
+    "city": "54321",
+    "district": "OTH",
     "state": "MA",
     "postalCode": "01730",
-    "country": "United States"
+    "country": "US"
+  },
+  "position": {
+    "longitude": 38.8951,
+    "latitude": 77.0364
   }
 }

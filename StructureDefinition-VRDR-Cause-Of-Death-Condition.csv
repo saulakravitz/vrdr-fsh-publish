@@ -43,14 +43,8 @@ The data type is CodeableConcept because verificationStatus has some clinical ju
 con-5","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Condition.verificationStatus","Event.status","< 410514004 |Finding context value|","PRB-13","Observation ACT
 .inboundRelationship[typeCode=COMP].source[classCode=OBS, code=""verificationStatus"", moodCode=EVN].value","FiveWs.status","408729009"
-"Condition.category","","","",1,1,"Y","","","CodeableConcept {[]} {[]}
-","problem-list-item | encounter-diagnosis | health-concern","A category assigned to the condition.","The categorization is often highly contextual and may appear poorly differentiated or not very useful in other contexts.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
-  <coding>
-    <system value=""http://snomed.info/sct""/>
-    <code value=""16100001""/>
-    <display value=""Death diagnosis""/>
-  </coding>
-</valueCodeableConcept>","","","","",,"extensible","","http://hl7.org/fhir/us/core/ValueSet/us-core-condition-category","",,,,"Condition.category",0,*,"us-core-1
+"Condition.category","","","",1,*,"Y","","","CodeableConcept {[]} {[]}
+","problem-list-item | encounter-diagnosis | health-concern","A category assigned to the condition.","The categorization is often highly contextual and may appear poorly differentiated or not very useful in other contexts.","","","","","","","","",,"extensible","","http://hl7.org/fhir/us/core/ValueSet/us-core-condition-category","",,,,"Condition.category",0,*,"us-core-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Condition.category","< 404684003 |Clinical finding|","'problem' if from PRB-3. 'diagnosis' if from DG1 segment in PV1 message",".code","FiveWs.class"
 "Condition.severity","","","",0,1,"","","","CodeableConcept {[]} {[]}

@@ -28,11 +28,11 @@
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Manner-of-Death"];
-  fhir:StructureDefinition.version [ fhir:value "1.0.0"];
+  fhir:StructureDefinition.version [ fhir:value "1.2.0"];
   fhir:StructureDefinition.name [ fhir:value "MannerOfDeath"];
   fhir:StructureDefinition.title [ fhir:value "VRDR Manner of Death"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-07T19:28:04+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-09-22T19:59:17+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Public Health Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

@@ -12,7 +12,6 @@
   <sch:pattern>
     <sch:title>f:Condition</sch:title>
     <sch:rule context="f:Condition">
-      <sch:assert test="count(f:category) &lt;= 1">category: maximum cardinality of 'category' is 1</sch:assert>
       <sch:assert test="count(f:asserter) &gt;= 1">asserter: minimum cardinality of 'asserter' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

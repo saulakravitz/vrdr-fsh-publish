@@ -1,0 +1,294 @@
+{
+  "ImplementationGuide/hl7.fhir.us.vrdr": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Decedent-Age": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Decedent-Education-Level": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Examiner-Contacted": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Disposition-Location": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Decedent-Mother": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Decedent-Pregnancy": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Decedent-Spouse": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Decedent-Transportation-Role": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Funeral-Home": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Interested-Party": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Manner-of-Death": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Mortician": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Tobacco-Use-Contributed-To-Death": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Injury-Location": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Autopsy-Performed-Indicator": {
+    "errors": 0,
+    "warnings": 4
+  },
+  "StructureDefinition/VRDR-Cause-Of-Death-Condition": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Certifier": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Condition-Contributing-To-Death": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Death-Certificate": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Death-Certificate-Document": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Death-Certification": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Death-Location": {
+    "errors": 0,
+    "warnings": 4
+  },
+  "StructureDefinition/VRDR-Death-Pronouncement-Performer": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/Within-City-Limits-Indicator": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-InjuryIncident": {
+    "errors": 0,
+    "warnings": 6
+  },
+  "StructureDefinition/VRDR-BirthRecordIdentifier": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Cause-of-Death-Pathway": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Death-Certificate-Reference": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Decedent-Disposition-Method": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Death-Date": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Decedent-Usual-Work": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Decedent-Military-Service": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Decedent-Father": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Funeral-Service-Licensee": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/VRDR-Decedent": {
+    "errors": 0,
+    "warnings": 9
+  },
+  "StructureDefinition/Observation-Location": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/0db13e0d-fea6-4ef1-8285-62d761f61d88": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "Patient/51b806c8-566f-463e-8783-9fbf6be8161d": {
+    "errors": 0,
+    "warnings": 4
+  },
+  "Observation/6606dd3a-49ba-47a9-a6e7-e7e4ebeddac7": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Practitioner/cb1219bc-785f-431c-9f56-b8fbbe78bc4d": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Procedure/219ef5e3-ed0c-4dab-88eb-b114daaebd73": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Organization/1a110397-936f-4be4-ab10-2caed226569d": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Condition/56b8ce2e-64f8-450b-8885-0699a53fc781": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/df5a2807-e0b2-4971-9820-efdbbbfcef7b": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/b531cbf7-6290-424c-8155-0549c3fb3243": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Location/4b863da8-1bb5-4b17-9be2-4ea39b5d3a2a": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/4d0ce010-16f1-44f4-bbf8-3a2030e9de99": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/4aed1450-ab2d-4cb9-858f-227b127323a6": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/092e7b13-224d-46a6-ac31-0d98d4c84126": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/d80681ff-9f1d-4915-87b5-eda54534096a": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Practitioner/80db6f45-8a6d-4583-8a03-55a6663523c2": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/636dafac-0d92-4649-b838-004bcf714f5aj": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/9676ae27-2a89-4295-913c-0d6847300a3a": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "RelatedPerson/89ababc6-8c2a-4e76-9f53-8677822f54a9": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "RelatedPerson/962fded4-b90a-44f7-950e-3832011ad65f": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "RelatedPerson/976c548f-9460-42f2-b41e-390b3bee91c8": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/d7c2e459-c7ca-415c-a38c-f78a0f0c5813": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Condition/f0cbc63d-ac4e-469b-8761-70b6ea8bf666": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "List/60401545-f1e1-4a80-867f-02384ffed857": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Organization/6f47da13-0c25-483b-8729-7b96716b17fc": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "PractitionerRole/4b96759f-8395-4093-8417-e1ca3cd26f0a": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Composition/54fd9b4c-7633-4e34-bf6b-6fbe9d48fd30": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Location/bbe38248-9a8d-414f-996e-58d5fc9eb800": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/4424113f-69c4-40fe-b88f-d7b03304dfe4": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/37c086a1-05bd-479c-92b4-1234d38bfe5a": {
+    "errors": 0,
+    "warnings": 3
+  },
+  "Observation/48b230c3-c5b5-4844-83bf-ede59170676e": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Practitioner/9102c234-53ca-4066-8452-42f3ba751c7d": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Bundle/7a4613cc-b306-49b2-a428-9f8e67e67a85": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "DocumentReference/bafe16b9-8b50-47e1-829a-a7dbafb45e05": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/Location-Jurisdiction-Id": {
+    "errors": 0,
+    "warnings": 3
+  },
+  "Location/b7de6056-817f-4d73-9830-ce566accd044": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/VRDR-Partial-date-part-absent-reason": {
+    "errors": 0,
+    "warnings": 0
+  }
+}

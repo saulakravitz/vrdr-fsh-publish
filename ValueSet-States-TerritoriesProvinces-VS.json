@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "id": "States-TerritoriesProvinces-VS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-USStates-Territories-VS.html\">http://hl7.org/fhir/us/vrdr/ValueSet/USStates-Territories-VS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-Canada-Provinces-VS.html\">http://hl7.org/fhir/us/vrdr/ValueSet/Canada-Provinces-VS</a></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/us/vrdr/ValueSet/States-TerritoriesProvinces-VS",
+  "version": "1.2.0",
+  "name": "StatesTerritoriesAndProvincesVS",
+  "title": "States, Territories and Provinces Value Set",
+  "status": "active",
+  "date": "2021-09-22T19:59:17+00:00",
+  "publisher": "HL7 Public Health Working Group",
+  "contact": [
+    {
+      "name": "HL7 Public Health Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/pher/index.cfm"
+        },
+        {
+          "system": "email",
+          "value": "pher@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "2 Letter States and Provinces Value Set",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/us/vrdr/ValueSet/USStates-Territories-VS"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/us/vrdr/ValueSet/Canada-Provinces-VS"
+        ]
+      }
+    ]
+  }
+}

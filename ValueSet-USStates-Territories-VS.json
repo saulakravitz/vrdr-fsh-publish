@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "USStates-Territories-VS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in https://www.usps.com/</li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude these codes as defined in <code>https://www.usps.com/</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>FM</td><td>Federated States of Micronesia</td></tr><tr><td>MH</td><td>Marshall Islands</td></tr><tr><td>PW</td><td>Palau</td></tr><tr><td>AP</td><td>Armed Forces Pacific</td></tr><tr><td>AE</td><td>Armed Forces Europe, the Middle East, and Canada</td></tr><tr><td>AA</td><td>Armed Forces Americas (except Canada)</td></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/us/vrdr/ValueSet/USStates-Territories-VS",
+  "version": "1.2.0",
+  "name": "USStatesAndTerritoriesVS",
+  "title": "US States, Territories Value Set",
+  "status": "active",
+  "date": "2021-09-22T19:59:17+00:00",
+  "publisher": "HL7 Public Health Working Group",
+  "contact": [
+    {
+      "name": "HL7 Public Health Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/pher/index.cfm"
+        },
+        {
+          "system": "email",
+          "value": "pher@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "2 Letter States and Territories Value Set",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "https://www.usps.com/"
+        ]
+      }
+    ],
+    "exclude": [
+      {
+        "system": "https://www.usps.com/",
+        "concept": [
+          {
+            "code": "FM"
+          },
+          {
+            "code": "MH"
+          },
+          {
+            "code": "PW"
+          },
+          {
+            "code": "AP"
+          },
+          {
+            "code": "AE"
+          },
+          {
+            "code": "AA"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -13,7 +13,6 @@
     <sch:title>f:Practitioner</sch:title>
     <sch:rule context="f:Practitioner">
       <sch:assert test="count(f:name) &lt;= 1">name: maximum cardinality of 'name' is 1</sch:assert>
-      <sch:assert test="count(f:address) &gt;= 1">address: minimum cardinality of 'address' is 1</sch:assert>
       <sch:assert test="count(f:address) &lt;= 1">address: maximum cardinality of 'address' is 1</sch:assert>
       <sch:assert test="count(f:qualification) &gt;= 1">qualification: minimum cardinality of 'qualification' is 1</sch:assert>
       <sch:assert test="count(f:qualification) &lt;= 1">qualification: maximum cardinality of 'qualification' is 1</sch:assert>

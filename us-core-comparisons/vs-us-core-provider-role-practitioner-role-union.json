@@ -1,0 +1,4657 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-248",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-248",
+  "name" : "UnionUSCoreProviderRoleNuccAndPractitionerRole",
+  "title" : "Union of US Core Provider Role (NUCC) And Practitioner role",
+  "status" : "active",
+  "date" : "2021-09-22T19:59:48+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US",
+      "display" : "United States of America"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://nucc.org/provider-taxonomy",
+      "concept" : [{
+        "code" : "101Y00000X",
+        "display" : "Counselor"
+      },
+      {
+        "code" : "102L00000X",
+        "display" : "Psychoanalyst"
+      },
+      {
+        "code" : "102X00000X",
+        "display" : "Poetry Therapist"
+      },
+      {
+        "code" : "103G00000X",
+        "display" : "Clinical Neuropsychologist"
+      },
+      {
+        "code" : "103K00000X",
+        "display" : "Behavior Analyst"
+      },
+      {
+        "code" : "103T00000X",
+        "display" : "Psychologist"
+      },
+      {
+        "code" : "104100000X",
+        "display" : "Social Worker"
+      },
+      {
+        "code" : "106E00000X",
+        "display" : "Assistant Behavior Analyst"
+      },
+      {
+        "code" : "106H00000X",
+        "display" : "Marriage & Family Therapist"
+      },
+      {
+        "code" : "106S00000X",
+        "display" : "Behavior Technician"
+      },
+      {
+        "code" : "111N00000X",
+        "display" : "Chiropractor"
+      },
+      {
+        "code" : "122300000X",
+        "display" : "Dentist"
+      },
+      {
+        "code" : "122400000X",
+        "display" : "Denturist"
+      },
+      {
+        "code" : "124Q00000X",
+        "display" : "Dental Hygienist"
+      },
+      {
+        "code" : "125J00000X",
+        "display" : "Dental Therapist"
+      },
+      {
+        "code" : "125K00000X",
+        "display" : "Advanced Practice Dental Therapist"
+      },
+      {
+        "code" : "125Q00000X",
+        "display" : "Oral Medicinist"
+      },
+      {
+        "code" : "126800000X",
+        "display" : "Dental Assistant"
+      },
+      {
+        "code" : "126900000X",
+        "display" : "Dental Laboratory Technician"
+      },
+      {
+        "code" : "132700000X",
+        "display" : "Dietary Manager"
+      },
+      {
+        "code" : "133N00000X",
+        "display" : "Nutritionist"
+      },
+      {
+        "code" : "133V00000X",
+        "display" : "Dietitian, Registered"
+      },
+      {
+        "code" : "136A00000X",
+        "display" : "Dietetic Technician, Registered"
+      },
+      {
+        "code" : "146D00000X",
+        "display" : "Personal Emergency Response Attendant"
+      },
+      {
+        "code" : "146L00000X",
+        "display" : "Emergency Medical Technician, Paramedic"
+      },
+      {
+        "code" : "146M00000X",
+        "display" : "Emergency Medical Technician, Intermediate"
+      },
+      {
+        "code" : "146N00000X",
+        "display" : "Emergency Medical Technician, Basic"
+      },
+      {
+        "code" : "152W00000X",
+        "display" : "Optometrist"
+      },
+      {
+        "code" : "156F00000X",
+        "display" : "Technician/Technologist"
+      },
+      {
+        "code" : "163W00000X",
+        "display" : "Registered Nurse"
+      },
+      {
+        "code" : "164W00000X",
+        "display" : "Licensed Practical Nurse"
+      },
+      {
+        "code" : "164X00000X",
+        "display" : "Licensed Vocational Nurse"
+      },
+      {
+        "code" : "167G00000X",
+        "display" : "Licensed Psychiatric Technician"
+      },
+      {
+        "code" : "170100000X",
+        "display" : "Medical Genetics, Ph.D. Medical Genetics"
+      },
+      {
+        "code" : "170300000X",
+        "display" : "Genetic Counselor, MS"
+      },
+      {
+        "code" : "171000000X",
+        "display" : "Military Health Care Provider"
+      },
+      {
+        "code" : "171100000X",
+        "display" : "Acupuncturist"
+      },
+      {
+        "code" : "171M00000X",
+        "display" : "Case Manager/Care Coordinator"
+      },
+      {
+        "code" : "171R00000X",
+        "display" : "Interpreter"
+      },
+      {
+        "code" : "171W00000X",
+        "display" : "Contractor"
+      },
+      {
+        "code" : "172A00000X",
+        "display" : "Driver"
+      },
+      {
+        "code" : "172M00000X",
+        "display" : "Mechanotherapist"
+      },
+      {
+        "code" : "172P00000X",
+        "display" : "Naprapath"
+      },
+      {
+        "code" : "172V00000X",
+        "display" : "Community Health Worker"
+      },
+      {
+        "code" : "173000000X",
+        "display" : "Legal Medicine"
+      },
+      {
+        "code" : "173C00000X",
+        "display" : "Reflexologist"
+      },
+      {
+        "code" : "173F00000X",
+        "display" : "Sleep Specialist, PhD"
+      },
+      {
+        "code" : "174200000X",
+        "display" : "Meals"
+      },
+      {
+        "code" : "174400000X",
+        "display" : "Specialist"
+      },
+      {
+        "code" : "174H00000X",
+        "display" : "Health Educator"
+      },
+      {
+        "code" : "174M00000X",
+        "display" : "Veterinarian"
+      },
+      {
+        "code" : "174N00000X",
+        "display" : "Lactation Consultant, Non-RN"
+      },
+      {
+        "code" : "174V00000X",
+        "display" : "Clinical Ethicist"
+      },
+      {
+        "code" : "175F00000X",
+        "display" : "Naturopath"
+      },
+      {
+        "code" : "175L00000X",
+        "display" : "Homeopath"
+      },
+      {
+        "code" : "175M00000X",
+        "display" : "Midwife, Lay"
+      },
+      {
+        "code" : "175T00000X",
+        "display" : "Peer Specialist"
+      },
+      {
+        "code" : "176B00000X",
+        "display" : "Midwife"
+      },
+      {
+        "code" : "176P00000X",
+        "display" : "Funeral Director"
+      },
+      {
+        "code" : "177F00000X",
+        "display" : "Lodging"
+      },
+      {
+        "code" : "183500000X",
+        "display" : "Pharmacist"
+      },
+      {
+        "code" : "183700000X",
+        "display" : "Pharmacy Technician"
+      },
+      {
+        "code" : "193200000X",
+        "display" : "Multi-Specialty"
+      },
+      {
+        "code" : "193400000X",
+        "display" : "Single Specialty"
+      },
+      {
+        "code" : "202C00000X",
+        "display" : "Independent Medical Examiner"
+      },
+      {
+        "code" : "202K00000X",
+        "display" : "Phlebology"
+      },
+      {
+        "code" : "204C00000X",
+        "display" : "Neuromusculoskeletal Medicine, Sports Medicine"
+      },
+      {
+        "code" : "204D00000X",
+        "display" : "Neuromusculoskeletal Medicine & OMM"
+      },
+      {
+        "code" : "204E00000X",
+        "display" : "Oral & Maxillofacial Surgery"
+      },
+      {
+        "code" : "204F00000X",
+        "display" : "Transplant Surgery"
+      },
+      {
+        "code" : "204R00000X",
+        "display" : "Electrodiagnostic Medicine"
+      },
+      {
+        "code" : "207K00000X",
+        "display" : "Allergy & Immunology"
+      },
+      {
+        "code" : "207L00000X",
+        "display" : "Anesthesiology"
+      },
+      {
+        "code" : "207N00000X",
+        "display" : "Dermatology"
+      },
+      {
+        "code" : "207P00000X",
+        "display" : "Emergency Medicine"
+      },
+      {
+        "code" : "207Q00000X",
+        "display" : "Family Medicine"
+      },
+      {
+        "code" : "207R00000X",
+        "display" : "Internal Medicine"
+      },
+      {
+        "code" : "207T00000X",
+        "display" : "Neurological Surgery"
+      },
+      {
+        "code" : "207U00000X",
+        "display" : "Nuclear Medicine"
+      },
+      {
+        "code" : "207V00000X",
+        "display" : "Obstetrics & Gynecology"
+      },
+      {
+        "code" : "207W00000X",
+        "display" : "Ophthalmology"
+      },
+      {
+        "code" : "207X00000X",
+        "display" : "Orthopaedic Surgery"
+      },
+      {
+        "code" : "207Y00000X",
+        "display" : "Otolaryngology"
+      },
+      {
+        "code" : "208000000X",
+        "display" : "Pediatrics"
+      },
+      {
+        "code" : "208100000X",
+        "display" : "Physical Medicine & Rehabilitation"
+      },
+      {
+        "code" : "208200000X",
+        "display" : "Plastic Surgery"
+      },
+      {
+        "code" : "208600000X",
+        "display" : "Surgery"
+      },
+      {
+        "code" : "208800000X",
+        "display" : "Urology"
+      },
+      {
+        "code" : "208C00000X",
+        "display" : "Colon & Rectal Surgery"
+      },
+      {
+        "code" : "208D00000X",
+        "display" : "General Practice"
+      },
+      {
+        "code" : "208G00000X",
+        "display" : "Thoracic Surgery (Cardiothoracic Vascular Surgery)"
+      },
+      {
+        "code" : "208M00000X",
+        "display" : "Hospitalist"
+      },
+      {
+        "code" : "208U00000X",
+        "display" : "Clinical Pharmacology"
+      },
+      {
+        "code" : "209800000X",
+        "display" : "Legal Medicine"
+      },
+      {
+        "code" : "211D00000X",
+        "display" : "Assistant, Podiatric"
+      },
+      {
+        "code" : "213E00000X",
+        "display" : "Podiatrist"
+      },
+      {
+        "code" : "221700000X",
+        "display" : "Art Therapist"
+      },
+      {
+        "code" : "222Q00000X",
+        "display" : "Developmental Therapist"
+      },
+      {
+        "code" : "222Z00000X",
+        "display" : "Orthotist"
+      },
+      {
+        "code" : "224900000X",
+        "display" : "Mastectomy Fitter"
+      },
+      {
+        "code" : "224L00000X",
+        "display" : "Pedorthist"
+      },
+      {
+        "code" : "224P00000X",
+        "display" : "Prosthetist"
+      },
+      {
+        "code" : "224Y00000X",
+        "display" : "Clinical Exercise Physiologist"
+      },
+      {
+        "code" : "224Z00000X",
+        "display" : "Occupational Therapy Assistant"
+      },
+      {
+        "code" : "225000000X",
+        "display" : "Orthotic Fitter"
+      },
+      {
+        "code" : "225100000X",
+        "display" : "Physical Therapist"
+      },
+      {
+        "code" : "225200000X",
+        "display" : "Physical Therapy Assistant"
+      },
+      {
+        "code" : "225400000X",
+        "display" : "Rehabilitation Practitioner"
+      },
+      {
+        "code" : "225500000X",
+        "display" : "Specialist/Technologist"
+      },
+      {
+        "code" : "225600000X",
+        "display" : "Dance Therapist"
+      },
+      {
+        "code" : "225700000X",
+        "display" : "Massage Therapist"
+      },
+      {
+        "code" : "225800000X",
+        "display" : "Recreation Therapist"
+      },
+      {
+        "code" : "225A00000X",
+        "display" : "Music Therapist"
+      },
+      {
+        "code" : "225B00000X",
+        "display" : "Pulmonary Function Technologist"
+      },
+      {
+        "code" : "225C00000X",
+        "display" : "Rehabilitation Counselor"
+      },
+      {
+        "code" : "225X00000X",
+        "display" : "Occupational Therapist"
+      },
+      {
+        "code" : "226000000X",
+        "display" : "Recreational Therapist Assistant"
+      },
+      {
+        "code" : "226300000X",
+        "display" : "Kinesiotherapist"
+      },
+      {
+        "code" : "227800000X",
+        "display" : "Respiratory Therapist, Certified"
+      },
+      {
+        "code" : "227900000X",
+        "display" : "Respiratory Therapist, Registered"
+      },
+      {
+        "code" : "229N00000X",
+        "display" : "Anaplastologist"
+      },
+      {
+        "code" : "231H00000X",
+        "display" : "Audiologist"
+      },
+      {
+        "code" : "235500000X",
+        "display" : "Specialist/Technologist"
+      },
+      {
+        "code" : "235Z00000X",
+        "display" : "Speech-Language Pathologist"
+      },
+      {
+        "code" : "237600000X",
+        "display" : "Audiologist-Hearing Aid Fitter"
+      },
+      {
+        "code" : "237700000X",
+        "display" : "Hearing Instrument Specialist"
+      },
+      {
+        "code" : "242T00000X",
+        "display" : "Perfusionist"
+      },
+      {
+        "code" : "243U00000X",
+        "display" : "Radiology Practitioner Assistant"
+      },
+      {
+        "code" : "246Q00000X",
+        "display" : "Specialist/Technologist, Pathology"
+      },
+      {
+        "code" : "246R00000X",
+        "display" : "Technician, Pathology"
+      },
+      {
+        "code" : "246W00000X",
+        "display" : "Technician, Cardiology"
+      },
+      {
+        "code" : "246X00000X",
+        "display" : "Specialist/Technologist Cardiovascular"
+      },
+      {
+        "code" : "246Y00000X",
+        "display" : "Specialist/Technologist, Health Information"
+      },
+      {
+        "code" : "246Z00000X",
+        "display" : "Specialist/Technologist, Other"
+      },
+      {
+        "code" : "247000000X",
+        "display" : "Technician, Health Information"
+      },
+      {
+        "code" : "247100000X",
+        "display" : "Radiologic Technologist"
+      },
+      {
+        "code" : "247200000X",
+        "display" : "Technician, Other"
+      },
+      {
+        "code" : "251300000X",
+        "display" : "Local Education Agency (LEA)"
+      },
+      {
+        "code" : "251B00000X",
+        "display" : "Case Management"
+      },
+      {
+        "code" : "251C00000X",
+        "display" : "Day Training, Developmentally Disabled Services"
+      },
+      {
+        "code" : "251E00000X",
+        "display" : "Home Health"
+      },
+      {
+        "code" : "251F00000X",
+        "display" : "Home Infusion"
+      },
+      {
+        "code" : "251G00000X",
+        "display" : "Hospice Care, Community Based"
+      },
+      {
+        "code" : "251J00000X",
+        "display" : "Nursing Care"
+      },
+      {
+        "code" : "251K00000X",
+        "display" : "Public Health or Welfare"
+      },
+      {
+        "code" : "251S00000X",
+        "display" : "Community/Behavioral Health"
+      },
+      {
+        "code" : "251T00000X",
+        "display" : "Program of All-Inclusive Care for the Elderly (PACE) Provider Organization"
+      },
+      {
+        "code" : "251V00000X",
+        "display" : "Voluntary or Charitable"
+      },
+      {
+        "code" : "251X00000X",
+        "display" : "Supports Brokerage"
+      },
+      {
+        "code" : "252Y00000X",
+        "display" : "Early Intervention Provider Agency"
+      },
+      {
+        "code" : "253J00000X",
+        "display" : "Foster Care Agency"
+      },
+      {
+        "code" : "253Z00000X",
+        "display" : "In Home Supportive Care"
+      },
+      {
+        "code" : "261Q00000X",
+        "display" : "Clinic/Center"
+      },
+      {
+        "code" : "273100000X",
+        "display" : "Epilepsy Unit"
+      },
+      {
+        "code" : "273R00000X",
+        "display" : "Psychiatric Unit"
+      },
+      {
+        "code" : "273Y00000X",
+        "display" : "Rehabilitation Unit"
+      },
+      {
+        "code" : "275N00000X",
+        "display" : "Medicare Defined Swing Bed Unit"
+      },
+      {
+        "code" : "276400000X",
+        "display" : "Rehabilitation, Substance Use Disorder Unit"
+      },
+      {
+        "code" : "281P00000X",
+        "display" : "Chronic Disease Hospital"
+      },
+      {
+        "code" : "282E00000X",
+        "display" : "Long Term Care Hospital"
+      },
+      {
+        "code" : "282J00000X",
+        "display" : "Religious Nonmedical Health Care Institution"
+      },
+      {
+        "code" : "282N00000X",
+        "display" : "General Acute Care Hospital"
+      },
+      {
+        "code" : "283Q00000X",
+        "display" : "Psychiatric Hospital"
+      },
+      {
+        "code" : "283X00000X",
+        "display" : "Rehabilitation Hospital"
+      },
+      {
+        "code" : "284300000X",
+        "display" : "Special Hospital"
+      },
+      {
+        "code" : "286500000X",
+        "display" : "Military Hospital"
+      },
+      {
+        "code" : "287300000X",
+        "display" : "Christian Science Sanitorium"
+      },
+      {
+        "code" : "291900000X",
+        "display" : "Military Clinical Medical Laboratory"
+      },
+      {
+        "code" : "291U00000X",
+        "display" : "Clinical Medical Laboratory"
+      },
+      {
+        "code" : "292200000X",
+        "display" : "Dental Laboratory"
+      },
+      {
+        "code" : "293D00000X",
+        "display" : "Physiological Laboratory"
+      },
+      {
+        "code" : "302F00000X",
+        "display" : "Exclusive Provider Organization"
+      },
+      {
+        "code" : "302R00000X",
+        "display" : "Health Maintenance Organization"
+      },
+      {
+        "code" : "305R00000X",
+        "display" : "Preferred Provider Organization"
+      },
+      {
+        "code" : "305S00000X",
+        "display" : "Point of Service"
+      },
+      {
+        "code" : "310400000X",
+        "display" : "Assisted Living Facility"
+      },
+      {
+        "code" : "310500000X",
+        "display" : "Intermediate Care Facility, Mental Illness"
+      },
+      {
+        "code" : "311500000X",
+        "display" : "Alzheimer Center (Dementia Center)"
+      },
+      {
+        "code" : "311Z00000X",
+        "display" : "Custodial Care Facility"
+      },
+      {
+        "code" : "313M00000X",
+        "display" : "Nursing Facility/Intermediate Care Facility"
+      },
+      {
+        "code" : "314000000X",
+        "display" : "Skilled Nursing Facility"
+      },
+      {
+        "code" : "315D00000X",
+        "display" : "Hospice, Inpatient"
+      },
+      {
+        "code" : "315P00000X",
+        "display" : "Intermediate Care Facility, Mentally Retarded"
+      },
+      {
+        "code" : "317400000X",
+        "display" : "Christian Science Facility"
+      },
+      {
+        "code" : "320600000X",
+        "display" : "Residential Treatment Facility, Mental Retardation and/or Developmental Disabilities"
+      },
+      {
+        "code" : "320700000X",
+        "display" : "Residential Treatment Facility, Physical Disabilities"
+      },
+      {
+        "code" : "320800000X",
+        "display" : "Community Based Residential Treatment Facility, Mental Illness"
+      },
+      {
+        "code" : "320900000X",
+        "display" : "Community Based Residential Treatment Facility, Mental Retardation and/or Developmental Disabilities"
+      },
+      {
+        "code" : "322D00000X",
+        "display" : "Residential Treatment Facility, Emotionally Disturbed Children"
+      },
+      {
+        "code" : "323P00000X",
+        "display" : "Psychiatric Residential Treatment Facility"
+      },
+      {
+        "code" : "324500000X",
+        "display" : "Substance Abuse Rehabilitation Facility"
+      },
+      {
+        "code" : "331L00000X",
+        "display" : "Blood Bank"
+      },
+      {
+        "code" : "332000000X",
+        "display" : "Military/U.S. Coast Guard Pharmacy"
+      },
+      {
+        "code" : "332100000X",
+        "display" : "Department of Veterans Affairs (VA) Pharmacy"
+      },
+      {
+        "code" : "332800000X",
+        "display" : "Indian Health Service/Tribal/Urban Indian Health (I/T/U) Pharmacy"
+      },
+      {
+        "code" : "332900000X",
+        "display" : "Non-Pharmacy Dispensing Site"
+      },
+      {
+        "code" : "332B00000X",
+        "display" : "Durable Medical Equipment & Medical Supplies"
+      },
+      {
+        "code" : "332G00000X",
+        "display" : "Eye Bank"
+      },
+      {
+        "code" : "332H00000X",
+        "display" : "Eyewear Supplier"
+      },
+      {
+        "code" : "332S00000X",
+        "display" : "Hearing Aid Equipment"
+      },
+      {
+        "code" : "332U00000X",
+        "display" : "Home Delivered Meals"
+      },
+      {
+        "code" : "333300000X",
+        "display" : "Emergency Response System Companies"
+      },
+      {
+        "code" : "333600000X",
+        "display" : "Pharmacy"
+      },
+      {
+        "code" : "335E00000X",
+        "display" : "Prosthetic/Orthotic Supplier"
+      },
+      {
+        "code" : "335G00000X",
+        "display" : "Medical Foods Supplier"
+      },
+      {
+        "code" : "335U00000X",
+        "display" : "Organ Procurement Organization"
+      },
+      {
+        "code" : "335V00000X",
+        "display" : "Portable X-ray and/or Other Portable Diagnostic Imaging Supplier"
+      },
+      {
+        "code" : "341600000X",
+        "display" : "Ambulance"
+      },
+      {
+        "code" : "341800000X",
+        "display" : "Military/U.S. Coast Guard Transport"
+      },
+      {
+        "code" : "343800000X",
+        "display" : "Secured Medical Transport (VAN)"
+      },
+      {
+        "code" : "343900000X",
+        "display" : "Non-emergency Medical Transport (VAN)"
+      },
+      {
+        "code" : "344600000X",
+        "display" : "Taxi"
+      },
+      {
+        "code" : "344800000X",
+        "display" : "Air Carrier"
+      },
+      {
+        "code" : "347B00000X",
+        "display" : "Bus"
+      },
+      {
+        "code" : "347C00000X",
+        "display" : "Private Vehicle"
+      },
+      {
+        "code" : "347D00000X",
+        "display" : "Train"
+      },
+      {
+        "code" : "347E00000X",
+        "display" : "Transportation Broker"
+      },
+      {
+        "code" : "363A00000X",
+        "display" : "Physician Assistant"
+      },
+      {
+        "code" : "363L00000X",
+        "display" : "Nurse Practitioner"
+      },
+      {
+        "code" : "364S00000X",
+        "display" : "Clinical Nurse Specialist"
+      },
+      {
+        "code" : "367500000X",
+        "display" : "Nurse Anesthetist, Certified Registered"
+      },
+      {
+        "code" : "367A00000X",
+        "display" : "Advanced Practice Midwife"
+      },
+      {
+        "code" : "367H00000X",
+        "display" : "Anesthesiologist Assistant"
+      },
+      {
+        "code" : "372500000X",
+        "display" : "Chore Provider"
+      },
+      {
+        "code" : "372600000X",
+        "display" : "Adult Companion"
+      },
+      {
+        "code" : "373H00000X",
+        "display" : "Day Training/Habilitation Specialist"
+      },
+      {
+        "code" : "374700000X",
+        "display" : "Technician"
+      },
+      {
+        "code" : "374J00000X",
+        "display" : "Doula"
+      },
+      {
+        "code" : "374K00000X",
+        "display" : "Religious Nonmedical Practitioner"
+      },
+      {
+        "code" : "374T00000X",
+        "display" : "Religious Nonmedical Nursing Personnel"
+      },
+      {
+        "code" : "374U00000X",
+        "display" : "Home Health Aide"
+      },
+      {
+        "code" : "376G00000X",
+        "display" : "Nursing Home Administrator"
+      },
+      {
+        "code" : "376J00000X",
+        "display" : "Homemaker"
+      },
+      {
+        "code" : "376K00000X",
+        "display" : "Nurse's Aide"
+      },
+      {
+        "code" : "385H00000X",
+        "display" : "Respite Care"
+      },
+      {
+        "code" : "390200000X",
+        "display" : "Student in an Organized Health Care Education/Training Program"
+      },
+      {
+        "code" : "405300000X",
+        "display" : "Prevention Professional"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "223366009"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "101Y00000X",
+      "display" : "Counselor"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "102L00000X",
+      "display" : "Psychoanalyst"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "102X00000X",
+      "display" : "Poetry Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "103G00000X",
+      "display" : "Clinical Neuropsychologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "103K00000X",
+      "display" : "Behavioral Analyst"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "103T00000X",
+      "display" : "Psychologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "104100000X",
+      "display" : "Social Worker"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "106E00000X",
+      "display" : "Assistant Behavior Analyst"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "106H00000X",
+      "display" : "Marriage & Family Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "106S00000X",
+      "display" : "Behavior Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "111N00000X",
+      "display" : "Chiropractor"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "122300000X",
+      "display" : "Dentist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "122400000X",
+      "display" : "Denturist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "124Q00000X",
+      "display" : "Dental Hygienist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "125J00000X",
+      "display" : "Dental Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "125K00000X",
+      "display" : "Advanced Practice Dental Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "125Q00000X",
+      "display" : "Oral Medicinist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "126800000X",
+      "display" : "Dental Assistant"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "126900000X",
+      "display" : "Dental Laboratory Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "132700000X",
+      "display" : "Dietary Manager"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "133N00000X",
+      "display" : "Nutritionist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "133V00000X",
+      "display" : "Registered Dietitian"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "136A00000X",
+      "display" : "Registered Dietetic Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "146D00000X",
+      "display" : "Personal Emergency Response Attendant"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "146L00000X",
+      "display" : "Paramedic"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "146M00000X",
+      "display" : "Intermediate Emergency Medical Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "146N00000X",
+      "display" : "Basic Emergency Medical Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "152W00000X",
+      "display" : "Optometrist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "156F00000X",
+      "display" : "Technician/Technologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "163W00000X",
+      "display" : "Registered Nurse"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "164W00000X",
+      "display" : "Licensed Practical Nurse"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "164X00000X",
+      "display" : "Licensed Vocational Nurse"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "167G00000X",
+      "display" : "Licensed Psychiatric Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "170100000X",
+      "display" : "Ph.D. Medical Genetics"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "170300000X",
+      "display" : "Genetic Counselor (M.S.)"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "171000000X",
+      "display" : "Military Health Care Provider"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "171100000X",
+      "display" : "Acupuncturist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "171M00000X",
+      "display" : "Case Manager/Care Coordinator"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "171R00000X",
+      "display" : "Interpreter"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "171W00000X",
+      "display" : "Contractor"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "172A00000X",
+      "display" : "Driver"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "172M00000X",
+      "display" : "Mechanotherapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "172P00000X",
+      "display" : "Naprapath"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "172V00000X",
+      "display" : "Community Health Worker"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "173000000X",
+      "display" : "Legal Medicine"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "173C00000X",
+      "display" : "Reflexologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "173F00000X",
+      "display" : "Sleep Specialist (PhD)"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "174200000X",
+      "display" : "Meals Provider"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "174400000X",
+      "display" : "Specialist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "174H00000X",
+      "display" : "Health Educator"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "174M00000X",
+      "display" : "Veterinarian"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "174N00000X",
+      "display" : "Lactation Consultant (Non-RN)"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "174V00000X",
+      "display" : "Clinical Ethicist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "175F00000X",
+      "display" : "Naturopath"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "175L00000X",
+      "display" : "Homeopath"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "175M00000X",
+      "display" : "Lay Midwife"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "175T00000X",
+      "display" : "Peer Specialist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "176B00000X",
+      "display" : "Midwife"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "176P00000X",
+      "display" : "Funeral Director"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "177F00000X",
+      "display" : "Lodging Provider"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "183500000X",
+      "display" : "Pharmacist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "183700000X",
+      "display" : "Pharmacy Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "193200000X",
+      "display" : "Multi-Specialty Group"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "193400000X",
+      "display" : "Single Specialty Group"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "202C00000X",
+      "display" : "Independent Medical Examiner Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "202K00000X",
+      "display" : "Phlebology Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "204C00000X",
+      "display" : "Sports Medicine (Neuromusculoskeletal Medicine) Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "204D00000X",
+      "display" : "Neuromusculoskeletal Medicine & OMM Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "204E00000X",
+      "display" : "Oral & Maxillofacial Surgery (D.M.D.) Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "204F00000X",
+      "display" : "Transplant Surgery Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "204R00000X",
+      "display" : "Electrodiagnostic Medicine Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207K00000X",
+      "display" : "Allergy & Immunology Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207L00000X",
+      "display" : "Anesthesiology Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207N00000X",
+      "display" : "Dermatology Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207P00000X",
+      "display" : "Emergency Medicine Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207Q00000X",
+      "display" : "Family Medicine Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207R00000X",
+      "display" : "Internal Medicine Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207T00000X",
+      "display" : "Neurological Surgery Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207U00000X",
+      "display" : "Nuclear Medicine Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207V00000X",
+      "display" : "Obstetrics & Gynecology Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207W00000X",
+      "display" : "Ophthalmology Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207X00000X",
+      "display" : "Orthopaedic Surgery Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "207Y00000X",
+      "display" : "Otolaryngology Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208000000X",
+      "display" : "Pediatrics Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208100000X",
+      "display" : "Physical Medicine & Rehabilitation Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208200000X",
+      "display" : "Plastic Surgery Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208600000X",
+      "display" : "Surgery Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208800000X",
+      "display" : "Urology Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208C00000X",
+      "display" : "Colon & Rectal Surgery Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208D00000X",
+      "display" : "General Practice Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208G00000X",
+      "display" : "Thoracic Surgery (Cardiothoracic Vascular Surgery) Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208M00000X",
+      "display" : "Hospitalist Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "208U00000X",
+      "display" : "Clinical Pharmacology Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "209800000X",
+      "display" : "Legal Medicine (M.D./D.O.) Physician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "211D00000X",
+      "display" : "Podiatric Assistant"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "213E00000X",
+      "display" : "Podiatrist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "221700000X",
+      "display" : "Art Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "222Q00000X",
+      "display" : "Developmental Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "222Z00000X",
+      "display" : "Orthotist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "224900000X",
+      "display" : "Mastectomy Fitter"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "224L00000X",
+      "display" : "Pedorthist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "224P00000X",
+      "display" : "Prosthetist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "224Y00000X",
+      "display" : "Clinical Exercise Physiologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "224Z00000X",
+      "display" : "Occupational Therapy Assistant"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225000000X",
+      "display" : "Orthotic Fitter"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225100000X",
+      "display" : "Physical Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225200000X",
+      "display" : "Physical Therapy Assistant"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225400000X",
+      "display" : "Rehabilitation Practitioner"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225500000X",
+      "display" : "Respiratory/Developmental/Rehabilitative Specialist/Technologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225600000X",
+      "display" : "Dance Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225700000X",
+      "display" : "Massage Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225800000X",
+      "display" : "Recreation Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225A00000X",
+      "display" : "Music Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225B00000X",
+      "display" : "Pulmonary Function Technologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225C00000X",
+      "display" : "Rehabilitation Counselor"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "225X00000X",
+      "display" : "Occupational Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "226000000X",
+      "display" : "Recreational Therapist Assistant"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "226300000X",
+      "display" : "Kinesiotherapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "227800000X",
+      "display" : "Certified Respiratory Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "227900000X",
+      "display" : "Registered Respiratory Therapist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "229N00000X",
+      "display" : "Anaplastologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "231H00000X",
+      "display" : "Audiologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "235500000X",
+      "display" : "Speech/Language/Hearing Specialist/Technologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "235Z00000X",
+      "display" : "Speech-Language Pathologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "237600000X",
+      "display" : "Audiologist-Hearing Aid Fitter"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "237700000X",
+      "display" : "Hearing Instrument Specialist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "242T00000X",
+      "display" : "Perfusionist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "243U00000X",
+      "display" : "Radiology Practitioner Assistant"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "246Q00000X",
+      "display" : "Pathology Specialist/Technologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "246R00000X",
+      "display" : "Pathology Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "246W00000X",
+      "display" : "Cardiology Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "246X00000X",
+      "display" : "Cardiovascular Specialist/Technologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "246Y00000X",
+      "display" : "Health Information Specialist/Technologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "246Z00000X",
+      "display" : "Other Specialist/Technologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "247000000X",
+      "display" : "Health Information Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "247100000X",
+      "display" : "Radiologic Technologist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "247200000X",
+      "display" : "Other Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251300000X",
+      "display" : "Local Education Agency (LEA)"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251B00000X",
+      "display" : "Case Management Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251C00000X",
+      "display" : "Developmentally Disabled Services Day Training Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251E00000X",
+      "display" : "Home Health Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251F00000X",
+      "display" : "Home Infusion Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251G00000X",
+      "display" : "Community Based Hospice Care Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251J00000X",
+      "display" : "Nursing Care Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251K00000X",
+      "display" : "Public Health or Welfare Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251S00000X",
+      "display" : "Community/Behavioral Health Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251T00000X",
+      "display" : "PACE Provider Organization"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251V00000X",
+      "display" : "Voluntary or Charitable Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "251X00000X",
+      "display" : "Supports Brokerage Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "252Y00000X",
+      "display" : "Early Intervention Provider Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "253J00000X",
+      "display" : "Foster Care Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "253Z00000X",
+      "display" : "In Home Supportive Care Agency"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "261Q00000X",
+      "display" : "Clinic/Center"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "273100000X",
+      "display" : "Epilepsy Hospital Unit"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "273R00000X",
+      "display" : "Psychiatric Hospital Unit"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "273Y00000X",
+      "display" : "Rehabilitation Hospital Unit"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "275N00000X",
+      "display" : "Medicare Defined Swing Bed Hospital Unit"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "276400000X",
+      "display" : "Substance Use Disorder Rehabilitation Hospital Unit"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "281P00000X",
+      "display" : "Chronic Disease Hospital"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "282E00000X",
+      "display" : "Long Term Care Hospital"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "282J00000X",
+      "display" : "Religious Nonmedical Health Care Institution"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "282N00000X",
+      "display" : "General Acute Care Hospital"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "283Q00000X",
+      "display" : "Psychiatric Hospital"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "283X00000X",
+      "display" : "Rehabilitation Hospital"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "284300000X",
+      "display" : "Special Hospital"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "286500000X",
+      "display" : "Military Hospital"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "291900000X",
+      "display" : "Military Clinical Medical Laboratory"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "291U00000X",
+      "display" : "Clinical Medical Laboratory"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "292200000X",
+      "display" : "Dental Laboratory"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "293D00000X",
+      "display" : "Physiological Laboratory"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "302F00000X",
+      "display" : "Exclusive Provider Organization"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "302R00000X",
+      "display" : "Health Maintenance Organization"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "305R00000X",
+      "display" : "Preferred Provider Organization"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "305S00000X",
+      "display" : "Point of Service"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "310400000X",
+      "display" : "Assisted Living Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "310500000X",
+      "display" : "Mental Illness Intermediate Care Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "311500000X",
+      "display" : "Alzheimer Center (Dementia Center)"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "311Z00000X",
+      "display" : "Custodial Care Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "313M00000X",
+      "display" : "Nursing Facility/Intermediate Care Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "314000000X",
+      "display" : "Skilled Nursing Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "315D00000X",
+      "display" : "Inpatient Hospice"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "315P00000X",
+      "display" : "Intellectual Disabilities Intermediate Care Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "320600000X",
+      "display" : "Intellectual and/or Developmental Disabilities Residential Treatment Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "320700000X",
+      "display" : "Physical Disabilities Residential Treatment Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "320800000X",
+      "display" : "Mental Illness Community Based Residential Treatment Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "320900000X",
+      "display" : "Intellectual and/or Developmental Disabilities Community Based Residential Treatment Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "322D00000X",
+      "display" : "Emotionally Disturbed Childrens' Residential Treatment Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "323P00000X",
+      "display" : "Psychiatric Residential Treatment Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "324500000X",
+      "display" : "Substance Abuse Rehabilitation Facility"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "331L00000X",
+      "display" : "Blood Bank"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "332000000X",
+      "display" : "Military/U.S. Coast Guard Pharmacy"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "332100000X",
+      "display" : "Department of Veterans Affairs (VA) Pharmacy"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "332800000X",
+      "display" : "Indian Health Service/Tribal/Urban Indian Health (I/T/U) Pharmacy"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "332900000X",
+      "display" : "Non-Pharmacy Dispensing Site"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "332B00000X",
+      "display" : "Durable Medical Equipment & Medical Supplies"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "332G00000X",
+      "display" : "Eye Bank"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "332H00000X",
+      "display" : "Eyewear Supplier"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "332S00000X",
+      "display" : "Hearing  Aid Equipment"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "332U00000X",
+      "display" : "Home Delivered Meals"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "333300000X",
+      "display" : "Emergency Response System Companies"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "333600000X",
+      "display" : "Pharmacy"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "335E00000X",
+      "display" : "Prosthetic/Orthotic Supplier"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "335G00000X",
+      "display" : "Medical Foods Supplier"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "335U00000X",
+      "display" : "Organ Procurement Organization"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "335V00000X",
+      "display" : "Portable X-ray and/or Other Portable Diagnostic Imaging Supplier"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "341600000X",
+      "display" : "Ambulance"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "341800000X",
+      "display" : "Military/U.S. Coast Guard Transport,"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "343800000X",
+      "display" : "Secured Medical Transport (VAN)"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "343900000X",
+      "display" : "Non-emergency Medical Transport (VAN)"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "344600000X",
+      "display" : "Taxi"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "344800000X",
+      "display" : "Air Carrier"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "347B00000X",
+      "display" : "Bus"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "347C00000X",
+      "display" : "Private Vehicle"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "347D00000X",
+      "display" : "Train"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "347E00000X",
+      "display" : "Transportation Broker"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "363A00000X",
+      "display" : "Physician Assistant"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "363L00000X",
+      "display" : "Nurse Practitioner"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "364S00000X",
+      "display" : "Clinical Nurse Specialist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "367500000X",
+      "display" : "Certified Registered Nurse Anesthetist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "367A00000X",
+      "display" : "Advanced Practice Midwife"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "367H00000X",
+      "display" : "Anesthesiologist Assistant"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "372500000X",
+      "display" : "Chore Provider"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "372600000X",
+      "display" : "Adult Companion"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "373H00000X",
+      "display" : "Day Training/Habilitation Specialist"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "374700000X",
+      "display" : "Technician"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "374J00000X",
+      "display" : "Doula"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "374K00000X",
+      "display" : "Religious Nonmedical Practitioner"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "374T00000X",
+      "display" : "Religious Nonmedical Nursing Personnel"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "374U00000X",
+      "display" : "Home Health Aide"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "376G00000X",
+      "display" : "Nursing Home Administrator"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "376J00000X",
+      "display" : "Homemaker"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "376K00000X",
+      "display" : "Nurse's Aide"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "385H00000X",
+      "display" : "Respite Care"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "390200000X",
+      "display" : "Student in an Organized Health Care Education/Training Program"
+    },
+    {
+      "system" : "http://nucc.org/provider-taxonomy",
+      "code" : "405300000X",
+      "display" : "Prevention Professional"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+      "code" : "doctor",
+      "display" : "Doctor"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+      "code" : "nurse",
+      "display" : "Nurse"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+      "code" : "pharmacist",
+      "display" : "Pharmacist"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+      "code" : "researcher",
+      "display" : "Researcher"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+      "code" : "teacher",
+      "display" : "Teacher/educator"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+      "code" : "ict",
+      "display" : "ICT professional"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "223366009",
+      "display" : "Healthcare professional"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1421009",
+      "display" : "Specialized surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3430008",
+      "display" : "Radiation therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3842006",
+      "display" : "Chiropractor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4162009",
+      "display" : "Dental assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5275007",
+      "display" : "Auxiliary nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6816002",
+      "display" : "Specialized nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6868009",
+      "display" : "Hospital administrator"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8724009",
+      "display" : "Plastic surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11661002",
+      "display" : "Neuropathologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11911009",
+      "display" : "Nephrologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11935004",
+      "display" : "Obstetrician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13580004",
+      "display" : "School dental assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14698002",
+      "display" : "Medical microbiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17561000",
+      "display" : "Cardiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18803008",
+      "display" : "Dermatologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18850004",
+      "display" : "Laboratory hematologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19244007",
+      "display" : "Gerodontist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20145008",
+      "display" : "Removable prosthodontist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21365001",
+      "display" : "Specialized dentist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21450003",
+      "display" : "Neuropsychiatrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22515006",
+      "display" : "Medical assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22731001",
+      "display" : "Orthopedic surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22983004",
+      "display" : "Thoracic surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23278007",
+      "display" : "Community health physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24430003",
+      "display" : "Physical medicine specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24590004",
+      "display" : "Urologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25961008",
+      "display" : "Electroencephalography specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26042002",
+      "display" : "Dental hygienist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26369006",
+      "display" : "Public health nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28229004",
+      "display" : "Optometrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28411006",
+      "display" : "Neonatologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28544002",
+      "display" : "Medical biochemist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "36682004",
+      "display" : "Physiotherapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "37154003",
+      "display" : "Periodontist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "37504001",
+      "display" : "Orthodontist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "39677007",
+      "display" : "Internal medicine specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "40127002",
+      "display" : "Dietitian (general)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "40204001",
+      "display" : "Hematologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "40570005",
+      "display" : "Interpreter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "41672002",
+      "display" : "Respiratory disease specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "41904004",
+      "display" : "Medical X-ray technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "43702002",
+      "display" : "Occupational health nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "44652006",
+      "display" : "Pharmaceutical assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "45419001",
+      "display" : "Masseur"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "45440000",
+      "display" : "Rheumatologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "45544007",
+      "display" : "Neurosurgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "45956004",
+      "display" : "Sanitarian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "46255001",
+      "display" : "Pharmacist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "48740002",
+      "display" : "Philologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "49203003",
+      "display" : "Dispensing optician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "49993003",
+      "display" : "Oral surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50149000",
+      "display" : "Endodontist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "54503009",
+      "display" : "Faith healer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "56397003",
+      "display" : "Neurologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "56466003",
+      "display" : "Public health physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "56542007",
+      "display" : "Medical record administrator"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "56545009",
+      "display" : "Cardiovascular surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "57654006",
+      "display" : "Fixed prosthodontist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "59058001",
+      "display" : "General physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "59169001",
+      "display" : "Orthopedic technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "59317003",
+      "display" : "Dental prosthesis maker and repairer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "59944000",
+      "display" : "Psychologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "60008001",
+      "display" : "Public health nutritionist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "61207006",
+      "display" : "Medical pathologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "61246008",
+      "display" : "Laboratory medicine specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "61345009",
+      "display" : "Otorhinolaryngologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "61894003",
+      "display" : "Endocrinologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "62247001",
+      "display" : "Family medicine specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "63098009",
+      "display" : "Clinical immunologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66476003",
+      "display" : "Oral pathologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66862007",
+      "display" : "Radiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68867008",
+      "display" : "Public health dentist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68950000",
+      "display" : "Prosthodontist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "69280009",
+      "display" : "Specialized physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "71838004",
+      "display" : "Gastroenterologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73265009",
+      "display" : "Nursing aid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "75271001",
+      "display" : "Professional midwife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76166008",
+      "display" : "Practical aid (pharmacy)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76231001",
+      "display" : "Osteopath"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76899008",
+      "display" : "Infectious disease specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "78703002",
+      "display" : "General surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "78729002",
+      "display" : "Diagnostic radiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "79898004",
+      "display" : "Auxiliary midwife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80409005",
+      "display" : "Translator"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80546007",
+      "display" : "Occupational therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80584001",
+      "display" : "Psychiatrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80933006",
+      "display" : "Nuclear medicine specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "81464008",
+      "display" : "Clinical pathologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "82296001",
+      "display" : "Pediatrician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "83273008",
+      "display" : "Anatomic pathologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "83685006",
+      "display" : "Gynecologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "85733003",
+      "display" : "General pathologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "88189002",
+      "display" : "Anesthesiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "90201008",
+      "display" : "Pedodontist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "90655003",
+      "display" : "Geriatrics specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "106289002",
+      "display" : "Dentist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "106291005",
+      "display" : "Dietician AND/OR public health nutritionist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "106292003",
+      "display" : "Professional nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "106293008",
+      "display" : "Nursing personnel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "106294002",
+      "display" : "Midwifery personnel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "106296000",
+      "display" : "Physiotherapist AND/OR occupational therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "106330007",
+      "display" : "Philologist, translator AND/OR interpreter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158965000",
+      "display" : "Medical practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158966004",
+      "display" : "Medical administrator - national"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158967008",
+      "display" : "Consultant physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158968003",
+      "display" : "Consultant surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158969006",
+      "display" : "Consultant gynecology and obstetrics"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158971006",
+      "display" : "Hospital registrar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158972004",
+      "display" : "House officer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158973009",
+      "display" : "Occupational physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158974003",
+      "display" : "Clinical medical officer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158975002",
+      "display" : "Medical practitioner - teaching"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158977005",
+      "display" : "Dental administrator"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158978000",
+      "display" : "Dental consultant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158979008",
+      "display" : "Dental general practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158980006",
+      "display" : "Dental practitioner - teaching"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158983008",
+      "display" : "Nurse administrator - national"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158984002",
+      "display" : "Nursing officer - region"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158985001",
+      "display" : "Nursing officer - district"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158986000",
+      "display" : "Nursing administrator - professional body"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158987009",
+      "display" : "Nursing officer - division"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158988004",
+      "display" : "Nurse education director"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158989007",
+      "display" : "Occupational health nursing officer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158990003",
+      "display" : "Nursing officer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158992006",
+      "display" : "Midwifery sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158993001",
+      "display" : "Nursing sister (theatre)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158994007",
+      "display" : "Staff nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158995008",
+      "display" : "Staff midwife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158996009",
+      "display" : "State enrolled nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158997000",
+      "display" : "District nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158998005",
+      "display" : "Private nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "158999002",
+      "display" : "Community midwife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159001001",
+      "display" : "Clinic nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159002008",
+      "display" : "Practice nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159003003",
+      "display" : "School nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159004009",
+      "display" : "Nurse - teaching"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159005005",
+      "display" : "Student nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159006006",
+      "display" : "Dental nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159007002",
+      "display" : "Community pediatric nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159010009",
+      "display" : "Hospital pharmacist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159011008",
+      "display" : "Retail pharmacist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159012001",
+      "display" : "Industrial pharmacist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159014000",
+      "display" : "Trainee pharmacist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159016003",
+      "display" : "Medical radiographer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159017007",
+      "display" : "Diagnostic radiographer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159018002",
+      "display" : "Therapeutic radiographer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159019005",
+      "display" : "Trainee radiographer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159021000",
+      "display" : "Ophthalmic optician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159022007",
+      "display" : "Trainee optician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159025009",
+      "display" : "Remedial gymnast"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159026005",
+      "display" : "Speech and language therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159027001",
+      "display" : "Orthoptist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159028006",
+      "display" : "Trainee remedial therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159033005",
+      "display" : "Dietician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159034004",
+      "display" : "Podiatrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159035003",
+      "display" : "Dental auxiliary"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159036002",
+      "display" : "ECG technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159037006",
+      "display" : "EEG technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159038001",
+      "display" : "Artificial limb fitter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159039009",
+      "display" : "AT - Audiology technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159040006",
+      "display" : "Pharmacy technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159041005",
+      "display" : "Trainee medical technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159141008",
+      "display" : "Geneticist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "159972006",
+      "display" : "Surgical corset fitter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160008000",
+      "display" : "Dental technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224529009",
+      "display" : "Clinical assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224530004",
+      "display" : "Senior registrar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224531000",
+      "display" : "Registrar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224532007",
+      "display" : "Senior house officer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224533002",
+      "display" : "MO - Medical officer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224534008",
+      "display" : "Health visitors, nurses and midwives"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224535009",
+      "display" : "Registered nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224536005",
+      "display" : "Midwifery tutor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224537001",
+      "display" : "Accident and Emergency nurse (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224538006",
+      "display" : "Triage nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224540001",
+      "display" : "Community nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224541002",
+      "display" : "Nursing continence advisor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224542009",
+      "display" : "Coronary care nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224543004",
+      "display" : "Diabetic nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224544005",
+      "display" : "Family planning nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224545006",
+      "display" : "Care of the elderly nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224546007",
+      "display" : "ICN - Infection control nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224547003",
+      "display" : "Intensive therapy nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224548008",
+      "display" : "Learning disabilities nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224549000",
+      "display" : "Neonatal nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224550000",
+      "display" : "Neurology nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224551001",
+      "display" : "Industrial nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224552008",
+      "display" : "Oncology nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224554009",
+      "display" : "Marie Curie nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224555005",
+      "display" : "Pain control nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224556006",
+      "display" : "Palliative care nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224557002",
+      "display" : "Chemotherapy nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224558007",
+      "display" : "Radiotherapy nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224559004",
+      "display" : "Recovery nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224560009",
+      "display" : "Stomatherapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224562001",
+      "display" : "Pediatric nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224563006",
+      "display" : "Psychiatric nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224564000",
+      "display" : "Community mental health nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224565004",
+      "display" : "Renal nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224566003",
+      "display" : "Hemodialysis nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224567007",
+      "display" : "Wound care nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224569005",
+      "display" : "Nurse grade"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224570006",
+      "display" : "Clinical nurse specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224571005",
+      "display" : "Nurse practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224572003",
+      "display" : "Nursing sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224573008",
+      "display" : "CN - Charge nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224574002",
+      "display" : "Ward manager"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224575001",
+      "display" : "Nursing team leader"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224576000",
+      "display" : "Nursing assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224577009",
+      "display" : "HCA - Healthcare assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224578004",
+      "display" : "Nursery nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224579007",
+      "display" : "Healthcare service manager"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224580005",
+      "display" : "Occupational health service manager"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224581009",
+      "display" : "Community nurse manager"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224583007",
+      "display" : "Behavior therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224584001",
+      "display" : "Behavior therapy assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224585000",
+      "display" : "Drama therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224586004",
+      "display" : "Domiciliary occupational therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224587008",
+      "display" : "Occupational therapy helper"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224588003",
+      "display" : "Psychotherapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224589006",
+      "display" : "Community-based physiotherapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224590002",
+      "display" : "Play therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224591003",
+      "display" : "Play specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224592005",
+      "display" : "Play leader"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224593000",
+      "display" : "Community-based speech and language therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224594006",
+      "display" : "Speech and language assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224595007",
+      "display" : "Professional counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224596008",
+      "display" : "Marriage guidance counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224597004",
+      "display" : "Trained nurse counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224598009",
+      "display" : "Trained social worker counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224599001",
+      "display" : "Trained personnel counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224600003",
+      "display" : "Psychoanalyst"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224601004",
+      "display" : "Assistant psychologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224602006",
+      "display" : "Community-based podiatrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224603001",
+      "display" : "Foot care worker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224604007",
+      "display" : "Audiometrician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224605008",
+      "display" : "Audiometrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224606009",
+      "display" : "Technical healthcare occupation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224607000",
+      "display" : "Occupational therapy technical instructor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224608005",
+      "display" : "Administrative healthcare staff"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224609002",
+      "display" : "Complementary health worker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224610007",
+      "display" : "Supporting services personnel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224614003",
+      "display" : "Research associate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224615002",
+      "display" : "Research nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224620002",
+      "display" : "Human aid to communication"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224621003",
+      "display" : "Palantypist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224622005",
+      "display" : "Note taker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224623000",
+      "display" : "Cuer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224624006",
+      "display" : "Lipspeaker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224625007",
+      "display" : "Interpreter for British sign language"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224626008",
+      "display" : "Interpreter for Signs supporting English"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224936003",
+      "display" : "General practitioner locum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "225726006",
+      "display" : "Lactation consultant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "225727002",
+      "display" : "Midwife counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "265937000",
+      "display" : "Nursing occupation (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "265939002",
+      "display" : "Medical/dental technicians"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "283875005",
+      "display" : "Parkinson's disease nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "302211009",
+      "display" : "Specialist registrar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303124005",
+      "display" : "Member of mental health review tribunal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303129000",
+      "display" : "Hospital manager"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303133007",
+      "display" : "Responsible medical officer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303134001",
+      "display" : "Independent doctor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "304291006",
+      "display" : "Bereavement counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "304292004",
+      "display" : "Surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "307988006",
+      "display" : "Medical technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308002005",
+      "display" : "Remedial therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309294001",
+      "display" : "Accident and emergency doctor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309295000",
+      "display" : "Clinical oncologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309296004",
+      "display" : "Family planning doctor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309322005",
+      "display" : "Associate general practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309323000",
+      "display" : "Partner of general practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309324006",
+      "display" : "Assistant GP"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309326008",
+      "display" : "Deputizing general practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309327004",
+      "display" : "General practitioner registrar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309328009",
+      "display" : "Ambulatory pediatrician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309329001",
+      "display" : "Community pediatrician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309330006",
+      "display" : "Pediatric cardiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309331005",
+      "display" : "Pediatric endocrinologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309332003",
+      "display" : "Pediatric gastroenterologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309333008",
+      "display" : "Pediatric nephrologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309334002",
+      "display" : "Pediatric neurologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309335001",
+      "display" : "Pediatric rheumatologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309336000",
+      "display" : "Pediatric oncologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309337009",
+      "display" : "Pain management specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309338004",
+      "display" : "Intensive care specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309339007",
+      "display" : "Adult intensive care specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309340009",
+      "display" : "Pediatric intensive care specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309341008",
+      "display" : "Blood transfusion doctor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309342001",
+      "display" : "Histopathologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309343006",
+      "display" : "Physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309345004",
+      "display" : "Chest physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309346003",
+      "display" : "Thoracic physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309347007",
+      "display" : "Clinical hematologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309348002",
+      "display" : "Clinical neurophysiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309349005",
+      "display" : "Clinical physiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309350005",
+      "display" : "Diabetologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309351009",
+      "display" : "Andrologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309352002",
+      "display" : "Neuroendocrinologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309353007",
+      "display" : "Reproductive endocrinologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309354001",
+      "display" : "Thyroidologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309355000",
+      "display" : "Clinical geneticist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309356004",
+      "display" : "Clinical cytogeneticist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309357008",
+      "display" : "Clinical molecular geneticist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309358003",
+      "display" : "Genitourinary medicine physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309359006",
+      "display" : "Palliative care physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309360001",
+      "display" : "Rehabilitation physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309361002",
+      "display" : "Child and adolescent psychiatrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309362009",
+      "display" : "Forensic psychiatrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309363004",
+      "display" : "Liaison psychiatrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309364005",
+      "display" : "Psychogeriatrician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309365006",
+      "display" : "Psychiatrist for mental handicap"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309366007",
+      "display" : "Rehabilitation psychiatrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309367003",
+      "display" : "Obstetrician and gynecologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309368008",
+      "display" : "Breast surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309369000",
+      "display" : "Cardiothoracic surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309371000",
+      "display" : "Cardiac surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309372007",
+      "display" : "Ear, nose and throat surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309373002",
+      "display" : "Endocrine surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309374008",
+      "display" : "Thyroid surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309375009",
+      "display" : "Pituitary surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309376005",
+      "display" : "Gastrointestinal surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309377001",
+      "display" : "General gastrointestinal surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309378006",
+      "display" : "Upper gastrointestinal surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309379003",
+      "display" : "Colorectal surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309380000",
+      "display" : "Hand surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309381001",
+      "display" : "Hepatobiliary surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309382008",
+      "display" : "Ophthalmic surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309383003",
+      "display" : "Pediatric surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309384009",
+      "display" : "Pancreatic surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309385005",
+      "display" : "Transplant surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309386006",
+      "display" : "Trauma surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309388007",
+      "display" : "Vascular surgeon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309389004",
+      "display" : "Medical practitioner grade"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309390008",
+      "display" : "Hospital consultant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309391007",
+      "display" : "Visiting specialist registrar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309392000",
+      "display" : "Research registrar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309393005",
+      "display" : "General practitioner grade"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309394004",
+      "display" : "General practitioner principal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309395003",
+      "display" : "Hospital specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309396002",
+      "display" : "Associate specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309397006",
+      "display" : "Research fellow"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309398001",
+      "display" : "Profession allied to medicine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309399009",
+      "display" : "Hospital dietitian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309400002",
+      "display" : "Domiciliary physiotherapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309401003",
+      "display" : "GP-based physiotherapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309402005",
+      "display" : "Hospital-based physiotherapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309403000",
+      "display" : "Private physiotherapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309404006",
+      "display" : "Physiotherapy helper"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309409001",
+      "display" : "Hospital-based speech and language therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309410006",
+      "display" : "Arts therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309411005",
+      "display" : "Dance therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309412003",
+      "display" : "Music therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309413008",
+      "display" : "Renal dietitian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309414002",
+      "display" : "Liver dietitian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309415001",
+      "display" : "Oncology dietitian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309416000",
+      "display" : "Pediatric dietitian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309417009",
+      "display" : "Diabetes dietitian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309418004",
+      "display" : "Audiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309419007",
+      "display" : "Hearing therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309420001",
+      "display" : "Audiological scientist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309421002",
+      "display" : "Hearing aid dispenser"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309422009",
+      "display" : "Community-based occupational therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309423004",
+      "display" : "Hospital occupational therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309427003",
+      "display" : "Social services occupational therapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309428008",
+      "display" : "Orthotist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309429000",
+      "display" : "Surgical fitter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309434001",
+      "display" : "Hospital-based podiatrist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309435000",
+      "display" : "Podiatry assistant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309436004",
+      "display" : "Lymphedema nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309437008",
+      "display" : "Community learning disabilities nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309439006",
+      "display" : "Clinical nurse teacher"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309440008",
+      "display" : "Community practice nurse teacher"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309441007",
+      "display" : "Nurse tutor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309442000",
+      "display" : "Nurse teacher practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309443005",
+      "display" : "Nurse lecturer practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309444004",
+      "display" : "Outreach nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309445003",
+      "display" : "Anesthetic nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309446002",
+      "display" : "Nurse manager"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309450009",
+      "display" : "Nurse administrator"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309452001",
+      "display" : "Midwifery grade"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309453006",
+      "display" : "Registered midwife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309454000",
+      "display" : "Student midwife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309455004",
+      "display" : "Parentcraft sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309459005",
+      "display" : "Healthcare professional grade"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309460000",
+      "display" : "Restorative dentist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310170009",
+      "display" : "Pediatric audiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310171008",
+      "display" : "Immunopathologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310172001",
+      "display" : "Audiological physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310173006",
+      "display" : "Clinical pharmacologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310174000",
+      "display" : "Private doctor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310175004",
+      "display" : "Agency nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310176003",
+      "display" : "Behavioral therapist nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310177007",
+      "display" : "Cardiac rehabilitation nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310178002",
+      "display" : "Genitourinary nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310179005",
+      "display" : "Rheumatology nurse specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310180008",
+      "display" : "Continence nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310181007",
+      "display" : "Contact tracing nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310182000",
+      "display" : "General nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310183005",
+      "display" : "Nurse for the mentally handicapped"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310184004",
+      "display" : "Liaison nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310185003",
+      "display" : "Diabetic liaison nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310186002",
+      "display" : "Nurse psychotherapist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310187006",
+      "display" : "Company nurse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310188001",
+      "display" : "Hospital midwife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310189009",
+      "display" : "Genetic counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310190000",
+      "display" : "Mental health counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310191001",
+      "display" : "Clinical psychologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310192008",
+      "display" : "Educational psychologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310193003",
+      "display" : "Coroner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310194009",
+      "display" : "Appliance officer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310512001",
+      "display" : "Medical oncologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "311441001",
+      "display" : "School medical officer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "312485001",
+      "display" : "Integrated midwife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "372102007",
+      "display" : "RN First Assist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "387619007",
+      "display" : "Optician (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394572006",
+      "display" : "Medical secretary (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394618009",
+      "display" : "Hospital nurse (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "397897005",
+      "display" : "Paramedic (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "397903001",
+      "display" : "Staff grade obstetrician (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "397908005",
+      "display" : "Staff grade practitioner (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "398130009",
+      "display" : "Medical student (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "398238009",
+      "display" : "Acting obstetric registrar (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "404940000",
+      "display" : "Physiotherapist technical instructor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405277009",
+      "display" : "Resident physician (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405278004",
+      "display" : "Certified registered nurse anesthetist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405279007",
+      "display" : "Attending physician (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405623001",
+      "display" : "Assigned practitioner (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405684005",
+      "display" : "Professional initiating surgical case"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405685006",
+      "display" : "Professional providing staff relief during surgical procedure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "408798009",
+      "display" : "Consultant pediatrician (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "408799001",
+      "display" : "Consultant neonatologist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "409974004",
+      "display" : "Health educator (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "409975003",
+      "display" : "Certified health education specialist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413854007",
+      "display" : "Circulating nurse (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "415075003",
+      "display" : "Perioperative nurse (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "415506007",
+      "display" : "Scrub nurse (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416160000",
+      "display" : "Fellow of American Academy of Osteopathy (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "420409002",
+      "display" : "Oculoplastic surgeon (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "420678001",
+      "display" : "Retinal surgeon (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "421841007",
+      "display" : "Admitting physician (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "422140007",
+      "display" : "Medical ophthalmologist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "422234006",
+      "display" : "Ophthalmologist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "432100008",
+      "display" : "Health coach (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442867008",
+      "display" : "Respiratory therapist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "443090005",
+      "display" : "Podiatric surgeon (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444912007",
+      "display" : "Hypnotherapist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445313000",
+      "display" : "Asthma nurse specialist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445451001",
+      "display" : "Nurse case manager (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "446050000",
+      "display" : "Primary care physician (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "446701002",
+      "display" : "Addiction medicine specialist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "449161006",
+      "display" : "Physician assistant (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "471302004",
+      "display" : "Government midwife (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "720503005",
+      "display" : "Sleep medicine specialist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721936008",
+      "display" : "Occupation medicine specialist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721937004",
+      "display" : "Preventive medicine specialist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721938009",
+      "display" : "Tropical medicine specialist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721939001",
+      "display" : "Vascular medicine specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721940004",
+      "display" : "Legal medicine specialist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721941000",
+      "display" : "Health psychologist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721942007",
+      "display" : "Cardiovascular perfusionist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721943002",
+      "display" : "Clinical immunology and allergy specialist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "734293001",
+      "display" : "Clinical pharmacist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "734294007",
+      "display" : "Pharmacist prescriber (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "763292005",
+      "display" : "Radiation oncologist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768730001",
+      "display" : "Home health aide (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768731002",
+      "display" : "Home helper"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768732009",
+      "display" : "School health educator"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768819009",
+      "display" : "Medically responsible investigator (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768825008",
+      "display" : "Doula (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768826009",
+      "display" : "Crisis counselor (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768827000",
+      "display" : "Nutritionist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768828005",
+      "display" : "Epidemiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768829002",
+      "display" : "Community dietician (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768832004",
+      "display" : "Case manager (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768833009",
+      "display" : "Discharging physician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768834003",
+      "display" : "Disease manager (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768836001",
+      "display" : "Patient navigator"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768837005",
+      "display" : "Hospitalist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "768839008",
+      "display" : "Consultant (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "789543004",
+      "display" : "Ultrasonographer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "840583002",
+      "display" : "Allied health assistant (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "840584008",
+      "display" : "Allied health student"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "878785002",
+      "display" : "Clinical respiratory physiologist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "878786001",
+      "display" : "Operating room technician (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "878787005",
+      "display" : "Anesthesia technician"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "897187007",
+      "display" : "Sexual assault nurse examiner (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3981000175106",
+      "display" : "Nurse complex case manager"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9371000175105",
+      "display" : "Adolescent medicine specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25941000087102",
+      "display" : "Adult gerontology primary care nurse practitioner (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26031000087100",
+      "display" : "Pediatric nurse practitioner (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26071000087103",
+      "display" : "PHCNP - primary health care nurse practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26091000087104",
+      "display" : "Public health nurse practitioner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "450044741000087104",
+      "display" : "Acupuncturist (occupation)"
+    }]
+  }
+}

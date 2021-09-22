@@ -10,9 +10,14 @@
     ]
   },
   "text": {
-    "status": "generated",
+    "status": "extensions",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Example Death Location Name</p><p><b>description</b>: Example Death Location Description</p><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 16983000}\">Death in hospital</span></p><p><b>address</b>: 671 Example Street Line 2 Bedford MA 01730 United States </p></div>"
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/Location-Jurisdiction-Id"
+    }
+  ],
   "name": "Example Death Location Name",
   "description": "Example Death Location Description",
   "type": [

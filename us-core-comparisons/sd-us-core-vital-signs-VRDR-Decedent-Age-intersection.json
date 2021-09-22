@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3c10922c-5339-4e40-83f5-66bf8841b111-63",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3c10922c-5339-4e40-83f5-66bf8841b111-63",
+  "id" : "4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-63",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4b2fedb6-34e3-41df-ad8f-aa01fb7f1f72-63",
   "name" : "IntersectionUSCoreVitalSignsProfileAndDecedentAge",
   "title" : "Intersection of US Core Vital Signs Profile And VRDR Decedent Age",
   "status" : "active",
-  "date" : "2021-07-26T15:50:16+00:00",
+  "date" : "2021-09-22T19:59:48+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -868,7 +868,7 @@
       "definition" : "left: Vital Signs value are typically recorded using the Quantity data type.; right: The information determined as a result of making the observation, if the information has a simple value.",
       "comment" : "An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section] below.",
       "requirements" : "left: 9. SHALL contain exactly one [1..1] value with @xsi:type=\"PQ\" (CONF:7305).; right: An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "type" : [{
         "extension" : [{

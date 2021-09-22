@@ -37,7 +37,7 @@
     <valueCode value="not-classified"/>
   </extension>
   <url value="http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Death-Certificate"/>
-  <version value="1.0.0"/>
+  <version value="1.2.0"/>
   <name value="DeathCertificate"/>
   <title value="VRDR Death Certificate"/>
   <status value="draft"/>

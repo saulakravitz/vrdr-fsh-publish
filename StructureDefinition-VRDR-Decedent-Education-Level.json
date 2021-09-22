@@ -21,7 +21,7 @@
     }
   ],
   "url": "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-Decedent-Education-Level",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "name": "DecedentEducationLevel",
   "title": "VRDR Decedent Education Level",
   "status": "draft",

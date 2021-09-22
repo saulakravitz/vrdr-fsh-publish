@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/vrdr/Location/361aaa44-9955-4cd4-8f55-9f7df3537e17> a fhir:Location;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "361aaa44-9955-4cd4-8f55-9f7df3537e17"];
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "2" ];
+     fhir:Meta.lastUpdated [ fhir:value "2020-08-18T14:05:15.893+00:00"^^xsd:dateTime ];
+     fhir:Meta.source [ fhir:value "#Q8o9osICOCKRtBw9" ];
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-National-Reporting-Jurisdiction";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/us/vrdr/StructureDefinition/VRDR-National-Reporting-Jurisdiction>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 25</p><p><b>name</b>: Massachusetts</p><p><b>alias</b>: MA</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 77968-6}\">National reporting jurisdiction</span></p></div>"
+  ];
+  fhir:Location.identifier [
+     fhir:index 0;
+     fhir:Identifier.value [ fhir:value "25" ]
+  ];
+  fhir:Location.name [ fhir:value "Massachusetts"];
+  fhir:Location.alias [
+     fhir:value "MA";
+     fhir:index 0
+  ];
+  fhir:Location.type [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:77968-6;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "77968-6" ];
+       fhir:Coding.display [ fhir:value "National reporting jurisdiction" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/vrdr/Location/361aaa44-9955-4cd4-8f55-9f7df3537e17.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/vrdr/Location/361aaa44-9955-4cd4-8f55-9f7df3537e17.ttl> .
+
+# -------------------------------------------------------------------------------------
+
