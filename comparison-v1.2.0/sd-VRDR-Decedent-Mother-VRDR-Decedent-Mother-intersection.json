@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c6e64e09-f83c-4838-b9da-aa6b0646c6aa-66",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c6e64e09-f83c-4838-b9da-aa6b0646c6aa-66",
+  "id" : "789485d3-ee9e-4164-b1fd-9d41705f2c09-66",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/789485d3-ee9e-4164-b1fd-9d41705f2c09-66",
   "name" : "IntersectionVRDR_DecedentMotherAndVRDR_DecedentMother",
   "title" : "Intersection of Decedent Mother And Decedent Mother",
   "status" : "draft",
-  "date" : "2021-09-22T20:03:56+00:00",
+  "date" : "2021-09-22T20:24:35+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

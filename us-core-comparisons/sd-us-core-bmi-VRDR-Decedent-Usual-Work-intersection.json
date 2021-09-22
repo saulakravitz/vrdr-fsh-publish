@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f2339ee8-c471-4802-a3b1-1ce6d921135d-624",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f2339ee8-c471-4802-a3b1-1ce6d921135d-624",
+  "id" : "1022bd8a-37c3-4f19-8db7-e5387d3af801-624",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1022bd8a-37c3-4f19-8db7-e5387d3af801-624",
   "name" : "IntersectionUSCoreBMIProfileProfileAndVRDR_DecedentUsualWork",
   "title" : "Intersection of US Core BMI Profile And VRDR_DecedentUsualWork",
   "status" : "active",
-  "date" : "2021-09-22T20:03:45+00:00",
+  "date" : "2021-09-22T20:24:23+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

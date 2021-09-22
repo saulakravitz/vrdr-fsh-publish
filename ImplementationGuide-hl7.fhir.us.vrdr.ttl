@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "1.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "VRDR"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-09-22T20:03:14+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-09-22T20:23:53+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Public Health Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

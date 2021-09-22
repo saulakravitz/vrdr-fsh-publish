@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f2339ee8-c471-4802-a3b1-1ce6d921135d-53",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f2339ee8-c471-4802-a3b1-1ce6d921135d-53",
+  "id" : "1022bd8a-37c3-4f19-8db7-e5387d3af801-53",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1022bd8a-37c3-4f19-8db7-e5387d3af801-53",
   "name" : "UnionUSCoreSmokingStatusProfileAndDecedentAge",
   "title" : "Union of US Core Smoking Status Observation Profile And VRDR Decedent Age",
   "status" : "active",
-  "date" : "2021-09-22T20:03:42+00:00",
+  "date" : "2021-09-22T20:24:21+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -474,7 +474,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f2339ee8-c471-4802-a3b1-1ce6d921135d-56"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1022bd8a-37c3-4f19-8db7-e5387d3af801-56"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -563,7 +563,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f2339ee8-c471-4802-a3b1-1ce6d921135d-59"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1022bd8a-37c3-4f19-8db7-e5387d3af801-59"
       },
       "mapping" : [{
         "identity" : "workflow",
